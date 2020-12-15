@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "kyanit3axe", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 7 },
+    { "item" : "kyanit4partkit", "count" : 2 },
+    { "item" : "ironbar", "count" : 6 }
+  ],
+  "duration" : 8,
+  "output" : { "item" : "kyanit4axe", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

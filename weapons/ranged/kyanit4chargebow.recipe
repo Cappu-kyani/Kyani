@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "kyanit3chargebow", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 14 },
+    { "item" : "kyanit4partkit", "count" : 10 }
+  ],
+  "duration" : 8,
+  "output" : { "item" : "kyanit4chargebow", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

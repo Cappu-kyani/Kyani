@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "kyanit1sniperrifle", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 4 },
+    { "item" : "kyanit2partkit", "count" : 5 }
+	
+  ],
+  "duration" : 4,
+  "output" : { "item" : "kyanit2sniperrifle", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

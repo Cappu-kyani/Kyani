@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "kyanit3pulverizer", "count" : 1 },
+	{ "item" : "kyanit7partkit", "count" : 2 },
+	{ "item" : "kyanitultrapartkit", "count" : 2 },
+	{ "item" : "kyanit6partkit", "count" : 3 },
+	{ "item" : "liquidanophium", "count" : 56 },
+    { "item" : "kyanit5partkit", "count" : 4 },
+	{ "item" : "kyanit4partkit", "count" : 10 }
+  ],
+  "duration" : 6,
+  "output" : { "item" : "kyanit4pulverizer", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

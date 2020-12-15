@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "sniperriflebase", "count" : 2 },
+	{ "item" : "pistolbase", "count" : 2 },
+	{ "item" : "kyanit4sniperrifle", "count" : 1 },
+	{ "item" : "kyanit4pistol", "count" : 1 },
+	{ "item" : "kyanit5partkit", "count" : 3 },
+	{ "item" : "liquidanophium", "count" : 45 },
+    { "item" : "kyanit3partkit", "count" : 4 },
+	{ "item" : "kyanit1partkit", "count" : 10 }
+  ],
+  "duration" : 6,
+  "output" : { "item" : "kyanit1railgun", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

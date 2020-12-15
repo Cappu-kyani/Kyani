@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "kyanit6partkit", "count" : 2 },
+	{ "item" : "kyanit1railgun", "count" : 1 },
+	{ "item" : "kyanit5partkit", "count" : 3 },
+	{ "item" : "liquidanophium", "count" : 45 },
+    { "item" : "kyanit4partkit", "count" : 4 },
+	{ "item" : "kyanit2partkit", "count" : 10 }
+  ],
+  "duration" : 6,
+  "output" : { "item" : "kyanit2railgun", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

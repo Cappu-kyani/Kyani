@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "kyanit1grenadelauncher", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 7 },
+    { "item" : "kyanit2partkit", "count" : 6 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "kyanit2grenadelauncher", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

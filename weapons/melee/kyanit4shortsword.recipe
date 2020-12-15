@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "kyanit3shortsword", "count" : 1 },
+    { "item" : "kyanit4partkit", "count" : 2 },
+	{ "item" : "liquidanophium", "count" : 5 },
+    { "item" : "ironbar", "count" : 3 }
+  ],
+  "duration" : 8,
+  "output" : { "item" : "kyanit4shortsword", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}
