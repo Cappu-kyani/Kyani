@@ -1,0 +1,48 @@
+{
+  "objectName" : "kyanimatterconverter",
+  "colonyTags" : [ "kyani" ],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kyanimatterconverter.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Matter Converter",
+        "subtitle" : "  Converts matter through atom manipulation!",
+        "icon" : {
+          "file" : "/interface/crafting/craftingkyani.png"
+        }
+      }
+    },
+    "filter" : [ "kyani" ]
+  },
+  "printable" : false,
+  "description" : "Uses energy to convert matter into different matter.",
+  "shortdescription" : "^orange;Matter Converter^white;",
+  "race" : "kyani",
+  "category" : "crafting",
+  "price" : 30,
+
+  "apexDescription" : "A, uh.. Thing? That manipulates stuff...",
+  "avianDescription" : "This thing changes stuff into other things I think.",
+  "floranDescription" : "Weird thing for making thingsss.",
+  "glitchDescription" : "Interested. It deconstructs matter and reforms it into something new. Such an amazing device!",
+  "humanDescription" : "What does this thing do? 'Danger: Keep hands away from matter absorber.' Huh.. It has a lot of buttons.",
+  "hylotlDescription" : "A rather disgusting looking machine that alters matter.",
+  "novakidDescription" : "A strange whats it dodad.",
+
+  "inventoryIcon" : "matterconverter.png",
+  "orientations" : [
+    {
+      "dualImage" : "matterconverter.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

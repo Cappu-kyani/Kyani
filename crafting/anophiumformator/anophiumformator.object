@@ -1,0 +1,73 @@
+{
+  "objectName" : "anophiumformator",
+  "colonyTags" : [ "kyani" ],
+  "rarity" : "Rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/anophiumformator.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Matter Converter",
+        "subtitle" : "  Duplicates items using anophium. Endless possibilities!",
+        "icon" : {
+          "file" : "/interface/crafting/anophiumformator.png"
+        }
+      }
+    },
+    "filter" : [ "kyani" ]
+  },
+  "printable" : false,
+  "description" : "Duplicates items using anophium.",
+  "shortdescription" : "^orange;Anophium Formator^white;",
+  "race" : "kyani",
+  "category" : "crafting",
+  "price" : 300,
+
+  "apexDescription" : "Hmm... I can duplicate things using it.",
+  "avianDescription" : "This machine uses this weird slurry to duplicate items.",
+  "floranDescription" : "Machine takesss itemsss and goo, makesss more itemsss.",
+  "glitchDescription" : "Intrigued. This really can duplicate any stuff?",
+  "humanDescription" : "Huh... This device uses that weird 'anopium' stuff to multiply things.",
+  "hylotlDescription" : "This device uses this weird 'anophium' to make a duplicate of anything I want.",
+  "novakidDescription" : "I ain't dreamin'? It can make anything!",
+
+  "lightColor" : [200, 200, 200],
+
+  "inventoryIcon" : "anophiumformatoricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "anophiumformator.png:<color>.<frame>", "fullbright" : true }, { "image" : "anophiumformatorlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "anophiumformator.png:<color>.<frame>", "fullbright" : true }, { "image" : "anophiumformatorlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "anophiumformator",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

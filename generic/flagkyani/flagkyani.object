@@ -1,0 +1,47 @@
+{
+  "objectName" : "flagkyani",
+  "colonyTags" : ["kyani"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "A flag of CSoJC (Colonial Service of Juronian Commonwealth). Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Kyani Flag",
+  "race" : "kyani",
+  "apexDescription" : "A weird flag. I bet it's the flag of their country, but maybe not. It might come in handy.",
+  "avianDescription" : "It's still unknown if these creatures have their own state or not... But this flag is useful.",
+  "floranDescription" : "Ssstrange catsss have sssstrange flagsss.",
+  "glitchDescription" : "Observant. I don't know what is it for, but teleportation node on it will serve for a bookmark",
+  "humanDescription" : "This flag can be saved as a location for my teleporter. Though I don't know what does it mean.",
+  "hylotlDescription" : "This flag looks meaningful and symbolic, but I can't understand it. But it will work as a teleporter bookmark.",
+  "novakidDescription" : "I dunno what does it mean, but I can bookmark this flag for quick teleportin'.",
+  "kyaniDescription" : "The flag of our colonists. It means that they were here and might return later.",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagkyaniicon.png",
+  "orientations" : [
+    {
+      "image" : "flagkyani.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagkyani.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}
