@@ -1,0 +1,71 @@
+{
+  "itemName" : "kyanit1chest",
+  "price" : 400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestarmour",
+  "description" : "A chest plate with psionic infused protection.",
+  "shortdescription" : "Sephia Plate",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+"level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 2.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 12.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 12.5
+    }
+  ],
+  "itemTags" : [ "kyani", "tier1armour" ],
+  "colorOptions" : [
+    // Original
+    { "13a4bc" : "13a4bc", "18889a" : "18889a", "ff006e" : "ff006e", "c60056" : "2c3712" },
+    // Kyani
+    { "13a4bc" : "838383", "18889a" : "555555", "ff006e" : "383838", "c60056" : "151515" },
+    // Kytchretto
+    { "13a4bc" : "b5b5b5", "18889a" : "808080", "ff006e" : "555555", "c60056" : "303030" },
+    // WHITE
+    { "13a4bc" : "e6e6e6", "18889a" : "b6b6b6", "ff006e" : "7b7b7b", "c60056" : "373737" },
+    // RED
+    { "13a4bc" : "f4988c", "18889a" : "d93a3a", "ff006e" : "932625", "c60056" : "601119" },
+    // ORANGE
+    { "13a4bc" : "ffd495", "18889a" : "ea9931", "ff006e" : "af4e00", "c60056" : "6e2900" },
+    // YELLOW
+    { "13a4bc" : "ffffa7", "18889a" : "e2c344", "ff006e" : "a46e06", "c60056" : "642f00" },
+    // GREEN
+    { "13a4bc" : "b2e89d", "18889a" : "51bd3b", "ff006e" : "247824", "c60056" : "144216" },
+    // BLUE
+    { "13a4bc" : "96cbe7", "18889a" : "5588d4", "ff006e" : "344495", "c60056" : "1a1c51" },
+    // PURPLE
+    { "13a4bc" : "d29ce7", "18889a" : "a451c4", "ff006e" : "6a2284", "c60056" : "320c40" },
+    // PINK
+    { "13a4bc" : "eab3db", "18889a" : "d35eae", "ff006e" : "97276d", "c60056" : "59163f" },
+    // BROWN
+    { "13a4bc" : "ccae7c", "18889a" : "a47844", "ff006e" : "754c23", "c60056" : "472b13" }
+  ]
+}
