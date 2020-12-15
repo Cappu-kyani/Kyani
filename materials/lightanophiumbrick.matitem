@@ -1,0 +1,12 @@
+{
+  "itemName" : "lightanophiumbrick",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "lightanophiumbrickicon.png",
+  "shortdescription" : "Light Anophium Brick",
+  "description" : "The building bricks of a house.",
+  "glitchDescription" : "It's so Plain.",
+
+  "materialId" : 3801
+}

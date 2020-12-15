@@ -1,0 +1,12 @@
+{
+  "itemName" : "anophiumroofprotector",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "anophiumroofprotectoricon.png",
+  "shortdescription" : "Anophium Roofing",
+  "description" : "Anophium roofing for nice housing.",
+  "glitchDescription" : "It's so Plain.",
+
+  "materialId" : 3806
+}

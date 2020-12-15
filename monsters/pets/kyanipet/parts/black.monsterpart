@@ -1,0 +1,8 @@
+{
+  "name" : "black",
+  "category" : "kyanipet",
+  "type" : "body",
+  "frames" : {
+    "body" : "black.png"
+  }
+}

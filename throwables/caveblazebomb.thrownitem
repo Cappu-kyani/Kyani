@@ -1,0 +1,30 @@
+{
+  "itemName" : "caveblazebomb",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "caveblazebomb.png",
+  "image" : "caveblazebomb.png",
+  "shortdescription" : "Cave Blaze bomb",
+  "description" : "Just throw it if you wanna dirt and other useless stuff outta your way.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 0.1,
+
+  "projectileType" : "zcaveblaze",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 75,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

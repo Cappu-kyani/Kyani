@@ -1,0 +1,8 @@
+{
+  "name" : "grey",
+  "category" : "kyanipet",
+  "type" : "body",
+  "frames" : {
+    "body" : "grey.png"
+  }
+}

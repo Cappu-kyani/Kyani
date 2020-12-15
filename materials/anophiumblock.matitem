@@ -1,0 +1,12 @@
+{
+  "itemName" : "anophiumblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "anophiumblockicon.png",
+  "shortdescription" : "Anophium Block",
+  "description" : "A block purely made of anophium.",
+  "glitchDescription" : "It's so Plain.",
+
+  "materialId" : 3800
+}

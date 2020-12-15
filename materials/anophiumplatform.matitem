@@ -1,0 +1,12 @@
+{
+  "itemName" : "anophiumplatform",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "anophiumplatformicon.png",
+  "shortdescription" : "Anophium Platform",
+  "description" : "Anophium platform for construction.",
+  "glitchDescription" : "It's so Plain.",
+
+  "materialId" : 3808
+}

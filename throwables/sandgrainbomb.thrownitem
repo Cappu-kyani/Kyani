@@ -1,0 +1,30 @@
+{
+  "itemName" : "sandgrainbomb",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "sandgrainbomb.png",
+  "image" : "sandgrainbomb.png",
+  "shortdescription" : "Sand Grain bomb",
+  "description" : "Sand Grain bomb. Heroic classic of kyani warfare, these small crystals pack quite a punch",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.1,
+  "cooldown" : 0.1,
+
+  "projectileType" : "zsandgrain",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 75,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

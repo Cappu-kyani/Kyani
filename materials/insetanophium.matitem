@@ -1,0 +1,12 @@
+{
+  "itemName" : "insetanophium",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "insetanophiumicon.png",
+  "shortdescription" : "Inset Anophium",
+  "description" : "Inset anophium. Very nice for decoration.",
+  "glitchDescription" : "It's so Plain.",
+
+  "materialId" : 3803
+}

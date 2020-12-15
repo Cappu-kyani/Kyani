@@ -1,12 +1,23 @@
 [
-  {"op":"add",
-    "path":"/items/kyani",
-    "value":[
-      [0, [{
-        "chest":[],
-        "legs":[],
-        "head":[]
-      }]]
-    ]
-  }
+	{ "op" : "add",
+		"path" : "/items/kyani",
+		"value" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "kyanioutfit1chest", "parameters" : { "colorIndex" : [1] } },
+						{ "name" : "kyanioutfit2chest", "parameters" : { "colorIndex" : [1] } },
+						{ "name" : "kyanioutfit3chest", "parameters" : { "colorIndex" : [1] } },
+						{ "name" : "kyanioutfit4chest", "parameters" : { "colorIndex" : [1] } }
+					],
+					"legs" : [
+						{ "name" : "kyanioutfit1legs", "parameters" : { "colorIndex" : [1] } },
+						{ "name" : "kyanioutfit2legs", "parameters" : { "colorIndex" : [1] } },
+						{ "name" : "kyanioutfit3legs", "parameters" : { "colorIndex" : [1] } },
+						{ "name" : "kyanioutfit4legs", "parameters" : { "colorIndex" : [1] } }
+					]
+				}
+			] ]
+		]
+	}
 ]

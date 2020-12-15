@@ -1,0 +1,39 @@
+{
+	"type" : "kyanivisitor",
+	"baseType" : "outpostvisitor",
+	"statusControllerSettings" : {
+		"statusProperties" : {
+			"effectDirectives" : ""
+		}
+	},
+	"scriptConfig" : {
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"Oh hey.",
+						"Myakahat Juaqi.",
+						"Just looking around."
+					],
+					"kyani" : [
+						"Just looking around, thank you."
+					]
+				}
+			}
+		}
+	},
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"chest" : [
+							{ "name" : "kyanioutfit1chest", "parameters" : { "colorIndex" : [1] } }
+						],
+						"legs" : [
+							{ "name" : "kyanioutfit1legs", "parameters" : { "colorIndex" : [0] } }
+						]
+					}
+				] ]
+		]
+	}
+}

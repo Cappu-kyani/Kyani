@@ -1,0 +1,13 @@
+{
+  "itemName" : "liquidanophium",
+  "rarity" : "Uncommon",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidanophium.png",
+  "shortdescription" : "Anophium",
+  "description" : "Some anophium. It is the protomaterial that is one of the most dangerous thing in the universe.",
+
+  "liquid" : "anophium",
+  
+  "fuelAmount" : 50,
+  "price" : 10
+}

@@ -4,38 +4,38 @@
     "path":"/items/kyani",
     "value":[
       [0, [{
-          "head":[{"name":"kyanitier1head"}],
-          "chest" :[{"name":"kyanitier1chest"}],
-          "legs" :[{"name":"kyanitier1pants"}],
-          "primary":["npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+          "head":[{"name":"kyanit1head", "data" : { "colorIndex" : 1 } } ],
+          "chest" :[{"name":"kyanit1chest", "data" : { "colorIndex" : 1 } } ],
+          "legs" :[{"name":"kyanit1pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyanit1assualtrifle"],
+          "sheathedprimary":["kyanit1sword"]
         }
       ]],
       [2, [
         {
-          "head":[{"name":"kyanitier2head"}],
-          "chest":[{"name":"kyanitier2chest"}],
-          "legs":[{"name":"kyanitier2pants"}],
-          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+          "head":[{"name":"kyanit2head", "data" : { "colorIndex" : 1 } } ],
+          "chest":[{"name":"kyanit2chest", "data" : { "colorIndex" : 1 } } ],
+          "legs":[{"name":"kyanit2pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyant1ipistol", "kyanit1machinepistol", "kyanit1assaultrifle"],
+          "sheathedprimary":["kyanit1sword"]
         }
       ]],
       [3, [
         {
-          "head":[{"name":"kyanitier3head"}],
-          "chest":[{"name":"kyanitier3chest"}],
-          "legs":[{"name":"kyanitier3pants"}],
-          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+          "head":[{"name":"kyanit3head", "data" : { "colorIndex" : 1 } } ],
+          "chest":[{"name":"kyanit3chest", "data" : { "colorIndex" : 1 } } ],
+          "legs":[{"name":"kyanit3pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyanit2pistol", "kyanit2machinepistol", "kyanit2assaultrifle"],
+          "sheathedprimary":["kyanit2sword"]
         }
       ]],
       [4, [
         {
-          "head":[{"name":"kyanitier4head"}],
-          "chest":[{"name":"kyanitier4chest"}],
-          "legs":[{"name":"kyanitier4pants"}],
-          "primary":["npcpistol", "npcmachinepistol", "npcassaultrifle"],
-          "sheathedprimary":["npcbroadsword"]
+          "head":[{"name":"kyanit4head", "data" : { "colorIndex" : 1 } } ],
+          "chest":[{"name":"kyanit4chest", "data" : { "colorIndex" : 1 } } ],
+          "legs":[{"name":"kyanit4pants", "data" : { "colorIndex" : 1 } } ],
+          "primary":["kyanit3pistol", "kyanit3machinepistol", "kyanit3assaultrifle"],
+          "sheathedprimary":["kyanit3sword"]
         }
       ]]
     ]

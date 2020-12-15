@@ -1,0 +1,12 @@
+{
+  "itemName" : "anophiumasphalt",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "anophiumasphalticon.png",
+  "shortdescription" : "Anophium Asphalt",
+  "description" : "Anophium asphalt, the best material for roads.",
+  "glitchDescription" : "It's so Plain.",
+
+  "materialId" : 3809
+}

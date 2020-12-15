@@ -1,0 +1,12 @@
+{
+  "itemName" : "solidanophiumbrick",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "solidanophiumbrickicon.png",
+  "shortdescription" : "Solid Anophium Brick",
+  "description" : "The better building bricks of a house.",
+  "glitchDescription" : "It's so Plain.",
+
+  "materialId" : 3802
+}
