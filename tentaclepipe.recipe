@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "tentaclepipe", "count" : 1 }
+    { "item" : "tentaclepipe", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 3 }
   ],
-  "duration" : 0.01,
-  "output" : { "item" : "liquidanophium", "count" : 1 },
-  "groups" : [ "anophiumconverter" ]
+  "duration" : 0.1,
+  "output" : { "item" : "tentaclepipe", "count" : 4 },
+  "groups" : [ "kyani", "aftab2" ]
 }
