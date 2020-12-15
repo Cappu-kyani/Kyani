@@ -1,0 +1,22 @@
+{
+  "materialId" : 3800,
+  "materialName" : "anophiumblock",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "anophiumblock",
+  "shortdescription" : "Anophium Block",
+  "description" : "A block purely made of anophium.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "anophiumblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2650
+  }
+}

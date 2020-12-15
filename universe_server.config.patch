@@ -1,13 +1,16 @@
 [
-	{"op":"add", "path":"/speciesShips/kyani", "value":[
-		"/ships/kyani/kyaniT0.structure",
-		"/ships/kyani/kyaniT1.structure",
-		"/ships/kyani/kyaniT2.structure",
-		"/ships/kyani/kyaniT3.structure",
-		"/ships/kyani/kyaniT4.structure",
-		"/ships/kyani/kyaniT5.structure",
-		"/ships/kyani/kyaniT6.structure",
-		"/ships/kyani/kyaniT7.structure",
-		"/ships/kyani/kyaniT8.structure"
-		]}
+	{ "op" : "add",
+		"path" : "/speciesShips/kyani",
+		"value" : [
+		    "/ships/kyani/kyanit0.structure",
+			"/ships/kyani/kyanit1.structure",
+			"/ships/kyani/kyanit2.structure",
+			"/ships/kyani/kyanit3.structure",
+			"/ships/kyani/kyanit4.structure",
+			"/ships/kyani/kyanit5.structure",
+			"/ships/kyani/kyanit6.structure",
+			"/ships/kyani/kyanit7.structure",
+			"/ships/kyani/kyanit8.structure"
+		]
+	}
 ]

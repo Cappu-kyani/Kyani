@@ -1,0 +1,22 @@
+{
+  "materialId" : 3809,
+  "materialName" : "anophiumasphalt",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "anophiumasphalt",
+  "shortdescription" : "Anophium Asphalt",
+  "description" : "The road is paved in anophium.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 18,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "anophiumasphalt.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3120
+  }
+}

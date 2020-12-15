@@ -1,0 +1,22 @@
+{
+  "materialId" : 3803,
+  "materialName" : "insetanophium",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "insetanophium",
+  "shortdescription" : "Inset Anophium Block",
+  "description" : "Inset anophium, quite nice huh?",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "insetanophium.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2650
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 3801,
+  "materialName" : "lightanophiumbrick",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "lightanophiumbrick",
+  "shortdescription" : "Light Anophium Brick",
+  "description" : "The building bricks of a house.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 18,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lightanophiumbrick.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

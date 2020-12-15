@@ -1,0 +1,22 @@
+{
+  "materialId" : 3808,
+  "materialName" : "anophiumplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "anophiumplatform",
+  "shortdescription" : "Anophium Platform",
+  "description" : "A platform made out of anophium.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "anophiumplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

@@ -1,21 +1,21 @@
 {
-	"config":{
-		"shipUpgrades":{
-			"capabilities":["teleport", "planetTravel", "systemTravel"],
-			"crewSize":4
-		}
-	},
-	"backgroundOverlays":[
-		{
-			"image":"floranT4.png",
-			"position":[15, 10],
-			"fullbright":true
-		},
-		{
-			"image":"floranT4lit.png",
-			"position":[15, 10]
-		}
-	],
-	"blockKey":"blockKey.config:blockKey",
-	"blockImage":"floranT4blocks.png"
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 4
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "kyaniT4.png",
+      "position" : [-4, 9],
+      "fullbright" : true
+    },
+    {
+      "image" : "kyaniT4lit.png",
+      "position" : [-4, 9]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "kyaniT4blocks.png"
 }

@@ -1,0 +1,39 @@
+{{Race
+| image = 
+| description = '''The Kyani''' are a species of scientists and crafters. Surprisingly, they're the first race to be fully made of metallic elements. Their tech went REALLY far ahead, but they're reluctant to share it with others. 
+| diet = Anything
+| advantages =
+* <span style="color:green">'''75'''</span> more health!
+* <span style="color:green">'''95'''</span> more energy!
+* Metals' strength! <span style="color:green">'''35'''</span> More defence!
+| playstyle =
+Exploration
+| immunities =
+Burning
+<!-- Bonus to base stats -->
+| hp = <span style="color:green">'''75'''</span>
+| energy = <span style="color:green">'''95'''</span>
+| attack = <span style="color:red">'''30'''</span>
+| defense = <span style="color:green">'''95'''</span>
+<!-- Resistances -->
+| physical = <span style="color:green">'''50'''</span>
+| electric = <span style="color:red">'''20'''</span>
+| fire = <span style="color:green">'''75'''</span>
+| ice = <span style="color:red">'''75'''</span>
+| poison = <span style="color:green">'''10'''</span>
+| shadow = <span style="color:green">'''15'''</span>
+| cosmic = <span style="color:green">'''35'''</span>
+| radiation = <span style="color:red">'''50'''</span>
+<!-- -->
+| bonus_penalty = 
+'''Fur keeping wet''': Water hurts you! You will be slowly dying when wet, like if you were poisoned.
+| environment =
+* '''Jungles, Rainforests''': <span style="color:red">'''45%'''</span> Health and Protection, <span style="color:red">'''20%'''</span> Running speed.
+* '''Lush, Forest''': <span style="color:red">'''5%'''</span> Health and Protection,  <span style="color:red">'''10%'''</span> Running speed.
+* '''Barren, Lunar''': <span style="color:green">'''15%'''</span> Health and Protection
+* '''Ocean, Snow''': <span style="color:red">'''55%'''</span> Health and Protection
+| combat =
+* '''Sniper Rifles:''' <span style="color:green">'''15%'''</span> Damage, <span style="color:green">'''7%'''</span> Crit.
+* '''Grenade Launchers:''' <span style="color:green">'''7%'''</span> Damage, <span style="color:green">'''3%'''</span> Crit, 
+* '''Kyani Weapons:''' <span style="color:green">'''30%'''</span> Damage, <span style="color:green">'''14%'''</span> Crit.
+}}

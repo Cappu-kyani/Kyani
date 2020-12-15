@@ -1,0 +1,22 @@
+{
+  "materialId" : 3802,
+  "materialName" : "solidanophiumbrick",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "solidanophiumbrick",
+  "shortdescription" : "Solid Anophium Brick",
+  "description" : "The better building bricks of a house.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "solidanophiumbrick.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2860
+  }
+}

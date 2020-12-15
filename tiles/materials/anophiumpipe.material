@@ -1,0 +1,22 @@
+{
+  "materialId" : 3807,
+  "materialName" : "anophiumpipe",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "anophiumpipe",
+  "shortdescription" : "Anophium Pipe",
+  "description" : "A pipe made out of anophium.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "anophiumpipe.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3380
+  }
+}

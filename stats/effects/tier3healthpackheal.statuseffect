@@ -1,0 +1,17 @@
+{
+  "name" : "tier3healthpackheal",
+  "effectConfig" : {
+    "healAmount" : 200,
+    "emissionRate" : 2
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

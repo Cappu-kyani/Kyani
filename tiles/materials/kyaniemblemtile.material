@@ -1,0 +1,22 @@
+{
+  "materialId" : 3804,
+  "materialName" : "kyaniemblemtile",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "kyaniemblemtile",
+  "shortdescription" : "Kyani Emblem Tile",
+  "description" : "Tile with the kyani emblem.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kyaniemblemtile.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2650
+  }
+}

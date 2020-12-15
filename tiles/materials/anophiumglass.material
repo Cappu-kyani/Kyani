@@ -1,0 +1,24 @@
+{
+  "materialId" : 3805,
+  "materialName" : "anophiumglass",
+  "particleColor" : [237, 254, 255, 255],
+  "itemDrop" : "anophiumglass",
+  "description" : "Glass made of anophium.",
+  "shortdescription" : "Anophium Glass",
+  "glitchDescription" : "It's so Plain.",
+  "floranDescription" : "Floran lookss pretty in glasssss.",
+  "novakidDescription" : "I can see clear through t'the other side of this glass.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "anophiumglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 470
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 3806,
+  "materialName" : "anophiumroofprotector",
+  "particleColor" : [0, 255, 0, 255],
+  "itemDrop" : "anophiumroofprotector",
+  "shortdescription" : "Anophium Roof",
+  "description" : "Anophium roof shingles.",
+  "glitchDescription" : "It's so Plain.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 18,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "anophiumroofprotector.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3440
+  }
+}
