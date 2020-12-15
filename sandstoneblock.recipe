@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "sandstoneblock", "count" : 1 }
+    { "item" : "sandstoneblock", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 3 }
   ],
-  "duration" : 0.01,
-  "output" : { "item" : "liquidanophium", "count" : 1 },
-  "groups" : [ "anophiumconverter" ]
+  "duration" : 0.1,
+  "output" : { "item" : "sandstoneblock", "count" : 4 },
+  "groups" : [ "kyani", "aftab2" ]
 }
