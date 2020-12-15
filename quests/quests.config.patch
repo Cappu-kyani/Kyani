@@ -1,3 +1,17 @@
 [
-	{"op":"add", "path":"/initialquests/kyani", "value":["protectorate"]}
+	{
+		"op": "add",
+		"path": "/initialquests/kyani",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/kyani",
+		"value": {
+			"male": "male",
+			"female": "female"
+		}
+	}
 ]
