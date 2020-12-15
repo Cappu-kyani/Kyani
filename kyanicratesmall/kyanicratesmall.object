@@ -1,0 +1,40 @@
+{
+  "objectName" : "kyanicratesmall",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 75,
+  "description" : "A small anophium crate.",
+  "shortdescription" : "Small Anophium Crate",
+  "race" : "kyani",
+  "health" : 1.5,
+  "apexDescription" : "A blue crate. Not large outside.",
+  "avianDescription" : "A box made out of... Something.",
+  "floranDescription" : "A blue box made of sssleek ssstuff.",
+  "glitchDescription" : "Satisfied. This crate is simple, but reliable.",
+  "humanDescription" : "A crate made of... I don't know what that is.",
+  "hylotlDescription" : "A strange crate. It's functional, but not very pretty.",
+  "novakidDescription" : "A simple lookin' crate made from somethin.",
+  "kyaniDescription" : "An anophium crate. Just reliable storage.",
+  "inventoryIcon" : "kyanicratesmallicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "kyanicratesmallleft.png:default",
+      "rightImage" : "kyanicratesmallright.png:default",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

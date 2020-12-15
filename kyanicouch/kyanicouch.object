@@ -1,0 +1,49 @@
+{
+  "objectName" : "kyanicouch",
+  "colonyTags" : ["kyani"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 250,
+  "description" : "A couch comfy like no other.",
+  "shortdescription" : "Standard Kyani Couch",
+  "race" : "kyani",
+  "apexDescription" : "Pink... Why pink? But it's comfy.",
+  "avianDescription" : "Despite a bad choice of color, it's really comfy.",
+  "floranDescription" : "Ssmells odd. But isss comfy for Floran.",
+  "glitchDescription" : "Curious. Why only pink, and why so comfy?",
+  "humanDescription" : "This couch looks extremely comfortable. Color choice is strange.",
+  "hylotlDescription" : "A very attractive piece of furniture. It would've been better if not colored only pink.",
+  "novakidDescription" : "I guess it's for sittin' on. Pink drives me weird.",
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "inventoryIcon" : "kyanicouchicon.png",
+  "orientations" : [
+    {
+      "image" : "kyanicouch.png:<color>",
+      "sitCoverImage" : "/objects/kyani/kyanicouch/kyanicouchcover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "sitPositions" : [
+        // Positions from front to back.
+        [-10, 22], // Right
+        [3, 22] // Left
+      ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "kyanicouch.png:<color>",
+      "sitCoverImage" : "/objects/kyani/kyanicouch/kyanicouchcover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "sitPositions" : [
+        // Positions from front to back.
+        [-2, 22], // Left
+        [11, 22] // Right
+      ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

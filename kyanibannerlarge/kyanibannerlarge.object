@@ -1,0 +1,29 @@
+{
+  "objectName" : "kyanibannerlarge",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 170,
+  "printable" : false,
+  "description" : "A large kyani wallbanner depicting something.",
+  "shortdescription" : "Large Kyani Wall Banner",
+  "race" : "kyani",
+  "apexDescription" : "This banner is large and is full of meaning...",
+  "avianDescription" : "A large banner. These ornaments definitely mean something.",
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A large kyani banner...",
+  "humanDescription" : "This kyani banner is quite lovely. I can't recognize the symbols though.",
+  "hylotlDescription" : "The banner is just lovely. It would take time to translate its meaning",
+  "novakidDescription" : "This would look great in my house.",
+  "kyaniDescription" : "I am so happy to see our culture thrive",  
+  "inventoryIcon" : "kyanibannerlargeicon.png",
+  "orientations" : [
+    {
+      "image" : "kyanibannerlarge.png:<color>",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

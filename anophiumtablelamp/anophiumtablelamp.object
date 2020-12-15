@@ -1,0 +1,48 @@
+{
+  "objectName" : "anophiumtablelamp",
+  "colonyTags" : ["light","kyani"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 110,
+
+  "description" : "A floating crystal that emits light.",
+  "shortdescription" : "Anophium Table Light",
+  "race" : "generic",
+
+  "apexDescription" : "I feel an urge to poke this crystal.",
+  "avianDescription" : "This useful crystallic lantern will make the darkness go away.",
+  "floranDescription" : "Floran likess floating shiny.",
+  "glitchDescription" : "Admiration. This looks surreal, but is very real.",
+  "humanDescription" : "Fascinating...",
+  "hylotlDescription" : "A light-emitting crystal floating on a force field.",
+  "novakidDescription" : "This sure lights up the room good.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [220, 220, 220],
+  "beamAmbience" : 2,
+
+  "inventoryIcon" : "anophiumtablelampicon.png",
+  "orientations" : [
+
+    {
+      "image" : "anophiumtablelamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "anophiumtablelamp.animation",
+  "animationParts" : {
+    "light" : "anophiumtablelamp.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

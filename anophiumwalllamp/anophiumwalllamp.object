@@ -1,0 +1,114 @@
+{
+  "objectName" : "anophiumwalllamp",
+  "colonyTags" : ["light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 5,
+
+  "description" : "Lamp mounted on walls. Kyani edition",
+  "shortdescription" : "Anophium Wall Lamp",
+  "race" : "kyani",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "I wonder if the crystal can fall off.",
+  "avianDescription" : "This will make for a great light!.",
+  "floranDescription" : "Floran iss not sscared of shiny crysstal ball.",
+  "glitchDescription" : "Appreciating. Good wall lamp.",
+  "humanDescription" : "If you want your table free.",
+  "hylotlDescription" : "Simple lamp. I don't understand why they use such high technologies.",
+  "novakidDescription" : "A lamp. Yet again a floatin' crystal.",
+  "kyaniDescription" : "A decent lamp. What else is needed?",
+
+  "lightColor" : [220, 220, 220],
+
+  "inventoryIcon" : "anophiumwalllampicon.png",
+  "orientations" : [
+    {
+      "image" : "anophiumwalllamp.png:<color>.<frame>",
+      "imagePosition" : [1, 0],
+
+      "animationParts" : {
+        "bg" : "anophiumwalllamp.png",
+        "fg" : "anophiumwalllamplit.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "anophiumwalllampleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "bg" : "anophiumwalllampleft.png",
+        "fg" : "anophiumwalllampleftlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "anophiumwalllampright.png:<color>.<frame>",
+      "imagePosition" : [2, 0],
+
+      "animationParts" : {
+        "bg" : "anophiumwalllampright.png",
+        "fg" : "anophiumwalllamplit.png"
+      },
+      "animationPosition" : [2, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "anophiumwalllamp.png:<color>.<frame>",
+      "imagePosition" : [1, 0],
+
+      "animationParts" : {
+        "bg" : "anophiumwalllamp.png",
+        "fg" : "anophiumwalllamplit.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "anophiumwalllamp.animation",
+  "animationParts" : {
+    "bg" : "anophiumwalllamp.png",
+    "fg" : "anophiumwalllamplit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+
+
+  "inputNodes" : [ [0, 0] ]
+}

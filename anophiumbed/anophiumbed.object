@@ -1,0 +1,41 @@
+{
+  "objectName" : "anophiumbed",
+  "colonyTags" : ["kyani"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A comfy anophium bed.",
+  "shortdescription" : "Anophium Bed",
+  "race" : "kyani",
+  "category" : "furniture",
+  "price" : 45,
+  "apexDescription" : "A strange but simple bed, nice and comfortable.",
+  "avianDescription" : "A strange blue frame and a comfortable pink mattress. Honestly stylish.",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. My power levels are low. This bed looks inviting.",
+  "humanDescription" : "It looks weider, but it's a bed.",
+  "hylotlDescription" : "A good place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+  "kyaniDescription" : "The standard bed for all kyani housing.",
+  "inventoryIcon" : "anophiumbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "anophiumbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 14],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/kyani/anophiumbed/anophiumbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

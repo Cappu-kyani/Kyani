@@ -1,0 +1,39 @@
+{
+  "objectName" : "kyanicabinet",
+  "colonyTags" : ["kyani","storage"],
+  "rarity" : "Common",
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "price" : 110,
+  "description" : "A pair of kitchen cabinets. These are more spacious than they look.",
+  "shortdescription" : "Kyani Cabinet",
+  "race" : "kyani",
+  "health" : 1.5,
+  "apexDescription" : "Functional and bigger inside than they look.",
+  "avianDescription" : "A good place to store food. Spacious too.",
+  "floranDescription" : "Big blue ssstorage for food. Mmmmmm.",
+  "glitchDescription" : "Eager. The possibility of food excites even the Glitch.",
+  "humanDescription" : "Looks like a kitchen counter. It's actually big inside.",
+  "hylotlDescription" : "What dishes might dwell within, I wonder?",
+  "novakidDescription" : "Just a good ol' kitchen counter. Big too.",
+  "kyaniDescription" : "You can't imagine a proper kitchen without it.",
+  "inventoryIcon" : "kyanicabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kyanicabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

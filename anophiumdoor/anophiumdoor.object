@@ -1,0 +1,51 @@
+{
+  "objectName" : "anophiumdoor",
+  "colonyTags" : ["kyani","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 95,
+  "description" : "Leightweight door, activates by your hand/paw print",
+  "shortdescription" : "Anophium Door",
+  "race" : "kyani",
+  "apexDescription" : "Hand print lock. Clever.",
+  "avianDescription" : "Oh, I can open by simply putting my hand on the lock.",
+  "floranDescription" : "Floran not like weird door.",
+  "glitchDescription" : "Observant. This door appears to have an unusual handle.",
+  "humanDescription" : "An expensive looking door. I like the design",
+  "hylotlDescription" : "Handprint lock. I didn't expect it.",
+  "novakidDescription" : "Oi, there's no handle!",
+  "kyaniDescription" : "Easy to open, easy to close. Life doesn't have to be hard",
+  "inventoryIcon" : "anophiumdooricon.png",
+  "tooltipKind" : "door",
+  "largeImage" : "anophiumdoor.png:right",
+  "orientations" : [
+    {
+      "dualImage" : "anophiumdoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "anophiumdoor.png"
+  },
+  "animationPosition" : [-16, 0],
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

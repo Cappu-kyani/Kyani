@@ -1,0 +1,65 @@
+{
+  "objectName" : "kyaniceilingcabinet",
+  "colonyTags" : ["kyani","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 150,
+  "description" : "A wall-mounted cabinet. Bigger inside than it looks",
+  "shortdescription" : "Kyani Wall Cabinet",
+  "race" : "kyani",
+  "health" : 1.5,
+  "apexDescription" : "This kitchen cabinet looks sleek. What's inside?",
+  "avianDescription" : "This cabinet is made of sleek metal. It can fit anywhere.",
+  "floranDescription" : "Floran will fill blue cabinet with tasssty foodsss",
+  "glitchDescription" : "Satisfied. A sleek kitchen storage system.",
+  "humanDescription" : "A simple kitchen cabinet, made to fit anywhere.",
+  "hylotlDescription" : "The simple appearance of this cabinet belies the quality of its craftsmanship.",
+  "novakidDescription" : "A handy kitchen cabinet fit for practical country folk.",
+  "kyaniDescription" : "Useful pantry storage.",
+  "inventoryIcon" : "kyaniceilingcabineticon.png",
+  "orientations" : [
+    {
+      "image" : "kyaniceilingcabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "kyaniceilingcabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "kyaniceilingcabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "kyaniceilingcabinet.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "platform"
+    }
+  ],
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "openSounds" : [ "/sfx/objects/woodendoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

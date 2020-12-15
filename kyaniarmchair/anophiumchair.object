@@ -1,0 +1,33 @@
+{
+  "objectName" : "kyaniarmchair",
+  "colonyTags" : ["kyani"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A basic kyani arm chair.",
+  "shortdescription" : "Anophium Armchair",
+  "race" : "kyani",
+  "category" : "furniture",
+  "price" : 75,
+  "apexDescription" : "A cozy looking armchair.",
+  "avianDescription" : "A pink plush armchair.",
+  "floranDescription" : "Big pillow make chair sssoft.",
+  "glitchDescription" : "Interested. An anophium armchair. I wonder how the alloy was made?",
+  "humanDescription" : "A simple little armchair.",
+  "hylotlDescription" : "A remarkable anophium armchair.",
+  "novakidDescription" : "An armchair made outta anophium.",
+  "kyaniDescription" : "A much nicer kyani armchair made of anophium.",
+  "inventoryIcon" : "kyaniarmchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kyaniarmchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+}

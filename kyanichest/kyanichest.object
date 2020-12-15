@@ -1,0 +1,35 @@
+{
+  "objectName" : "kyanichest",
+  "colonyTags" : ["kyani","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A strange blue chest, it has a pink lock.",
+  "shortdescription" : "Kyani Chest",
+  "race" : "kyani",
+  "health" : 1.5,
+  "apexDescription" : "An intriguing chest. It looks strong.",
+  "avianDescription" : "A hard metallic lockbox. What could be inside?",
+  "floranDescription" : "Floran sssearch sstrong chesst.",
+  "glitchDescription" : "Excited. The Glitch often store weapons in chests like these. Is there one in here?",
+  "humanDescription" : "This chest is straight out of a fairytale.",
+  "hylotlDescription" : "A strong chest. Good for storing sharp items.",
+  "novakidDescription" : "What kinda chest is this? It looks so foriegn.",
+  "inventoryIcon" : "kyanichest.png",
+  "orientations" : [
+    {
+      "dualImage" : "kyanichest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 20,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

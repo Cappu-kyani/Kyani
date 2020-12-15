@@ -1,0 +1,67 @@
+{
+  "objectName" : "anophiumlamppost",
+  "colonyTags" : ["kyani","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 330,
+  "description" : "A lamp, fit for outdoors. Made by Juronians",
+  "shortdescription" : "Anophium Lamp Post",
+  "race" : "generic",
+
+  
+  "apexDescription" : "Do these kyani like anything except pink and blue?",
+  "avianDescription" : "It guides me through the dark...",
+  "floranDescription" : "Tall and shiny pink lamp",
+  "glitchDescription" : "Satisfied. A tall lamp post made from unknown material.",
+  "humanDescription" : "A kyani lamp post. I don't think it needs explaining",
+  "hylotlDescription" : "Like a bright star shining in the sky... Blue and pink, just like everything else",
+  "novakidDescription":  "An electric street lamp. Do they ever not pain somethin' in pink'n'blue?",
+  
+
+  "lightColor" : [220, 220, 220],
+  "pointLight" : true,
+  "pointBeam": 2,
+  "beamAmbience" : 2,
+  "inventoryIcon" : "anophiumlampposticon.png",
+  "orientations" : [
+    {
+      "image" : "anophiumlamppost.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [0, 5],
+      "beamAngle" : 270,
+      "animationPosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "anophiumlamppost.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "right",
+      "lightPosition" : [0, 5],
+      "beamAngle" : 270,
+      "animationPosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "anophiumlamppost.animation",
+  "animationParts" : {
+    "bg" : "anophiumlamppost.png",
+    "fg" : "anophiumlamppostlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 5] ]
+}

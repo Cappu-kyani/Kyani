@@ -1,0 +1,39 @@
+{
+  "objectName" : "anophiumbookcase",
+  "colonyTags" : ["kyani","knowledge","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A bookcase for storing books. Has a built-in book share interface.",
+  "shortdescription" : "Anophium Bookcase",
+  "race" : "kyani",
+  "category" : "storage",
+  "price" : 110,
+  "health" : 1.5,
+  "apexDescription" : "A nicely decorated bookcase. Wait... What is this interface?",
+  "avianDescription" : "A techy home for books. Is that a catalogue?",
+  "floranDescription" : "Floran ssseesss booksss and buttonsss.",
+  "glitchDescription" : "Intrigued. The Glitch have not produced many books. This interface also is strange.",
+  "humanDescription" : "I wonder how old some of these books are. And I can order them using this built-in interface!",
+  "hylotlDescription" : "Perhaps there are some great legends in these old books. I will certainly explore the built-in interface later.",
+  "novakidDescription" : "This bookcase looks mighty cool. But why there's a pad o' buttons?",
+  "kyaniDescription" : "The place of kyani knowledge. You can share books with this interface!",
+  "inventoryIcon" : "anophiumbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "anophiumbookcase.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 18,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

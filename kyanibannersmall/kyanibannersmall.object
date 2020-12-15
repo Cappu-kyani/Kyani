@@ -1,0 +1,29 @@
+{
+  "objectName" : "kyanibannersmall",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A small kyani wallbanner. Less symbols, but undoubtedly not less meaning.",
+  "shortdescription" : "Small Kyani Wall Banner",
+  "race" : "kyani",
+  "apexDescription" : "This banner isn't that big but still has much meaning...",
+  "avianDescription" : "A small banner. I doubt it has less meaning.",
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A small kyani banner...",
+  "humanDescription" : "This kyani banner is quite lovely. I can't get what it means.",
+  "hylotlDescription" : "The banner is just lovely. Still has enough meaning.",
+  "novakidDescription" : "This would look great in my house.",
+  "kyaniDescription" : "I am so happy to see our culture thrive",  
+  "inventoryIcon" : "kyanibannersmallicon.png",
+  "orientations" : [
+    {
+      "image" : "kyanibannersmall.png:<color>",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}
