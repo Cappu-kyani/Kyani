@@ -1,0 +1,57 @@
+{
+  "itemName" : "kyanit4chargebow",
+  "price" : 1300,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Those ew-slimy bullets will put the target in a sticky situation",
+  "shortdescription" : "Lemin Chargebow",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","bow","kyani"],
+  "level" : 1,
+
+  "inventoryIcon" : "kyanit4chargebow.png",
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "kyanit4chargebowfull.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "standardbullet",
+    "powerProjectileType" : "piercingbullet",
+    "projectileParameters" : {
+      "power" : 140
+    }
+  },
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+  "projectileCount" : 100,
+  "fireOffset" : [0.25, 0.25],
+   "projectileType" : "flamingwoodenarrow",
+   "projectileParameters" : {
+      "speed" : 45,
+      "power" : 15
+    },
+	"splitDelay" : 0.0,
+    "splitAngle" : 5
+  },
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

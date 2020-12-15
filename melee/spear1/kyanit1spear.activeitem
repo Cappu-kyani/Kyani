@@ -1,0 +1,28 @@
+{
+  "itemName" : "kyanit1spear",
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Extra thin, extra pointy, extra light. Perfect for trainees",
+  "shortdescription" : "Hemikagi Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "kyanit1spear.png",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit1spear.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 1,
+    "baseDps" : 8
+  },
+  "altAbilityType" : "flurry",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,28 @@
+{
+  "itemName" : "kyanit2spear",
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This looks like a trident, but is a spear. Creative",
+  "shortdescription" : "Ikhirignee Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "kyanit2spear.png",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit2spear.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 1,
+    "baseDps" : 10
+  },
+  "altAbilityType" : "spearspin",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,28 @@
+{
+  "itemName" : "kyanit2shortsword",
+  "price" : 700,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A good weapon for combat, comes with a tiny shiny!",
+  "shortdescription" : "Nevis Shortsword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+  "inventoryIcon" : "kyanit2shortsword.png",
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit2shortsword.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.66,
+    "baseDps" : 8.1
+  },
+  "altAbilityType" : "",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

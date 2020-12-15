@@ -1,0 +1,106 @@
+{
+  "itemName" : "kyanit1grenadelauncher",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Five times the shot, five times the boom",
+  "shortdescription" : "Unassia Grenade Launcher",
+  "tooltipKind" : "gun",
+  "category" : "grenadeLauncher",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","grenadelauncher","kyani"],
+  "level" : 1,
+
+  "inventoryIcon" : "kyanit1grenadelauncher.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "kyanit1grenadelauncher.png",
+    "barrel" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "muzzleFlash" : {
+          "partStates" : {
+            "firing" : {
+              "fire" : {
+                "properties" : {
+                  "image" : ""
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "particleEmitters" : {
+        "muzzleFlash" : {
+          "particles" : [
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+          ]
+        }
+      }
+  },
+  "fireSounds" : ["/sfx/gun/grenade1.ogg", "/sfx/gun/grenade2.ogg"],
+
+  "baseOffset" : [0.75, 0.5],
+  "muzzleOffset" : [0.0, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.3,
+    "baseDps" : 105,
+    "energyUsage" : 34,
+    "inaccuracy" : 0.2,
+
+    "projectileCount" : 5,
+    "fireType" : "auto",
+
+    "projectileType" : "grenade",
+    "projectileParameters" : {
+      "knockback" : 45
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 7.5,
+        "weaponRotation" : 7.5,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : 7.5,
+        "weaponRotation" : 7.5,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbilityType" : "",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
