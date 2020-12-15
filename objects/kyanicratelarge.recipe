@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "copperbar", "count" : 4 },
+	{ "item" : "liquidanophium", "count" : 4 },
+    { "item" : "ironbar", "count" : 4 }
+  ],
+  "duration" : 2,
+  "output" : { "item" : "kyanicratelarge", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab4" ]
+}

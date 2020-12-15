@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "plantfibre", "count" : 6 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "kyanit1partkit", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab5" ]
+}

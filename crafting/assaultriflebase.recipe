@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 3 },
+    { "item" : "fabric", "count" : 2 },
+    { "item" : "string", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "assaultriflebase", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab5" ]
+}

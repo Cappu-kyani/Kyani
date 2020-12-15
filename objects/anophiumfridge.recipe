@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 7 },
+	{ "item" : "liquidanophium", "count" : 5 },
+    { "item" : "ironbar", "count" : 7},
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "duration" : 3,
+  "output" : { "item" : "anophiumfridge", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab4" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 1 },
+	{ "item" : "ironbar", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 1 }
+  ],
+  "output" : { "item" : "kyanioutfit3head", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab2" ]
+}

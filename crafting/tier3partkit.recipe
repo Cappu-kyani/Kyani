@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+	{ "item" : "kyanit2partkit", "count" : 1 },
+    { "item" : "goldbar", "count" : 2 },
+	{ "item" : "fabric", "count" : 8 },
+    { "item" : "cottonwool", "count" : 6 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "kyanit3partkit", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab5" ]
+}

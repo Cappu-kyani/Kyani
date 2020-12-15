@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 3 },
+	{ "item" : "money", "count" : 55 },
+	{ "item" : "cotton", "count" : 2 },
+	{ "item" : "cottonwool", "count" : 1 },
+    { "item" : "liquidanophium", "count" : 4 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "kyanit3healthpack", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

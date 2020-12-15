@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 7 },
+    { "item" : "climbingrope", "count" : 7 },
+    { "item" : "logblock", "count" : 5 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "kyanicarcassparts", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab5" ]
+}

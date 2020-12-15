@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "liquidanophium", "count" : 4 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "caveblazebomb", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sand", "count" : 5 },
+	{ "item" : "kyanimold", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 5 },
+    { "item" : "ironore", "count" : 2 }
+  ],
+  "output" : { "item" : "anophiumglass", "count" : 10 },
+  "groups" : [ "kyani", "kyanitab1" ]
+}

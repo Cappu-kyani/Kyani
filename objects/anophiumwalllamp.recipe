@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+	{ "item" : "liquidanophium", "count" : 4 },
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "fabric", "count" : 5}
+  ],
+  "duration" : 3,
+  "output" : { "item" : "anophiumwalllamp", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab4" ]
+}

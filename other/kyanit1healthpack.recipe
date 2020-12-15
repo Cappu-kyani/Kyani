@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 6 },
+    { "item" : "liquidanophium", "count" : 2 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "kyanit1healthpack", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab3" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 6 },
+    { "item" : "fabric", "count" : 3 },
+    { "item" : "string", "count" : 4 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "axebase", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab5" ]
+}

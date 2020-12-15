@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "gravelmaterial", "count" : 2 },
+	{ "item" : "liquidanophium", "count" : 5 },
+	{ "item" : "kyanimold", "count" : 1 },
+    { "item" : "clay", "count" : 2 },
+    { "item" : "ironore", "count" : 1 }
+  ],
+  "output" : { "item" : "insetanophium", "count" : 5 },
+  "groups" : [ "kyani", "kyanitab1" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 5 },
+	{ "item" : "kyanimold", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 5 },
+    { "item" : "ironore", "count" : 5 },
+    { "item" : "darkwoodmaterial", "count" : 3 }
+  ],
+  "output" : { "item" : "anophiumroofprotector", "count" : 15 },
+  "groups" : [ "kyani", "kyanitab1" ]
+}

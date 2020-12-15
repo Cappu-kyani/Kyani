@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+	{ "item" : "liquidanophium", "count" : 4 },
+    { "item" : "copperbar", "count" : 5 },
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "cottonwool", "count" : 5}
+  ],
+  "duration" : 3,
+  "output" : { "item" : "anophiumbed", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab4" ]
+}

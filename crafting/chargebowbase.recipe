@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 12 },
+    { "item" : "fabric", "count" : 7 },
+    { "item" : "string", "count" : 5 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "chargebowbase", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab5" ]
+}

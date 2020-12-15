@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 5 },
+	{ "item" : "liquidanophium", "count" : 3 },
+	  { "item" : "ironbar", "count" : 2 },
+    { "item" : "copperbar", "count" : 3 }
+  ],
+  "output" : { "item" : "kyanioutfit1chest", "count" : 1 },
+  "groups" : [ "kyani", "kyanitab2" ]
+}

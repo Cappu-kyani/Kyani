@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "kyanit2partkit", "count" : 5 },
+    { "item" : "kyanicarcassparts", "count" : 5 },
+    { "item" : "ironbar", "count" : 4 },
+	{ "item" : "liquidanophium", "count" : 15 },
+    { "item" : "goldbar", "count" : 1 },
+	{ "item" : "silverbar", "count" : 1 },
+    { "item" : "copperbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "anophiumformator",  "count" : 1},
+  "duration" : 5,
+  "groups" : [ "kyani", "kyanitab4" ]
+}

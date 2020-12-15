@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "kyanit1partkit", "count" : 5 },
+    { "item" : "kyanicarcassparts", "count" : 5 },
+    { "item" : "ironbar", "count" : 6 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "copperbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "anophiumconverter",  "count" : 1},
+  "duration" : 5,
+  "groups" : [ "kyani", "kyanitab4" ]
+}
