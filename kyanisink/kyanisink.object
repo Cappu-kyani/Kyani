@@ -1,0 +1,29 @@
+{
+  "objectName" : "kyanisink",
+  "colonyTags" : ["kyani"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "Don't forget to wash your hands... with mercury.",
+  "shortdescription" : "Kyani Bathroom Sink",
+  "race" : "kyani",
+  "apexDescription" : "This sink dispenses mercury..? No wait, water too.",
+  "avianDescription" : "A sink to get wat- is that metal? Where is water?",
+  "floranDescription" : "Sssweet nourishing- that'sss not water...",
+  "glitchDescription" : "Curious. This sink dispenses mercury. Why not water?",
+  "humanDescription" : "I should wash my hands once in a while. Wait, is that mercury?",
+  "hylotlDescription" : "What an interesting sink... The liquid it dispences is not water.",
+  "novakidDescription" : "It seems unhealthy to drink from...",
+  "kyaniDescription" : "A lovely source of mercury - vital liquid for us.",
+  "inventoryIcon" : "kyanisinkicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kyanisink.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
