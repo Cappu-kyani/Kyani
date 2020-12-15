@@ -1,0 +1,10 @@
+{
+  "itemName" : "machinepistolbase",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "machinepistolbase.png",
+  "description" : "Magazine frames, handle parts, etc...",
+  "shortdescription" : "Machine Pistol Base",
+  "itemTags" : [ "reagent" ]
+}

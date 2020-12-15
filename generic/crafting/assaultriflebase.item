@@ -1,0 +1,10 @@
+{
+  "itemName" : "assaultriflebase",
+  "price" : 109,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "assaultriflebase.png",
+  "description" : "Includes some grip enhancements",
+  "shortdescription" : "Assault Rifle Base",
+  "itemTags" : [ "reagent" ]
+}

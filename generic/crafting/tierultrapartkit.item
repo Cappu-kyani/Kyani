@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanitultrapartkit",
+  "price" : 3600,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tierultrapartkit.png",
+  "description" : "The pinnacle of technological advancement.",
+  "shortdescription" : "Ultimate Part Kit",
+  "itemTags" : [ "reagent" ]
+}

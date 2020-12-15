@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanit5partkit",
+  "price" : 900,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tier5partkit.png",
+  "description" : "These are more techy, but more expensive.",
+  "shortdescription" : "Prevalent+ Part Kit",
+  "itemTags" : [ "reagent" ]
+}

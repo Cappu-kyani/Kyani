@@ -1,0 +1,10 @@
+{
+  "itemName" : "pistolbase",
+  "price" : 124,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pistolbase.png",
+  "description" : "This will hold your gun together",
+  "shortdescription" : "Pistol Base",
+  "itemTags" : [ "reagent" ]
+}

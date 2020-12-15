@@ -1,0 +1,26 @@
+{
+  "itemName" : "kyanit3healthpack",
+  "rarity" : "Uncommon",
+  "price" : 300,
+  "category" : "medicine",
+  "inventoryIcon" : "kyanit3healthpack.png",
+  "description" : "A first emergency kit in the battle. Heals 200 HP in 1 second.",
+  "shortdescription" : "Tier 3 Healthpack",
+  "effects" : [ [
+      {
+        "effect" : "tier3healthpackheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+	"tier1healthpackheal",
+	"tier2healthpackheal",
+	"tier3healthpackheal",
+	"tier4healthpackheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

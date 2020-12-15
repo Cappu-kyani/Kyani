@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanit3partkit",
+  "price" : 400,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tier3partkit.png",
+  "description" : "A level up from the previous, lighter and stronger",
+  "shortdescription" : "Hardened Part Kit",
+  "itemTags" : [ "reagent" ]
+}

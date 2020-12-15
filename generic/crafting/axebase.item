@@ -1,0 +1,10 @@
+{
+  "itemName" : "axebase",
+  "price" : 106,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "axebase.png",
+  "description" : "All the basic stuff you might need to make an axe",
+  "shortdescription" : "Axe Base",
+  "itemTags" : [ "reagent" ]
+}

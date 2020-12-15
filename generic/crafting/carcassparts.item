@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanicarcassparts",
+  "price" : 79,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "carcassparts.png",
+  "description" : "All the stuff you need to make a basic carcass for anything",
+  "shortdescription" : "Сarcass Part Kit",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "kyanit4healthpack",
+  "rarity" : "Rare",
+  "price" : 900,
+  "category" : "medicine",
+  "inventoryIcon" : "kyanit4healthpack.png",
+  "description" : "A supreme health pack that will get you back on your legs! Heals 360 HP almost instantly.",
+  "shortdescription" : "Tier 4 Healthpack",
+  "effects" : [ [
+      {
+        "effect" : "tier4healthpackheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+	"tier1healthpackheal",
+	"tier2healthpackheal",
+	"tier3healthpackheal",
+	"tier4healthpackheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

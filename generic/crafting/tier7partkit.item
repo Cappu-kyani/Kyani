@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanit7partkit",
+  "price" : 2400,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tier7partkit.png",
+  "description" : "And this is the almost final tier.",
+  "shortdescription" : "Supreme+ Part Kit",
+  "itemTags" : [ "reagent" ]
+}

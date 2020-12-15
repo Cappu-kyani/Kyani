@@ -1,0 +1,10 @@
+{
+  "itemName" : "spearbase",
+  "price" : 130,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "spearbase.png",
+  "description" : "Handle and fixings. Just add the blade",
+  "shortdescription" : "Spear Base",
+  "itemTags" : [ "reagent" ]
+}

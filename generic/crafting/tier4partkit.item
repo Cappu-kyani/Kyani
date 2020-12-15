@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanit4partkit",
+  "price" : 600,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tier4partkit.png",
+  "description" : "One more step forward in enhancement and development",
+  "shortdescription" : "Prevalent Part Kit",
+  "itemTags" : [ "reagent" ]
+}

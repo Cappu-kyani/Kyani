@@ -1,0 +1,10 @@
+{
+  "itemName" : "hammerbase",
+  "price" : 150,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "hammerbase.png",
+  "description" : "Good base for a good smasher",
+  "shortdescription" : "Hammer Base",
+  "itemTags" : [ "reagent" ]
+}

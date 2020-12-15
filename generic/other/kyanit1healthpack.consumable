@@ -1,0 +1,26 @@
+{
+  "itemName" : "kyanit1healthpack",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "medicine",
+  "inventoryIcon" : "kyanit1healthpack.png",
+  "description" : "A health pack with restorative metatissues. Heals 75 HP over 3 seconds.",
+  "shortdescription" : "Tier 1 Healthpack",
+  "effects" : [ [
+      {
+        "effect" : "tier1healthpackheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+	"tier1healthpackheal",
+	"tier2healthpackheal",
+	"tier3healthpackheal",
+	"tier4healthpackheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

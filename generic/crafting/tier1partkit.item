@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanit1partkit",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tier1partkit.png",
+  "description" : "Basic parts, such as fittings and other things",
+  "shortdescription" : "Mundane Part Kit",
+  "itemTags" : [ "reagent" ]
+}

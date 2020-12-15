@@ -1,0 +1,10 @@
+{
+  "itemName" : "sniperriflebase",
+  "price" : 125,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "sniperriflebase.png",
+  "description" : "Scope and optics, with AR.",
+  "shortdescription" : "Sniper Rifle Base",
+  "itemTags" : [ "reagent" ]
+}

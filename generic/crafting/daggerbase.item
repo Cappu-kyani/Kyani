@@ -1,0 +1,10 @@
+{
+  "itemName" : "daggerbase",
+  "price" : 121,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "daggerbase.png",
+  "description" : "Basic kit for your knife",
+  "shortdescription" : "Dagger Base",
+  "itemTags" : [ "reagent" ]
+}

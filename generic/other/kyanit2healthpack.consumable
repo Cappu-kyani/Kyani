@@ -1,0 +1,26 @@
+{
+  "itemName" : "kyanit2healthpack",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "kyanit2healthpack.png",
+  "description" : "A bit more medical power. Restores 120 HP in 2 seconds.",
+  "shortdescription" : "Tier 2 Healthpack",
+  "effects" : [ [
+      {
+        "effect" : "tier2healthpackheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+	"tier1healthpackheal",
+	"tier2healthpackheal",
+	"tier3healthpackheal",
+	"tier4healthpackheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

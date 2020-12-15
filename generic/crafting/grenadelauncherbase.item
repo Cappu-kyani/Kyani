@@ -1,0 +1,10 @@
+{
+  "itemName" : "grenadelauncherbase",
+  "price" : 177,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "grenadelauncherbase.png",
+  "description" : "Something to hold your boom barrel togehter",
+  "shortdescription" : "Grenade Launcher Base",
+  "itemTags" : [ "reagent" ]
+}

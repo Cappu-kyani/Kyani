@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanit6partkit",
+  "price" : 1500,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tier6partkit.png",
+  "description" : "Another step up from the previous tier, these allow to make more complex stuff",
+  "shortdescription" : "Supreme Part Kit",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "swordbase",
+  "price" : 117,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "swordbase.png",
+  "description" : "You can't make a good sword without this",
+  "shortdescription" : "Sword Base",
+  "itemTags" : [ "reagent" ]
+}

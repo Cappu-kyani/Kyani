@@ -1,0 +1,10 @@
+{
+  "itemName" : "kyanit2partkit",
+  "price" : 200,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "tier2partkit.png",
+  "description" : "This kit includes more complicated parts.",
+  "shortdescription" : "Intermediate Part Kit",
+  "itemTags" : [ "reagent" ]
+}

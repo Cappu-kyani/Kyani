@@ -1,0 +1,10 @@
+{
+  "itemName" : "chargebowbase",
+  "price" : 121,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "chargebowbase.png",
+  "description" : "Chargebow carcass. Just it",
+  "shortdescription" : "Chargebow Base",
+  "itemTags" : [ "reagent" ]
+}
