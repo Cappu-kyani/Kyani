@@ -1,3 +1,10 @@
-[
-	{"op":"add", "path":"/species/kyani", "value":{"aiFrames":"kyaniai.png", "portraitFrames":"portraits/kyaniportrait.png", "staticFrames":"statickyani.png"}}
+[{
+		"op" : "add",
+		"path" : "/species/kyani",
+		"value" : {
+			"aiFrames" : "kyaniAI.png",
+			"portraitFrames" : "portraits/kyaniportrait.png",
+			"staticFrames" : "statickyani.png"	
+		}
+	}
 ]

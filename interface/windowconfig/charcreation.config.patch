@@ -1,3 +1,1 @@
-[
-	{"op":"add", "path":"/speciesOrdering/-", "value":"kyani"}
-]
+[ { "op" : "add", "path" : "/speciesOrdering/-", "value" : "kyani" } ]

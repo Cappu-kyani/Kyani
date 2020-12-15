@@ -3,13 +3,11 @@
 	"species":"kyani",
 	"title":"A Kyani Introduction",
 	"description":"In search of a home",
-	"icon":"kyani",
+	"icon":"kyanicover.png",
 	"contentPages":[
-
 		"Kyani are a peaceful race and normally hold life above all else. They have traveled through many universes in search of a safe haven and yet their true origins are unknown even to themselves.
 
 		The true size of a kyani towers over all others and for this reason they adjust their size to match others to make them feel more comfortable with their presence."
-
 	],
 	"itemConfig":{
 		"rarity":"common",

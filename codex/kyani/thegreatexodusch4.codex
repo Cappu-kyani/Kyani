@@ -1,0 +1,17 @@
+{
+  "id":"thegreatexodusch4",
+	"species":"kyani",
+	"title":"The Great Exodus CH4",
+	"description":"This is the short explanation of the Great Exodus Chronicles",
+	"icon":"kyani",
+	"contentPages":[
+		"Day 3111.
+     And again, after a lot of struggle and effort, we left this universe. Last stop will be the final for thos ships.
+     Our race is doomed. We will never find a new home.
+     The systems set the alarms on today. I think the ships are collapsing!"
+	],
+	"itemConfig":{
+		"rarity":"common",
+		"price":25
+    }
+  }
