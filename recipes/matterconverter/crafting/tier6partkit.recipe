@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "refinedviolium", "count" : 1 },
 	{ "item" : "kyanit5partkit", "count" : 1 },
-    { "item" : "refinedaegisalt", "count" : 2 },
-	{ "item" : "canvas", "count" : 2 },
+    { "item" : "refinedaegisalt", "count" : 1 },
+	{ "item" : "canvas", "count" : 1 },
     { "item" : "syntheticmaterial", "count" : 1 }
   ],
   "duration" : 0.5,

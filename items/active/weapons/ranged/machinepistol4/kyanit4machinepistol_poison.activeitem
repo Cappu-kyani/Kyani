@@ -37,9 +37,9 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.07,
-    "baseDps" : 18,
-    "energyUsage" : 15,
+    "fireTime" : 0.09,
+    "baseDps" : 16,
+    "energyUsage" : 16.5,
     "inaccuracy" : 0.03,
 
     "projectileCount" : 1,

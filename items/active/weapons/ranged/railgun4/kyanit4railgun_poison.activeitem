@@ -1,85 +1,85 @@
 {
-  "itemName" : "kyanit4railgun_poison",
-  "price" : 43200,
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "This ultimate machine will make anyone disappear.",
-  "shortdescription" : "'The Doom' Railgun",
-  "tooltipKind" : "gun",
-  "category" : "Railgun",
-  "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","sniperrifle","kyani"],
-  "level" : 8,
+	"itemName": "kyanit4railgun_poison",
+	"price": 43200,
+	"maxStack": 1,
+	"rarity": "Legendary",
+	"description": "This ultimate machine will make anyone disappear.",
+	"shortdescription": "'The Doom' Railgun",
+	"tooltipKind": "gun",
+	"category": "Railgun",
+	"twoHanded": true,
+	"itemTags": ["weapon", "ranged", "sniperrifle", "kyani"],
+	"level": 8,
 
-  "inventoryIcon" : "kyanit4railgun_poison.png",
+	"inventoryIcon": "kyanit4railgun_poison.png",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "kyanit4railgun_poison.png",
-    "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
-  },
-  "animationCustom" : {
-    "sounds" : {
-	"reload" : ["/sfx/gun/railgr1.ogg"],
-      "fire" : ["/sfx/gun/railgf1a.ogg"]
-    }
-  },
+	"animation": "/items/active/weapons/ranged/gun.animation",
+	"animationParts": {
+		"butt": "",
+		"middle": "kyanit4railgun_poison.png",
+		"barrel": "",
+		"muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
+	},
+	"animationCustom": {
+		"sounds": {
+			"reload": ["/sfx/gun/railgr1.ogg"],
+			"fire": ["/sfx/gun/railgf1a.ogg"]
+		}
+	},
 
-  "baseOffset" : [-10, -10],
-  "muzzleOffset" : [4, 0],
+	"baseOffset": [-10, -10],
+	"muzzleOffset": [4, 0],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+	"scripts": ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "poison",
+	"elementalType": "poison",
 
-  "primaryAbility" : {
-    "name" : "Railgun Fire",
-    "scripts" : ["/items/active/weapons/ranged/abilities/railgun/railgunfire.lua"],
-    "class" : "RailgunFire",
+	"primaryAbility": {
+		"name": "Railgun Fire",
+		"scripts": ["/items/active/weapons/ranged/abilities/railgun/railgunfire.lua"],
+		"class": "RailgunFire",
 
-    "baseDamage" : 300,
-    "energyPerShot" : 400,
-	
-	"reloadTime" : 1,
-    "chargeStep" : 0.5,
+		"baseDamage": 600,
+		"energyPerShot": 72,
 
-"projectileType": [ "poisonkyanirailgunbullet", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start",  "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start" ],
-    "projectileParameters" : {
-      "knockback" : 22
-    },
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : true,
+		"reloadTime": 1,
+		"chargeStep": 0.5,
 
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
+		"projectileType": ["poisonkyanirailgunbullet", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start", "poison_kyanirailgun_crit_start"],
+		"projectileParameters": {
+			"knockback": 22
+		},
+		"stances": {
+			"idle": {
+				"armRotation": 0,
+				"weaponRotation": 0,
+				"twoHanded": true,
 
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "cooldown" : {
-        "duration" : 0.25,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
-        "twoHanded" : true,
+				"allowRotate": true,
+				"allowFlip": true
+			},
+			"fire": {
+				"duration": 0,
+				"armRotation": 5,
+				"weaponRotation": 5,
+				"twoHanded": true,
 
-        "allowRotate" : false,
-        "allowFlip" : false
-      }
-    }
-  },
+				"allowRotate": false,
+				"allowFlip": false
+			},
+			"cooldown1": {
+				"duration": 0.25,
+				"armRotation": 5,
+				"weaponRotation": 5,
+				"twoHanded": true,
 
-  "altAbilityType" : "railgunflamethrower",
+				"allowRotate": false,
+				"allowFlip": false
+			}
+		}
+	},
 
-  "builder" : "/items/buildscripts/buildweapon.lua"
+	"altAbilityType": "railgunflamethrower",
+
+	"builder": "/items/buildscripts/buildweapon.lua"
 }

@@ -35,19 +35,20 @@
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
     "fireOffset" : [1.75, 0.125],
+	"energyPerShot" : 500,
 	"projectileType": "phasebullet", 
     "powerProjectileType" : "breachbullet", 
     "projectileParameters" : {
-      "power" : 82
+      "power" : 64
     }
   },
     "altAbilityType" : "explosivebowshot",
   "altAbility" : {
    "projectileParameters" : {
-      "power" : 98
+      "power" : 96
     },
 	"powerProjectileParameters" : {
-      "power" : 138
+      "power" : 128
     }
   },
   "builder" : "/items/buildscripts/buildbow.lua"

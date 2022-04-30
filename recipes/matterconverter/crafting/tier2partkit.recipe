@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "tungstenbar", "count" : 1 },
 	{ "item" : "kyanit1partkit", "count" : 1 },
-    { "item" : "ironbar", "count" : 2 },
-    { "item" : "fabric", "count" : 3 }
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "fabric", "count" : 1 }
   ],
   "duration" : 0.5,
   "output" : { "item" : "kyanit2partkit", "count" : 1 },

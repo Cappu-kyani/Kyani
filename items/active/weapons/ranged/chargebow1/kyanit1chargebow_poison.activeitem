@@ -35,10 +35,11 @@
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
     "fireOffset" : [1.75, 0.125],
+	"energyPerShot" : 500,
 	"projectileType": "poisonphasebullet",
     "powerProjectileType" : "poisonbreachbullet", 
     "projectileParameters" : {
-      "power" : 40
+      "power" : 52
     }
   },
   "altAbilityType" : "explosivebowshot",

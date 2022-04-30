@@ -37,15 +37,15 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.09,
-    "baseDps" : 14,
-    "energyUsage" : 17,
+    "fireTime" : 0.13,
+    "baseDps" : 14.5,
+    "energyUsage" : 18,
     "inaccuracy" : 0.03,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-"projectileType": [ "firephasebullet", "firephasebullet", "firephasebullet", "firephasebullet", "firephasebullet",  "firephasebullets", "fire_phase_missed_start", "fire_phase_missed_start", "fire_phase_missed_start", "fire_phase_crit_start" ],
+"projectileType": [ "firephasebullet", "firephasebullet", "firephasebullet", "firephasebullet", "firephasebullet",  "firephasebullet", "fire_phase_missed_start", "fire_phase_missed_start", "fire_phase_missed_start", "fire_phase_crit_start" ],
     "projectileParameters" : {
       "knockback" : 2
     },

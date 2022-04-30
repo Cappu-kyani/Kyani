@@ -39,8 +39,8 @@
     "scripts" : ["/items/active/weapons/ranged/abilities/railgun/railgunfire.lua"],
     "class" : "RailgunFire",
 
-    "baseDamage" : 245,
-    "energyPerShot" : 144,
+    "baseDamage" : 490,
+    "energyPerShot" : 48,
 	
 	"reloadTime" : 1,
     "chargeStep" : 0.34,
