@@ -12,7 +12,7 @@
 
   "objectType" : "container",
   "slotCount" : 2,
-  "uiConfig" : "/interface/scripted/experiment/containermanipulatorstation.config",
+  "uiConfig" : "/interface/scripted/experiment/elementconfig.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
   "craftTime" : 3,
