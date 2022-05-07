@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit4grenadelauncher_physical",
+  "itemName" : "kyanit4grenadelauncher",
   "price" : 32000,
   "maxStack" : 1,
   "rarity" : "Rare",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","grenadelauncher","kyani"],
   "level" : 4,
 
-  "inventoryIcon" : "kyanit4grenadelauncher_physical.png",
+  "inventoryIcon" : "kyanit4grenadelauncher_<elementalType>.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "kyanit4grenadelauncher_physical.png",
+    "middle" : "kyanit4grenadelauncher_<elementalType>.png",
     "barrel" : "",
 	"muzzleFlash" : "/items/active/weapons/ranged/glmuzzleflash.png"
   },
@@ -45,7 +45,7 @@
     "projectileCount" : 8,
     "fireType" : "auto",
 
-    "projectileType" : "impactshard",
+    "projectileType" : "<elementalType>impactshard",
     "projectileParameters" : {
       "knockback" : 45
     },

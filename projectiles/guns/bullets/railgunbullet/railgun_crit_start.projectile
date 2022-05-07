@@ -1,5 +1,5 @@
 {
-  "projectileName" : "kyanirailgun_crit_start",
+  "projectileName" : "physical_kyanirailgun_crit_start",
   "image" : "phase_start.png",
   "animationCycle" : 0.25,
   "piercing" : true,
@@ -9,7 +9,7 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "kyanirailgunbullet_crit",
+      "type" : "<elementalType>_kyanirailgunbullet_crit",
       "inheritDamageFactor" : 3,
       "directional" : "true"
     }

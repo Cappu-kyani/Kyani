@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1pistol_physical",
+  "itemName" : "kyanit1pistol",
   "price" : 600,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","pistol","kyani"],
   "level" : 1,
 
-  "inventoryIcon" : "kyanit1pistol.png",
+  "inventoryIcon" : "kyanit1pistol_<elementalType>.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "kyanit1pistol.png",
+    "middle" : "kyanit1pistol_<elementalType>.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/pmuzzleflash.png"
   },
@@ -47,7 +47,7 @@
     "burstCount" : 5,
     "fireType" : "burst",
 
-"projectileType": [ "phasebullet", "phasebullet", "phasebullet", "phasebullet", "phase_missed_start",  "phase_missed_start", "phase_crit_start", "phase_missed_start", "phase_missed_start", "phase_crit_start" ],
+"projectileType": [ "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "phase_missed_start",  "phase_missed_start", "<elementalType>_phase_crit_start", "phase_missed_start", "phase_missed_start", "<elementalType>_phase_crit_start" ],
     "projectileParameters" : {
       "knockback" : 6
     },

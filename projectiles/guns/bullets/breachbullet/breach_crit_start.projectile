@@ -1,5 +1,5 @@
 {
-  "projectileName" : "breach_crit_start",
+  "projectileName" : "physical_breach_crit_start",
   "image" : "breach_start.png",
   "animationCycle" : 0.25,
   "piercing" : true,
@@ -9,7 +9,7 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "breachbullet_crit",
+      "type" : "physical_breachbullet_crit",
       "inheritDamageFactor" : 3,
       "directional" : "true"
     }

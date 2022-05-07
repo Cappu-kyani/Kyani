@@ -1,5 +1,5 @@
 {
-  "projectileName" : "phase_crit_start",
+  "projectileName" : "physical_phase_crit_start",
   "image" : "phase_start.png",
   "animationCycle" : 0.25,
   "piercing" : true,
@@ -9,7 +9,7 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "phasebullet_crit",
+      "type" : "physical_phasebullet_crit",
       "inheritDamageFactor" : 3,
       "directional" : "true"
     }

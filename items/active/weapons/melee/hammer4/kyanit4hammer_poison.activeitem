@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit4hammer_poison",
+  "itemName" : "kyanit4hammer",
   "price" : 16000,
   "maxStack" : 1,
   "rarity" : "Rare",
@@ -10,11 +10,11 @@
   "twoHanded" : true,
   "level" : 4,
   "itemTags" : ["kyani","weapon","melee","hammer"],
-  "inventoryIcon" : "kyanit4hammer_poison.png",
+  "inventoryIcon" : "kyanit4hammer_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit4hammer_poison.png"
+    "blade" : "kyanit4hammer_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 0.9,
     "baseDps" : 50,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "poisonhammer" }
+      "damageSourceKind" : "<elementalType>hammer" }
   },
 
   "altAbilityType" : "shockwave",

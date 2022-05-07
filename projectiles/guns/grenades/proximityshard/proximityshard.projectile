@@ -1,5 +1,5 @@
 {
-  "projectileName" : "proximityshard",
+  "projectileName" : "physicalproximityshard",
   "physics" : "disc",
   "bounces" : -1,
   "timeToLive" : 3,

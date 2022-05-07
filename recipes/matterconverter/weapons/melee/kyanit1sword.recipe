@@ -5,6 +5,6 @@
     { "item" : "swordbase", "count" : 1 }
   ],
   "duration" : 2,
-  "output" : { "item" : "kyanit1sword_physical", "count" : 1 },
+  "output" : { "item" : "kyanit1sword", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

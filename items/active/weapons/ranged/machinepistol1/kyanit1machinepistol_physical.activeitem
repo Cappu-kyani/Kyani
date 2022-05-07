@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1machinepistol_physical",
+  "itemName" : "kyanit1machinepistol",
   "price" : 600,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","machinepistol","kyani"],
   "level" : 1,
 
-  "inventoryIcon" : "kyanit1machinepistol_physical.png",
+  "inventoryIcon" : "kyanit1machinepistol_<elementalType>.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "kyanit1machinepistol_physical.png",
+    "middle" : "kyanit1machinepistol_<elementalType>.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/armuzzleflash.png"
   },
@@ -45,7 +45,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-"projectileType": [ "phasebullet", "phasebullet", "phasebullet", "phasebullet", "phasebullet",  "phase_missed_start", "phase_missed_start", "phase_missed_start", "phase_missed_start", "phase_crit_start" ],
+"projectileType": [ "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet",  "phase_missed_start", "phase_missed_start", "phase_missed_start", "phase_missed_start", "<elementalType>_phase_crit_start" ],
     "projectileParameters" : {
       "knockback" : 2
     },

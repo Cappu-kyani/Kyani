@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1sniperrifle_physical",
+  "itemName" : "kyanit1sniperrifle",
   "price" : 1000,
   "maxStack" : 1,
   "rarity" : "Uncommon",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","sniperrifle","kyani"],
   "level" : 1,
 
-  "inventoryIcon" : "kyanit1sniperrifle_physical.png",
+  "inventoryIcon" : "kyanit1sniperrifle_<elementalType>.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "kyanit1sniperrifle_physical.png",
+    "middle" : "kyanit1sniperrifle_<elementalType>.png",
 "barrel": "",
 		"minirailgun": "minirailgun.png",
 		"muzzleFlash": "/items/active/weapons/ranged/armuzzleflash.png"
@@ -111,7 +111,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-"projectileType": [ "phasebullet", "phasebullet", "phasebullet", "phasebullet", "phasebullet",  "phasebullet", "phasebullet", "phasebullet", "phase_crit_start", "phase_crit_start" ],
+"projectileType": [ "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet",  "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>_phase_crit_start", "<elementalType>_phase_crit_start" ],
     "projectileParameters" : {
       "knockback" : 22
     },

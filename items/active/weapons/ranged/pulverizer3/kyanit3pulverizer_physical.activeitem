@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit3pulverizer_physical",
+  "itemName" : "kyanit3pulverizer",
   "price" : 88200,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","grenadelauncher","kyani"],
   "level" : 7,
 
-  "inventoryIcon" : "kyanit3pulverizer_physical.png",
+  "inventoryIcon" : "kyanit3pulverizer_<elementalType>.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "kyanit3pulverizer_physical.png",
+    "middle" : "kyanit3pulverizer_<elementalType>.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/glmuzzleflash.png"
   },
@@ -45,7 +45,7 @@
     "projectileCount" : 3,
     "fireType" : "auto",
 
-    "projectileType" : "autocannongrenade",
+    "projectileType" : "<elementalType>plasmaautocannongrenade",
     "projectileParameters" : {
       "knockback" : 45
     },
@@ -84,7 +84,7 @@
 		"sounds": {
 			"altFire": ["/sfx/gun/arfire.ogg"]
 		},
-"projectileType": [ "breachbullet", "breachbullet", "breachbullet", "breachbullet", "breachbullet",  "breachbullet", "breach_crit_start", "breach_missed_start", "breach_missed_start", "breach_crit_start" ]
+"projectileType": [ "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet",  "<elementalType>breachbullet", "breach_crit_start", "breach_missed_start", "breach_missed_start", "breach_crit_start" ]
 	},
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

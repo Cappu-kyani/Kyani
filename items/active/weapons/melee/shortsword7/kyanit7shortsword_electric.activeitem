@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit7shortsword_electric",
+  "itemName" : "kyanit7shortsword",
   "price" : 15900,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -10,11 +10,11 @@
   "level" : 7,
   "twoHanded" : false,
   "itemTags" : ["kyani","weapon","melee","shortsword"],
-  "inventoryIcon" : "kyanit7shortsword_electric.png",
+  "inventoryIcon" : "kyanit7shortsword_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/abilities/kyanicomboshortsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit7shortsword_electric.png"
+    "blade" : "kyanit7shortsword_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 0.4,
     "baseDps" : 32,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "electricbow" }
+      "damageSourceKind" : "<elementalType>bow" }
   },
   "altAbilityType" : "",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

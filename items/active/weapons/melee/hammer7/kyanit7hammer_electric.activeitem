@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit7hammer_electric",
+  "itemName" : "kyanit7hammer",
   "price" : 29000,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -10,11 +10,11 @@
   "twoHanded" : true,
   "level" : 7,
   "itemTags" : ["kyani","weapon","melee","hammer"],
-  "inventoryIcon" : "kyanit7hammer_electric.png",
+  "inventoryIcon" : "kyanit7hammer_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit7hammer_electric.png"
+    "blade" : "kyanit7hammer_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 0.8,
     "baseDps" : 83,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "electrichammer" }
+      "damageSourceKind" : "<elementalType>hammer" }
   },
 
   "altAbilityType" : "kyanishockwave",

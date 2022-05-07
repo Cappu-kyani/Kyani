@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit3spear_electric",
+  "itemName" : "kyanit3spear",
   "price" : 4000,
   "maxStack" : 1,
   "rarity" : "Uncommon",
@@ -10,11 +10,11 @@
   "twoHanded" : true,
   "level" : 3,
   "itemTags" : ["kyani","weapon","melee","spear"],
-  "inventoryIcon" : "kyanit3spear_electric.png",
+  "inventoryIcon" : "kyanit3spear_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit3spear_electric.png"
+    "blade" : "kyanit3spear_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 1,
     "baseDps" : 27,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "electricspear" }
+      "damageSourceKind" : "<elementalType>spear" }
  
   },
   "altAbilityType" : "jetspear",

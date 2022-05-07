@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit7spear_electric",
+  "itemName" : "kyanit7spear",
   "price" : 19000,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -10,11 +10,11 @@
   "twoHanded" : true,
   "level" : 7,
   "itemTags" : ["kyani","weapon","melee","spear"],
-  "inventoryIcon" : "kyanit7spear_electric.png",
+  "inventoryIcon" : "kyanit7spear_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/abilities/kyanispear.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit7spear_electric.png"
+    "blade" : "kyanit7spear_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 1,
     "baseDps" : 51,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "electricspear" }
+      "damageSourceKind" : "<elementalType>spear" }
   },
  
   "altAbilityType" : "kyanibroadswordcombo",

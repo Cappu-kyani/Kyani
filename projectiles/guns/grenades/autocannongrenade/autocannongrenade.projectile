@@ -1,5 +1,5 @@
 {
-  "projectileName" : "autocannongrenade",
+  "projectileName" : "physicalplasmaautocannongrenade",
   "physics" : "grenade",
   "bounces" : 0,
   "timeToLive" : 3,

@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1hammer_physical",
+  "itemName" : "kyanit1hammer",
   "prphysical" : 2000,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -10,11 +10,11 @@
   "level" : 1,
   "twoHanded" : true,
   "itemTags" : ["kyani","weapon","melee","hammer"],
-  "inventoryIcon" : "kyanit1hammer.png",
+  "inventoryIcon" : "kyanit1hammer_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit1hammer.png"
+    "blade" : "kyanit1hammer_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],

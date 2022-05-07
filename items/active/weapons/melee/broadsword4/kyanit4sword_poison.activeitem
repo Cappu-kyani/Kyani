@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit4sword_poison",
+  "itemName" : "kyanit4sword",
   "price" : 9600,
   "maxStack" : 1,
   "rarity" : "Rare",
@@ -10,11 +10,11 @@
   "twoHanded" : true,
   "level" : 4,
   "itemTags" : ["kyani","weapon","melee","broadsword"],
-  "inventoryIcon" : "kyanit4sword_poison.png",
+  "inventoryIcon" : "kyanit4sword_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit4sword_poison.png"
+    "blade" : "kyanit4sword_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 0.79,
     "baseDps" : 29,
 	"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "poisonbroadsword" }
+      "damageSourceKind" : "<elementalType>broadshord" }
   },
   "altAbilityType" : "wheeldash",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

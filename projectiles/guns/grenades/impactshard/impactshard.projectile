@@ -1,5 +1,5 @@
 {
-  "projectileName" : "impactshard",
+  "projectileName" : "physicalimpactshard",
   "physics" : "grenade",
   "bounces" : 0,
   "timeToLive" : 3,

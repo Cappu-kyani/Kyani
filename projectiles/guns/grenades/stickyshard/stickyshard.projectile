@@ -1,5 +1,5 @@
 {
-  "projectileName" : "stickyshard",
+  "projectileName" : "physicalstickyshard",
   "physics" : "stickybomb",
   "bounces" : 0,
   "timeToLive" : 3,

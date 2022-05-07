@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1railgun_physical",
+  "itemName" : "kyanit1railgun",
   "price" : 11400,
   "maxStack" : 1,
   "rarity" : "Rare",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","sniperrifle","kyani"],
   "level" : 5,
 
-  "inventoryIcon" : "kyanit1railgun_physical.png",
+  "inventoryIcon" : "kyanit1railgun_<elementalType>.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "kyanit1railgun_physical.png",
+    "middle" : "kyanit1railgun_<elementalType>.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
@@ -45,7 +45,7 @@
     "reloadTime" : 1,
     "chargeStep" : 0.2,
 
-"projectileType": [ "kyanirailgunbullet", "kyanirailgunbullet", "kyanirailgunbullet", "kyanirailgunbullet", "kyanirailgunbullet",  "kyanirailgunbullet", "kyanirailgunbullet", "kyanirailgun_crit_start", "kyanirailgun_crit_start", "kyanirailgun_crit_start" ],
+"projectileType": [ "<elementalType>kyanirailgunbullet", "<elementalType>kyanirailgunbullet", "<elementalType>kyanirailgunbullet", "<elementalType>kyanirailgunbullet", "<elementalType>kyanirailgunbullet",  "<elementalType>kyanirailgunbullet", "<elementalType>kyanirailgunbullet", "<elementalType>_kyanirailgun_crit_start", "<elementalType>_kyanirailgun_crit_start", "<elementalType>_kyanirailgun_crit_start" ],
     "projectileParameters" : {
       "knockback" : 22
     },

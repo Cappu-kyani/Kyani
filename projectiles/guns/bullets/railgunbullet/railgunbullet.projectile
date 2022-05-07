@@ -1,5 +1,5 @@
 {
-  "projectileName" : "kyanirailgunbullet",
+  "projectileName" : "physicalkyanirailgunbullet",
   "image" : "railgunbullet.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,

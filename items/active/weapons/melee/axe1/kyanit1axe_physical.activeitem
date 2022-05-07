@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1axe_physical",
+  "itemName" : "kyanit1axe",
   "price" : 800,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -10,11 +10,11 @@
   "twoHanded" : false,
   "level" : 1,
   "itemTags" : ["kyani","weapon","melee","axe"],
-  "inventoryIcon" : "kyanit1axe.png",
+  "inventoryIcon" : "kyanit1axe_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit1axe.png"
+    "blade" : "kyanit1axe_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],

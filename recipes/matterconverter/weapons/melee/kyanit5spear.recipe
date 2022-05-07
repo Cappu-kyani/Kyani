@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "kyanit4spear_physical", "count" : 1 },
-	{ "item" : "kyanit4sword_physical", "count" : 1 },
+    { "item" : "kyanit4spear", "count" : 1 },
+	{ "item" : "kyanit4sword", "count" : 1 },
 	{ "item" : "kyanit5partkit", "count" : 2 },
 	{ "item" : "liquidanophium", "count" : 90 },
 	{ "item" : "money", "count" : 15000},
@@ -10,6 +10,6 @@
 	{ "item" : "kyanit1partkit", "count" : 5 }
   ],
   "duration" : 6,
-  "output" : { "item" : "kyanit5spear_physical", "count" : 1 },
+  "output" : { "item" : "kyanit5spear", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

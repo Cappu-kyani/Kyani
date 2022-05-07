@@ -1,5 +1,5 @@
 {
-  "projectileName" : "railtorpedo",
+  "projectileName" : "physicalrailtorpedo",
   "image" : "railtorpedo.png",
   "animationCycle" : 0.2,
   "frameNumber" : 3,

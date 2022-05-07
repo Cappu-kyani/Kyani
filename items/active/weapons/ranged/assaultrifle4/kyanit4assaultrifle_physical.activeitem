@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit4assaultrifle_physical",
+  "itemName" : "kyanit4assaultrifle",
   "price" : 7200,
   "maxStack" : 1,
   "rarity" : "Rare",
@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","assaultrifle","kyani"],
   "level" : 4,
 
-  "inventoryIcon" : "kyanit4assaultrifle_physical.png",
+  "inventoryIcon" : "kyanit4assaultrifle_<elementalType>.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "kyanit4assaultrifle_physical.png",
+    "middle" : "kyanit4assaultrifle_<elementalType>.png",
     "barrel": "",
 		"minirailgun": "minirailgun.png",
 		"muzzleFlash": "/items/active/weapons/ranged/armuzzleflash.png"
@@ -110,7 +110,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType": [ "phasebullet", "phasebullet", "phasebullet", "phasebullet", "phasebullet",  "phasebullet", "phase_crit_start", "phase_crit_start", "phase_missed_start", "phase_crit_start" ],
+    "projectileType": [ "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet", "<elementalType>phasebullet",  "<elementalType>phasebullet", "<elementalType>_phase_crit_start", "<elementalType>_phase_crit_start", "phase_missed_start", "<elementalType>_phase_crit_start" ],
     "projectileParameters" : {
       "knockback" : 5
     },

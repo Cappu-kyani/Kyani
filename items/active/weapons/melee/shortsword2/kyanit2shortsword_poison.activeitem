@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit2shortsword_poison",
+  "itemName" : "kyanit2shortsword",
   "price" : 1400,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -10,11 +10,11 @@
   "twoHanded" : false,
   "level" : 2,
   "itemTags" : ["kyani","weapon","melee","shortsword"],
-  "inventoryIcon" : "kyanit2shortsword_poison.png",
+  "inventoryIcon" : "kyanit2shortsword_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit2shortsword_poison.png"
+    "blade" : "kyanit2shortsword_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 0.66,
     "baseDps" : 17,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "poisonshortsword" }
+      "damageSourceKind" : "<elementalType>shortsword" }
   },
   "altAbilityType" : "",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

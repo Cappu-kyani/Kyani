@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "kyanit6spear_physical", "count" : 1 },
+	{ "item" : "kyanit6spear", "count" : 1 },
     { "item" : "kyanit7partkit", "count" : 1 },
 	{ "item" : "kyanit6partkit", "count" : 1 },
 	{ "item" : "liquidanophium", "count" : 90 },
@@ -10,6 +10,6 @@
 	{ "item" : "kyanit3partkit", "count" : 2 }
   ],
   "duration" : 6,
-  "output" : { "item" : "kyanit7spear_physical", "count" : 1 },
+  "output" : { "item" : "kyanit7spear", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

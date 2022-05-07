@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1spear_poison",
+  "itemName" : "kyanit1spear",
   "price" : 1000,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -10,11 +10,11 @@
   "twoHanded" : true,
   "level" : 1,
   "itemTags" : ["kyani","weapon","melee","spear"],
-  "inventoryIcon" : "kyanit1spear_poison.png",
+  "inventoryIcon" : "kyanit1spear_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit1spear_poison.png"
+    "blade" : "kyanit1spear_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 1,
     "baseDps" : 15,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "poisonspear" }
+      "damageSourceKind" : "<elementalType>spear" }
   },
   "altAbilityType" : "jetspear",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

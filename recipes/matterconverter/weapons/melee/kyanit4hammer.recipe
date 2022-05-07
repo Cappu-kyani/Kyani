@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "kyanit3hammer_physical", "count" : 1 },
+    { "item" : "kyanit3hammer", "count" : 1 },
 	{ "item" : "liquidanophium", "count" : 7 },
     { "item" : "kyanit4partkit", "count" : 3 }
   ],
   "duration" : 8,
-  "output" : { "item" : "kyanit4hammer_physical", "count" : 1 },
+  "output" : { "item" : "kyanit4hammer", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

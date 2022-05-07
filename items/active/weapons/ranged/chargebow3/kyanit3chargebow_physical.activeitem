@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit3chargebow_physical",
+  "itemName" : "kyanit3chargebow",
   "price" : 32000,
   "maxStack" : 1,
   "rarity" : "Rare",
@@ -11,11 +11,11 @@
   "itemTags" : ["weapon","ranged","bow","kyani"],
   "level" : 3,
 
-  "inventoryIcon" : "kyanit3chargebow_physical.png",
+  "inventoryIcon" : "kyanit3chargebow_<elementalType>.png",
 
   "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : {
-    "bow" : "kyanit3chargebowfull_physical.png"
+    "bow" : "kyanit3chargebowfull_<elementalType>.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "bow" : { "properties" : {
@@ -36,8 +36,8 @@
   "primaryAbility" : {
     "fireOffset" : [1.75, 0.125],
 	"energyPerShot" : 500,
-	"projectileType": "phasebullet", 
-    "powerProjectileType" : "breachbullet", 
+	"projectileType": "<elementalType>phasebullet", 
+    "powerProjectileType" : "<elementalType>breachbullet", 
     "projectileParameters" : {
       "power" : 62
     }

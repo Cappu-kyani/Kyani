@@ -1,5 +1,5 @@
  {
- "itemName" : "kyanit1dagger_physical",
+ "itemName" : "kyanit1dagger",
   "price" : 750,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -10,11 +10,11 @@
   "twoHanded" : false,
   "level" : 1,
   "itemTags" : ["kyani","weapon","melee","dagger"],
-  "inventoryIcon" : "kyanit1dagger.png",
+  "inventoryIcon" : "kyanit1dagger_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit1dagger.png"
+    "blade" : "kyanit1dagger_<elementalType>.png"
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -29,7 +29,7 @@
     "fireTime" : 0.4,
     "baseDps" : 7,
     "damageConfig" : {  
-      "damageSourceKind" : "dagger",
+      "damageSourceKind" : "<elementalType>dagger",
       "statusEffects" : ["anoph_melting"],
       "knockbackMode" : "aim",
       "knockbackRange" : [10, 15],

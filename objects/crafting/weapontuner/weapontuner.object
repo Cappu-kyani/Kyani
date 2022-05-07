@@ -2,22 +2,16 @@
 	"objectName": "kyaniweapontuner",
 	"colonyTags": ["kyani"],
 	"rarity": "Rare",
-	"interactAction": "OpenCraftingInterface",
-	"interactData": {
-		"config": "/interface/windowconfig/weapontuner.config",
-		"paneLayoutOverride": {
-			"windowtitle": {
-				"title": "  Weapon Tuner",
-				"subtitle": "  Changes the elements of weapons by influencing their power source.",
-				"icon": {
-					"file": "/interface/crafting/weapontuner.png"
-				}
-			}
-		},
-		"filter": ["kyani"]
-	},
+
+	"objectType" : "container",
+	"slotCount" : 1,
+	"uiConfig" : "/interface/scripted/weapontuner/elementconfig.config",
+	"frameCooldown" : 5,
+	"autoCloseCooldown" : 3600,
+	"craftTime" : 2,
+
 	"printable": false,
-	"description": "Switches weapons' power sources between elements.",
+	"description": "Switches weapons' power sources between elements. ^red;Use on any weapons built not by Keutel Ind. schematics can cause errors.^white;",
 	"shortdescription": "^orange;Weapon Tuner^white;",
 	"race": "kyani",
 	"category": "crafting",

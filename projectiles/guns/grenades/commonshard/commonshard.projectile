@@ -1,5 +1,5 @@
 {
-  "projectileName" : "commonshard",
+  "projectileName" : "physicalcommonshard",
   "physics" : "grenade",
   "bounces" : -1,
   "timeToLive" : 3,

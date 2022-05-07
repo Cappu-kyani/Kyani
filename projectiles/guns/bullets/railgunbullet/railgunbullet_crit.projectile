@@ -1,5 +1,5 @@
 {
-  "projectileName" : "kyanirailgunbullet_crit",
+  "projectileName" : "physical_kyanirailgunbullet_crit",
   "image" : "railgunbullet.png",
   "physics" : "laser",
   "animationCycle" : 0.25,

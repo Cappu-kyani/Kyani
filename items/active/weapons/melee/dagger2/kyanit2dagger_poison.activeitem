@@ -1,5 +1,5 @@
  {
-  "itemName" : "kyanit2dagger_poison",
+  "itemName" : "kyanit2dagger",
   "price" : 1500,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -10,11 +10,11 @@
   "level" : 2,
   "twoHanded" : false,
   "itemTags" : ["kyani","weapon","melee","dagger"],
-  "inventoryIcon" : "kyanit2dagger.png",
+  "inventoryIcon" : "kyanit2dagger_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/dagger/dagger.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit2dagger.png"
+    "blade" : "kyanit2dagger_<elementalType>.png"
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -29,7 +29,7 @@
     "fireTime" : 0.3,
     "baseDps" : 9,
     "damageConfig" : {  
-      "damageSourceKind" : "poisondagger",
+      "damageSourceKind" : "<elementalType>dagger",
       "statusEffects" : ["anoph_melting"],
       "knockbackMode" : "aim",
       "knockbackRange" : [10, 15],

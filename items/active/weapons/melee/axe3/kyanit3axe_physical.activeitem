@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit3axe_physical",
+  "itemName" : "kyanit3axe",
   "price" : 3200,
   "maxStack" : 1,
   "rarity" : "Uncommon",
@@ -10,11 +10,11 @@
   "twoHanded" : false,
   "level" : 3,
   "itemTags" : ["kyani","weapon","melee","axe"],
-  "inventoryIcon" : "kyanit3axe_physical.png",
+  "inventoryIcon" : "kyanit3axe_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/axe/axe.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit3axe_physical.png"
+    "blade" : "kyanit3axe_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 0.7,
     "baseDps" : 37,
 	"damageConfig": { "statusEffects": [ "anoph_melting" ],
-"damageSourceKind" : "axe" }
+"damageSourceKind" : "<elementalType>axe" }
   },
   "altAbilityType" : "",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

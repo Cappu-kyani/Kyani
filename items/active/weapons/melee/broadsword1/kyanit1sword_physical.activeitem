@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit1sword_physical",
+  "itemName" : "kyanit1sword",
   "price" : 1200,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -10,11 +10,11 @@
   "twoHanded" : true,
   "level" : 1,
   "itemTags" : ["kyani","weapon","melee","broadsword"],
-  "inventoryIcon" : "kyanit1sword_physical.png",
+  "inventoryIcon" : "kyanit1sword_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit1sword_physical.png"
+    "blade" : "kyanit1sword_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -24,7 +24,7 @@
     "fireTime" : 0.9,
     "baseDps" : 14,
 	"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "broadsword" }
+      "damageSourceKind" : "<elementalType>broadsword" }
   },
   "altAbilityType" : "wheeldash",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "kyanit7shortsword_physical", "count" : 1 },  
+	{ "item" : "kyanit7shortsword", "count" : 1 },  
     { "item" : "kyanitultrapartkit", "count" : 1 },
 	{ "item" : "kyanit7partkit", "count" : 1 },
 	{ "item" : "liquidanophium", "count" : 90 },
@@ -10,6 +10,6 @@
 	{ "item" : "kyanit4partkit", "count" : 1 }
   ],
   "duration" : 6,
-  "output" : { "item" : "kyanit8shortsword_physical", "count" : 1 },
+  "output" : { "item" : "kyanit8shortsword", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "kyanit7hammer_physical", "count" : 1 },
+    { "item" : "kyanit7hammer", "count" : 1 },
 	{ "item" : "kyanit7partkit", "count" : 1 },
 	{ "item" : "kyanitultrapartkit", "count" : 1 },
 	{ "item" : "kyanit6partkit", "count" : 1 },
@@ -11,6 +11,6 @@
 	{ "item" : "kyanit4partkit", "count" : 3 }
   ],
   "duration" : 6,
-  "output" : { "item" : "kyanit8hammer_physical", "count" : 1 },
+  "output" : { "item" : "kyanit8hammer", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }
