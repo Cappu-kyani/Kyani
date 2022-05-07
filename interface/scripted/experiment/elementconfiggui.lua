@@ -1,18 +1,28 @@
 
 
 function init()
+self.selectionOffset = config.getParameter("highlightOffset")
+self.selectedElement = "physical"
 end
 
 
 function update(dt)
-	weapon = world.containerItemAt(pane.containerEntityId(), 0)
-	--sb.logInfo("%s", weapon)
+	local weapon = world.containerItemAt(pane.containerEntityId(), 0) 
+	if weapon then
+		self.params = root.itemConfig({name = weapon.name}) 
+		if self.selectedElement then
+			widget.setVisible("selection", true)
+			local btnPos = widget.getPosition(self.selectedElement)
+	 		widget.setPosition("selection", {btnPos[1] + self.selectionOffset[1], btnPos[2] + self.selectionOffset[2]})
+		else
+			widget.setVisible("selection", false)
+		end
+	end
 	checkButtonStatus(weapon)
 end
 
 
 function checkButtonStatus(weapon)
---	sb.logInfo("%s", root.itemHasTag(weapon.name, "weapon"))
 	craftButtonEnabled = false
 	local errorMessage = ""
 		-- continue if weapon slot is not empty
@@ -20,7 +30,7 @@ function checkButtonStatus(weapon)
 			 if player.hasCountOfItem("liquidanophium") > 1 then
 				correctTag = root.itemHasTag(weapon.name, "weapon")
 				if correctTag == true then
-								if root.itemConfig("elementalType") == self.selectedElement then
+								if self.params.config.elementalType == self.selectedElement then
 								craftButtonEnabled = false
 								errorMessage = "^red;- Pick a different element -^white;"
 							else
@@ -33,29 +43,32 @@ function checkButtonStatus(weapon)
 						errorMessage = "^red;- Missing reaction fuel -^white;"
 					end
 				else
-					errorMessage = "^red;- No weapon to processs -^white;"
+					errorMessage = "^red;- No weapon to process -^white;"
 				end
-	sb.logInfo("%s", root.itemConfig(weapon, "elementalType"))
+--	sb.logInfo("%s", root.itemConfig(weapon, "elementalType"))
 	widget.setText("moneyLabel", 1)
 	widget.setText("lblError", errorMessage)
 	widget.setButtonEnabled("craftButton", craftButtonEnabled)
 end
 
 function crafting(weapon)
-		self.elementalType = self.selectElement
+		self.elementalType = self.selectedElement
 		player.consumeItem({ name = "liquidanophium", count = 1, parameters = {} })
-		world.containerConsumeAt(pane.containerEntityId(), 0)
-		world.containerItemApply(pane.containerEntityId(), {name = weapon.name, parameters={self.elementalType}}, 0)		
-	--	widget.playSound("/sfx/experiment/craftsuccessful_containermanipulatorstation.ogg")
+		sb.logInfo("%s", self.elementalType)
+		local newParams = {elementalType = self.elementalType }
+		world.containerTakeAll(pane.containerEntityId())
+		world.containerItemApply(pane.containerEntityId(), { name = self.params.config.itemName, parameters = newParams }, 0)
+			--	widget.playSound("/sfx/experiment/craftsuccessful_containermanipulatorstation.ogg")
 
 end
 
 function selectElement(widgetName)
 	self.selectedElement = widgetName
+	
 end
 
 
 function craftButton()
-	sb.logInfo("%s", selectedElement)
+--	sb.logInfo("%s", selectedElement)
 	crafting(weapon)
 end
