@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "kyanit3machinepistol_physical", "count" : 1 },
+    { "item" : "kyanit3machinepistol", "count" : 1 },
 	{ "item" : "liquidanophium", "count" : 7 },
     { "item" : "kyanit4partkit", "count" : 1 }
   ],
   "duration" : 8,
-  "output" : { "item" : "kyanit4machinepistol_physical", "count" : 1 },
+  "output" : { "item" : "kyanit4machinepistol", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

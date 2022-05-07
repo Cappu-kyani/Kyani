@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "kyanit3pulverizer_physical", "count" : 1 },
+    { "item" : "kyanit3pulverizer", "count" : 1 },
 	{ "item" : "kyanit7partkit", "count" : 1 },
 	{ "item" : "kyanitultrapartkit", "count" : 1 },
 	{ "item" : "kyanit6partkit", "count" : 1 },
@@ -11,6 +11,6 @@
 	{ "item" : "kyanit4partkit", "count" : 3 }
   ],
   "duration" : 6,
-  "output" : { "item" : "kyanit4pulverizer_physical", "count" : 1 },
+  "output" : { "item" : "kyanit4pulverizer", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "liquidanophium", "count" : 2 },
-    { "item" : "kyanit4chargebow_ice", "count" : 1 }  ],
-  "duration" : 2,
-  "output" : { "item" : "kyanit4chargebow_electric", "count" : 1 },
-  "groups" : [ "kyani", "weapontun5" ]
-}

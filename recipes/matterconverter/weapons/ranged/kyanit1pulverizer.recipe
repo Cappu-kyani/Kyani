@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "kyanit4grenadelauncher_physical", "count" : 1 },
-	{ "item" : "kyanit4assaultrifle_physical", "count" : 1 },
+    { "item" : "kyanit4grenadelauncher", "count" : 1 },
+	{ "item" : "kyanit4assaultrifle", "count" : 1 },
 	{ "item" : "kyanit5partkit", "count" : 2 },
 	{ "item" : "liquidanophium", "count" : 90 },
 	{ "item" : "money", "count" : 15000},
@@ -11,6 +11,6 @@
 	{ "item" : "kyanit1partkit", "count" : 6 }
   ],
   "duration" : 6,
-  "output" : { "item" : "kyanit1pulverizer_physical", "count" : 1 },
+  "output" : { "item" : "kyanit1pulverizer", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "liquidanophium", "count" : 2 },
-    { "item" : "kyanit2spear_poison", "count" : 1 }  ],
-  "duration" : 2,
-  "output" : { "item" : "kyanit2spear_physical", "count" : 1 },
-  "groups" : [ "kyani", "weapontun1" ]
-}

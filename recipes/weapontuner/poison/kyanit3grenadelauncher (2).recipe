@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "liquidanophium", "count" : 2 },
-    { "item" : "kyanit3grenadelauncher_electric", "count" : 1 }
-  ],
-  "duration" : 2,
-  "output" : { "item" : "kyanit3grenadelauncher_poison", "count" : 1 },
-  "groups" : [ "kyani", "weapontun2" ]
-}

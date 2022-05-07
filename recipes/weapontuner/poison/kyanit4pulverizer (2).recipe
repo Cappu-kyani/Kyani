@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "liquidanophium", "count" : 2 },
-    { "item" : "kyanit4pulverizer_electric", "count" : 1 }
-  ],
-  "duration" : 2,
-  "output" : { "item" : "kyanit4pulverizer_poison", "count" : 1 },
-  "groups" : [ "kyani", "weapontun2" ]
-}

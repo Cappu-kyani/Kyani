@@ -5,6 +5,6 @@
     { "item" : "grenadelauncherbase", "count" : 1 }
   ],
   "duration" : 2,
-  "output" : { "item" : "kyanit1grenadelauncher_physical", "count" : 1 },
+  "output" : { "item" : "kyanit1grenadelauncher", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

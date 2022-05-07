@@ -1,7 +1,7 @@
 {
   "input" : [
-	{ "item" : "kyanit4chargebow_physical", "count" : 1 },
-	{ "item" : "kyanit4machinepistol_physical", "count" : 1 },
+	{ "item" : "kyanit4chargebow", "count" : 1 },
+	{ "item" : "kyanit4machinepistol", "count" : 1 },
 	{ "item" : "kyanit5partkit", "count" : 2 },
 	{ "item" : "liquidanophium", "count" : 90 },
 	{ "item" : "money", "count" : 15000},

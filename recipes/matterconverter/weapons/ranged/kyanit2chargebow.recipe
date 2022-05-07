@@ -1,12 +1,12 @@
 {
   "input" : [
-    { "item" : "kyanit1chargebow_physical", "count" : 1 },
+    { "item" : "kyanit1chargebow", "count" : 1 },
 	{ "item" : "money", "count" : 10000},
 	{ "item" : "liquidanophium", "count" : 35 },
 	{ "item" : "diamond", "count" : 1 },
     { "item" : "kyanit2partkit", "count" : 4 }
   ],
   "duration" : 4,
-  "output" : { "item" : "kyanit2chargebow_physical", "count" : 1 },
+  "output" : { "item" : "kyanit2chargebow", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

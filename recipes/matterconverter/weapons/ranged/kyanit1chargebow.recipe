@@ -7,6 +7,6 @@
     { "item" : "chargebowbase", "count" : 1 }
   ],
   "duration" : 2,
-  "output" : { "item" : "kyanit1chargebow_physical", "count" : 1 },
+  "output" : { "item" : "kyanit1chargebow", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

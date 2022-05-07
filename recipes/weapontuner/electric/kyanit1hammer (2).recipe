@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "liquidanophium", "count" : 2 },
-    { "item" : "kyanit1hammer_physical", "count" : 1 }  ],
-  "duration" : 2,
-  "output" : { "item" : "kyanit1hammer_electric", "count" : 1 },
-  "groups" : [ "kyani", "weapontun5" ]
-}

@@ -5,6 +5,6 @@
     { "item" : "pistolbase", "count" : 1 }
   ],
   "duration" : 2,
-  "output" : { "item" : "kyanit1pistol_physical", "count" : 1 },
+  "output" : { "item" : "kyanit1pistol", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

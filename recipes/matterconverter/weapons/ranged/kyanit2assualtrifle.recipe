@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "kyanit1assaultrifle_physical", "count" : 1 },
+    { "item" : "kyanit1assaultrifle", "count" : 1 },
     { "item" : "kyanit2partkit", "count" : 4 },
 	{ "item" : "liquidanophium", "count" : 5 }
   ],
   "duration" : 4,
-  "output" : { "item" : "kyanit2assaultrifle_physical", "count" : 1 },
+  "output" : { "item" : "kyanit2assaultrifle", "count" : 1 },
   "groups" : [ "kyani", "kyanitab3" ]
 }

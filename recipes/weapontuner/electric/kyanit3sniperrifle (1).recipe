@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "liquidanophium", "count" : 2 },
-    { "item" : "kyanit3sniperrifle_physical", "count" : 1 }  ],
-  "duration" : 2,
-  "output" : { "item" : "kyanit3sniperrifle_electric", "count" : 1 },
-  "groups" : [ "kyani", "weapontun5" ]
-}
