@@ -167,7 +167,7 @@
 				"time": 10,
 				"energyCost": 9999,
 				"cooldown": 0.1,
-				"projectileType": "railtorpedo",
+				"projectileType": "<elementalType>railtorpedo",
 				"projectileParameters": {},
 				"inaccuracy": 0,
 				"baseDamage": 1000,

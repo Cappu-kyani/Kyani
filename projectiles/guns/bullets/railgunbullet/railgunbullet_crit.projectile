@@ -1,5 +1,5 @@
 {
-  "projectileName" : "physical_kyanirailgunbullet_crit",
+  "projectileName" : "physicalkyanirailgunbullet_crit",
   "image" : "railgunbullet.png",
   "physics" : "laser",
   "animationCycle" : 0.25,
@@ -21,5 +21,6 @@
   "power" : 10.0,
   "speed" : 250,
   "knockback" : 0,
-  "damageKind" : "bow"
+  "damageKind" : "bow",
+  "damageType": "ignoresDef"
 }

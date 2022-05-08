@@ -1,5 +1,5 @@
 {
-  "projectileName" : "physical_phasebullet",
+  "projectileName" : "physicalphasebullet",
   "image" : "phasebullet.png",
   "physics" : "laser",
   "animationCycle" : 0.25,

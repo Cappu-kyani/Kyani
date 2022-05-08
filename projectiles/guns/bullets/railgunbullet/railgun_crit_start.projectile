@@ -9,7 +9,7 @@
   "actionOnReap" : [
     {
       "action" : "projectile",
-      "type" : "<elementalType>_kyanirailgunbullet_crit",
+      "type" : "physicalkyanirailgunbullet_crit",
       "inheritDamageFactor" : 3,
       "directional" : "true"
     }

@@ -6,7 +6,7 @@
       "fill" : [
 	    {"item" : [ "flashlight" ]},
         {"item" : [ "torch", 10 ]},
-        {"item" : [ "kyanit1sword_physical", 1 ]},
+        {"item" : [ "kyanit1sword", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
