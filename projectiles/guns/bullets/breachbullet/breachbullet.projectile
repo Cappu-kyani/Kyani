@@ -1,5 +1,5 @@
 {
-  "projectileName" : "physical_breachbullet",
+  "projectileName" : "physicalbreachbullet",
   "image" : "breachbullet.png",
   "physics" : "laser",
   "animationCycle" : 0.25,

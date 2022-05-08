@@ -18,5 +18,5 @@
   "power" : 10.0,
   "speed" : 250,
   "knockback" : 0,
-  "damageKind" : "electricbow"
+  "damageKind" : "bow"
 }

@@ -84,7 +84,7 @@
 		"sounds": {
 			"altFire": ["/sfx/gun/arfire.ogg"]
 		},
-		"projectileType": [ "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet",  "<elementalType>breachbullet", "<elementalType>breachbullet", "_breach_missed_start", "_breach_missed_start", "_breach_crit_start" ]
+		"projectileType": [ "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet",  "<elementalType>breachbullet", "<elementalType>breachbullet", "breach_missed_start", "breach_missed_start", "<elementalType>_breach_crit_start" ]
 	},
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
