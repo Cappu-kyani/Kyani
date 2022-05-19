@@ -1,0 +1,17 @@
+{
+  "id":"thegreatexodus",
+	"title":"The Great Exodus",
+	"description":"An ancient tale about how Juronians found their new home... in a significantly reduced and simplified form.",
+	"icon":"kyanicover.png",
+	"contentPages":[
+	"Gather together in this time of day or night, listen to the tale of our adventures. Long ago, long long long ago... We had fled our home in order to trap and kill the monstrosity seeking to destroy all alive. Indeed we were pushed to extreme measures back then, it left us nothing to lose.",
+    "A devilish idea was our solution - to rig the entire planet with the most powerful and most feared weapon to have ever existed. And so what we used to call our home was reduced to none but interdimensional rubble in a matter of minutes. The almighty Juronian kind was reduced to mere nomads out there in the sea of the multiverse.",
+    "The great sea was ahead of us, bigger than octillions oceans. Entire universes were its islands, and no ships had yet sailed this obscure realm before us. We had only one chance at survival, one chance somewhere in this vast ocean. The travel was offering challenges beyond understanding, horrors crazier than anyone's fantasies were getting on our path...",
+	"Yet there was no stopping us. Desperatly grabbing any chances Juronians could, they hopped between universes, seeking a safe haven for them to finally settle down and forget their painful past. Thousand worlds were offered to us - none did fit. Some refused to accept us, some pushed us out, some were beyond access. A lone caravan we travelled in was inevitably going to its eternal stop",
+	"The fate indeed seems to favor those desperate and willing to risk everything, as luck was rained at us in the Grand Day of Arrival, in a universe willing to accept our presence. Let us always remember the deeds of our heroic ancestors, and strive to be akin to them in our inner strength. Khuas Al'Es Mar Yvekhos!"
+	],
+	"itemConfig":{
+		"rarity":"common",
+		"price":25
+    }
+  }

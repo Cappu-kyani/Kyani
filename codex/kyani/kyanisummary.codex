@@ -1,0 +1,21 @@
+{
+	"id" : "kyanisummary",
+	"title" : "A little about the Kyani.",
+	"description" : "A short summary on Juronians.",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+		"Kyani are a peaceful race and normally hold life and peace above all else. They have traveled through many universes in search of a safe haven and yet their true origins are unknown even to most of themselves.",
+
+		"The true size of a kyani towers over all others and for this reason they adjust their size to match others to make them feel more comfortable with their presence. Kyani also normally can't exist with other species because of their composition, but with some augments it was made possible for the kyani to not to emit radiation and to consume food made of organic elements and water.",
+		
+		"Kyani seems to have unification of the universe their primary goal, pursuing diplomatic agreements and aid to those in need. They quickly became friends with Terrene Protectorate, as they both pursue similar ideals. Not that it's unexpected, enemies of Protectorate became their own.",
+		
+		"All that is known about their home planet is that it's really far away and often travels between star systems, rarely staying for long in one. Even though you can teleport there, its extreme conditions wouldn't let you have a stroll on its surface.",
+		
+		"If you want to maintain positive relations with these species, just be nice in response to their niceness. So simple!"
+	],
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

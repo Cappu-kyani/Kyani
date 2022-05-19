@@ -1,16 +1,16 @@
 	{
   "id":"kyanicolonistdirectives",
-	"title":"Kyani Colonist Directives.",
-	"description":"What every colonist should remember.",
+	"title":"Juronian Colonist Directives",
+	"description":"A small note from Juronian Colonial Agency for its every member on their way to scout all the galaxy.",
 	"icon":"kyanicover.png",
 	"contentPages":[
-		"If you read this, then you belong to our mission to make colonies and spread peace everywhere. Whenever it's a barren planet or a thriving world. Here are the directives you shall follow. Violating at least one of them will lead to your disqualification.
-    1 - Do not use violence often. Only if the situation requres it and peaceful means of solving the conflict didn't help.",
-    "2 - Value life above anything else. After all, it's the goal Gaian gave us.
-    3 - Never betray the truth. Liars are never appreciated.",
-    "4 - Always be kind and cheerful. This will make things easier for everyone.
-    5 - Never violate the laws of other countries. If you do we'll be unable to protect you from their judgement.",
-    "6 - Never be afraid to call for help. Solving everything alone isn't as easy as it may seem.
+	"If you read this, then you belong to our mission to make colonies and spread peace everywhere. Whenever it's a barren planet or a thriving world. Here are the directives you shall follow. Violating at least one of them will lead to your disqualification.",
+    "1 - Do not use violence often. Only if the situation requres it and peaceful means of solving the conflict didn't help.
+    2 - Value life above anything else. After all, it's the goal we were created with.
+    3 - Never betray the truth. Liars are never appreciated.
+    4 - Always be kind and cheerful. This will make things easier for everyone.
+    "5 - Never violate the laws of other countries. If you do we'll be unable to protect you from their judgement.
+    6 - Never be afraid to call for help. Solving everything alone isn't as easy as it may seem.
     7 - Remember that we care about you!"
 	],
 	"itemConfig":{
