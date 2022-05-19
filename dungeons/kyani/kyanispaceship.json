@@ -127,7 +127,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"spaceChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                     },
                  "propertytypes":
                     {
@@ -147,7 +147,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"spaceChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                     },
                  "propertytypes":
                     {
@@ -167,7 +167,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"weaponChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                     },
                  "propertytypes":
                     {
@@ -307,7 +307,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"weaponChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                     },
                  "propertytypes":
                     {
@@ -327,7 +327,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"spaceChestTreasure\"]}"
+                     "parameters":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                     },
                  "propertytypes":
                     {

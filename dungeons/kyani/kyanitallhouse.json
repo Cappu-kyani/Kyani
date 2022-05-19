@@ -1145,7 +1145,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1163,7 +1163,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1181,7 +1181,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"weaponChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1199,7 +1199,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"weaponChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -2927,7 +2927,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"weaponChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -2945,7 +2945,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"weaponChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3305,7 +3305,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3323,7 +3323,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3341,7 +3341,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3359,7 +3359,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3377,7 +3377,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3395,7 +3395,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3413,7 +3413,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3431,7 +3431,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3449,7 +3449,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3467,7 +3467,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3485,7 +3485,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3503,7 +3503,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3521,7 +3521,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3539,7 +3539,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3557,7 +3557,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3575,7 +3575,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3593,7 +3593,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3611,7 +3611,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3629,7 +3629,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3647,7 +3647,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3665,7 +3665,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3683,7 +3683,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3701,7 +3701,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3719,7 +3719,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3737,7 +3737,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3755,7 +3755,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3773,7 +3773,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3791,7 +3791,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3809,7 +3809,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -3827,7 +3827,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicChestTreasure\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",

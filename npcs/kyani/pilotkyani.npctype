@@ -136,16 +136,9 @@
 
 					],
 					"primary": [
-              "kyanit2shortsword_ice",
-			  "kyanit2shortsword_fire",
-			  "kyanit2shortsword_physical",
-			  "kyanit2shortsword_poison",
-			  "kyanit2shortsword_electric",
-              "kyanit2machinepistol_ice",
-			  "kyanit2machinepistol_fire",
-			  "kyanit2machinepistol_physical",
-			  "kyanit2machinepistol_poison",
-			  "kyanit2machinepistol_electric"
+              "kyanit2shortsword",
+              "kyanit2machinepistol",
+			  "kyanit5shortsword"
 					]
 				}
 

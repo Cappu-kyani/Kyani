@@ -46,16 +46,9 @@
             "legs" : [ { "name" : "kyanit4pants", "parameters" : { "colorIndex" : 0 } } ],
 			"back" : [ { "name" : "kyanieppnpc", "parameters" : { "colorIndex" : 0 } } ],
             "primary" : [
-              "kyanit4assaultrifle_ice",
-			  "kyanit4assaultrifle_fire",
-			  "kyanit4assaultrifle_physical",
-			  "kyanit4assaultrifle_poison",
-			  "kyanit4assaultrifle_electric",
-              "kyanit4machinepistol_ice",
-			  "kyanit4machinepistol_fire",
-			  "kyanit4machinepistol_physical",
-			  "kyanit4machinepistol_poison",
-			  "kyanit4machinepistol_electric"
+              "kyanit4assaultrifle",
+              "kyanit4machinepistol",
+			  "kyanit4chargebow"
             ]
           }
         ] ]
