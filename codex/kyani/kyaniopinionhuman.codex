@@ -1,0 +1,18 @@
+{
+	"id" : "kyaniopinionhuman",
+	"title" : "Some thoughts about Humans",
+	"description" : "A summarised opinion of some Juronian explorers about humans.",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+	"Humans are a really interesting bunch. Originated from Earth, a planet with unusual biodiversity, humans indeed are a whole huge research field. Even after technological ascension and meeting other sapient species they still have not reached unity, still continuing their tries.",
+	"While many of things about humans can be debated, one was clear from the beginning - you can't refer to them as the entire species. Their historical background made them still cling onto their differences, and they show enthusiasm in fighting each other like none else. It is both fascinating and horrifying.",
+	"However, for the lack of unity in times of peace, they show surprising amount of it in times of danger, acting together as one. Truly remarkable! Humans are a force to be reckoned with, and if you know the way to approach them correctly - your worthy allies.",
+	"Humans are indeed spectacular with their cultures. These do have so much in common, yet are so far from each other, making Earth a colourful painting. No matter what you think of them, you simply cannot ignore the fact that humans have rich cultural compound of their society: literature, art, sculpture, all you could ever imagine! They can make even craziest dreams into reality.",
+	"With all positive, they have equally as much negative. In large groups humans become less friendly, even xenophobic and aggressive. Human society seems to have usually have strict hierarchy and built on force rather than any other. Very often they get into other species' affairs, aiming to make money out of everything, even deaths of their own kind. Unlike us, they haven't discarded war at all, all that changed through their history is scale of damage and number of victims.",
+	"To sum up shortly - humans are an interesting, but dangerous bunch. Act cautiously around them, find a porper approach to them first of all."
+	],
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

@@ -139,6 +139,12 @@
                  "height":40,
                  "id":1019,
                  "name":"",
+				 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1517,8 +1523,8 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
-        }, 
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
+		}, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
@@ -1533,11 +1539,11 @@
         }, 
         {
          "firstgid":62,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/wired.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-colonytag\/wired.json"
         }, 
         {
          "firstgid":243,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }],
  "tilewidth":8,
  "type":"map",

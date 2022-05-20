@@ -1,0 +1,17 @@
+{
+	"id" : "kyaniopinionnovakid",
+	"title" : "Juronians and Novakids, introduction",
+	"description" : "Juronian's opinion on interstellar gas people.",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+	"Novakids are by far the strangest species out there. Composed entirely of gases that would rather fit a star, they are literally glowing. It's still unclear if nature or another civilisation created such beautiful life forms, but most are inclined to believe they're nature's beauty.",
+	"Despite having better intelligence than other species (except Juronians, maybe) they have quite short attention span, which makes it hard to maintain constant relationships with these species. They simply forget and you have to explain them over and over. The same reason is why they're stuck in what humans call 'Wild West age'.",
+	"Novakids don't seem interested in recording or even simply passing history of their kind on to their offspring. This would look strange, but their limited attention justifies that. Their origins are long-lost, and it would take a while to discover them. Apparently it's something related to a star.",
+	"A Nodakid's very being seems to be set in a metallic brand on their face. The amounts of energy these metallic symbols are charged with is simply overwhelming! They form plasma humanoid-shaped shells to contain the gases. How do they refill this energy with food is yet to be understood. Novakids are a whole new field of knowledge.",
+	"Such species as Novakids are a true manifestation of nature's power and beauty, as well as mysteriousness. We have to study them closer!"
+	], 
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

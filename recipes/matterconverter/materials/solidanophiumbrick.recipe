@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "gravelmaterial", "count" : 5 },
     { "item" : "clay", "count" : 5 },
-	{ "item" : "kyanimold", "count" : 1 },
+
 	{ "item" : "liquidanophium", "count" : 5 },
     { "item" : "copperore", "count" : 3 },
     { "item" : "ironore", "count" : 3 }

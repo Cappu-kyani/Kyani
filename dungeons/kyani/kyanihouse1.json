@@ -180,6 +180,12 @@
                  "height":40,
                  "id":149,
                  "name":"",
+				 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -240,6 +246,12 @@
                  "height":40,
                  "id":164,
                  "name":"",
+				 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1132,8 +1144,8 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
-        }, 
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
+		}, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/anophium.json"
@@ -1144,7 +1156,7 @@
         }, 
         {
          "firstgid":61,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
         }, 
         {
          "firstgid":88,
@@ -1152,11 +1164,11 @@
         }, 
         {
          "firstgid":89,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
          "firstgid":311,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/wired.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-colonytag\/wired.json"
         }],
  "tilewidth":8,
  "type":"map",

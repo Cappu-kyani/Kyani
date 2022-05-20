@@ -1,0 +1,17 @@
+{
+	"id" : "kyaniopinionapex",
+	"title" : "A little bit about Apex",
+	"description" : "What are Apex to Juronians? Some explorers tried to answer that.",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+	"So there are more species than we anticipated... Next on our way had been Apex. They are closer to humans than other species, sharing some genes and habits. Though Apexes have more things us Juronians didn't understand, and some human traits are hypertrophied.",
+	"Apexes are hairy and stern. They have taken a step back in physical evolution to take one forward in intellectual evolution. Their culture is hardly definable though, as it seems to be heavily regulated by the regime they live under. The MiniKnog has become an oppressive government.",
+	"After having looked in the work of this MiniKnog we were repulsed by what kind of atrocities they were committing with their own kind. What was more of an unpleasant surprise to us - the people agreed with that. They appear to have been brainwashed into obedience to this totalitarian regime.",
+	"We didn't get even to the half depth of all this, because Apex are quite secretive with their research. Each bit of info costed us too much, and when we gathered enough we bailed. This already is enough for a conclusion - this isn't right. There are rumors of a rebellion, we might have to look into it.",
+	"To put a brief end to it - Apex are quite close to humans, even though different physically. They have every road open for them. Just if the MiniKnog was better..." 
+	],
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

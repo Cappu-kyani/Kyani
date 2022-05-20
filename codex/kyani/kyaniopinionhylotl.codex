@@ -1,0 +1,17 @@
+{
+	"id" : "kyaniopinionhylotl",
+	"title" : "Something to say about Hylotls",
+	"description" : "Experience of Juronian scouts met Hylotls put together in an article.",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+	"Hylotls are definitely one peculiar species out there. They have been the smartest species out there, standing on one level with humans in that. Literally fish people, Hylotls feel comfortable in the ocean, rarely setting up their settlements at the surface. Whatever their reasons are, we're not to judge.",
+	"These species keep on their traditions more than anyone would think. Their arts, poetry, architecture - all is beautiful in its own way. Hylotl cartoons even became favourite of some of our children, which is something we thought was impossible before. Hylotls do have something to teach us.",
+	"Even though this would possibly be called subjective, their culture would be more interesting if they weren't so tedious with strictly following their traditions. Some of their weapon tech and combat teaching would use that too, as from what we saw it was failing to more progressive humans.",
+	"As for their history, we could get information about their ages-long rivalry with another species that almost entirely banished them into the ocean. There are many books telling about that in the smallest detail, though we did not read them all. Those that we read gave us enough to make our own conclusions on this.",
+	"To say in the end, Hylotls are a smart bunch. They keep their traditions, value honor and knowledge, respect others. They are a nice bunch, if you can remember all the things you shouldn't do in their settlements."
+	],
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

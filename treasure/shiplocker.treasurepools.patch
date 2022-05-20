@@ -10,9 +10,7 @@
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
-		{"item" : [ "kyanisummary-codex", 1 ]},
 		{"item" : [ "kyanicolonistdirectives-codex", 1 ]},
-		{"item" : [ "thegreatexodus-codex", 1 ]},
         {"item" : [ "cannedfood", 1 ]}
       ]
     }]]

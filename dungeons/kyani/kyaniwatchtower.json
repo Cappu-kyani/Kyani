@@ -673,6 +673,12 @@
                  "height":40,
                  "id":1453,
                  "name":"",
+				 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -685,6 +691,12 @@
                  "height":40,
                  "id":1454,
                  "name":"",
+				 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -757,6 +769,12 @@
                  "height":20,
                  "id":1470,
                  "name":"",
+				 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks1\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -3388,8 +3406,8 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
-        }, 
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
+		}, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
@@ -3404,7 +3422,7 @@
         }, 
         {
          "firstgid":62,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }],
  "tilewidth":8,
  "type":"map",

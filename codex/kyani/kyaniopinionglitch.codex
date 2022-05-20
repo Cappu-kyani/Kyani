@@ -1,0 +1,17 @@
+{
+	"id" : "kyaniopinionglitch",
+	"title" : "Juronians' brain Glitches.",
+	"description" : "Shortly about Juronians' opinions on the Glitch. (Ignore the pun in the name)",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+	"Can Glitches be even called a species? Let's suppose they can. Glitches are sapient robots that seems to be invented by stars know which ancient civilisation died out long before our arrival. From information we have deduced that the Glitch were some sort of civilisation simulation.",
+	"These species look unable to shake Medieval beliefs, as those who apparently could help them is now gone. While the Glitch do record their history, they don't seem to progress socially and technologically because of what seems to be a code error. The Glitch know none about who invented them.",
+	"Progressive individuals of the Glitch are often hunted and executed, these medieval fun times... Some sucessfully run away and live independently, sometimes even starting their own settlements. Somehow the Glitch were able to obtain spaceships, fashioning them into moving castles.",
+	"The Glitch have full-on medieval lives, with knights and tournaments, which can be enjoyed by others. All this does really have a certain sense of beauty to it. The cuisine, the clothing, architecture... All so simple and magnificent at the same time.",
+	"In conclusion there is to be said: The Glitch are medieval robots that like doing things the old-fashioned way. It's not hard to maintain relationships with them, if you know how"
+	], 
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

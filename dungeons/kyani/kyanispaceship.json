@@ -755,8 +755,8 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
-        }, 
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
+		}, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
@@ -771,7 +771,7 @@
         }, 
         {
          "firstgid":64,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-category\/door.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
         }],
  "tilewidth":8,
  "type":"map",

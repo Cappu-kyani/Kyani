@@ -1,0 +1,17 @@
+{
+	"id" : "kyaniopinionfloran",
+	"title" : "Some bits of info about Floran",
+	"description" : "Summary of recordings of Juronians having interacted with Floran",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+	"Florans are... bizarre, to say at least. One would expect plant people to be peaceful and happy, Florans are not even nearly that. They are carnivorous sentient plants that somehow spread across the stars. Living in tribes, they often prey on hapless travellers that happen in their lands. Savages, aren't they?",
+	"As it was said before, Florans live in tribes. Their culture is built around hunting, so many of their items are built from materials that were just yesterday walking around the woods. Personal education in Floran society is generally nonexistant, as in their opinion all they need to know is how to properly hunt. Though some progressive indiviuals of this species might think different.",
+	"Having not developed much of their own tech, after having space travel introduced to them they often make their ships by smashing pieces of other species' tech together. It looks funny, and surprisingly it works. Their ships still fly across the stars, and tribes pop up here and there, with various aggression levels. Be careful around them - who knows what a Floran is thinking.",
+	"While unarmed, Florans are often nice and welcoming. One would still invite you to hunt even though you're not inclined to do that, not because of their ignorance, just that they don't know any other sport of fun activity. Of all weapons they recognize spears and maybe bows. If you need more info about them, often only the tribe's head - Greenfinger - could give you this.",
+	"To summarize - Florans are interstellar tribal sapient plants that might not always understand what's good and what's not. Our mission is to teach them!"
+	],
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

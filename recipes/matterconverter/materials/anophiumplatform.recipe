@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "copperore", "count" : 3 },
 	{ "item" : "liquidanophium", "count" : 5 },
-	{ "item" : "kyanimold", "count" : 1 },
+
     { "item" : "ironore", "count" : 2 }
   ],
   "output" : { "item" : "anophiumplatform", "count" : 5 },

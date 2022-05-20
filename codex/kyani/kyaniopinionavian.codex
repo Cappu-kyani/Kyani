@@ -1,0 +1,17 @@
+{
+	"id" : "kyaniopinionavian",
+	"title" : "A few words about Avians",
+	"description" : "What some Juronians have to say about Avians",
+	"icon" : "kyanicover.png",
+	"contentPages" : [
+	"Avians are not so simple as they may look. They are a hybrid between bird and human, covered in feathers. Despite reaching the age of space travel, they still cling to their outdated beliefs and traditions, even though there is something interesting in this.",
+	"Avians are not one, fractured in at least two - 'Stargazers' and 'Grounded', two groups that oppose each other. Stargazers are a theocratic society that would do everything to serve their god - Kluex, glorifying it as the savior and guide of their race. Not us to judge Avians' ways, but bloody sacrifices should definitely stop.",
+	"On another side there are 'Grounded' - avians that refused to obey the Stargazers and were casted away. They are brave people that rebelled against the theocratic Stargazers, tired of their oppression. We have mostly met them as pirates and travellers, as Stargazers wouldn't really bother chasing down every single one of them.",
+	"Avians do have a certain charm to them, especially in cuisine. Even us Juronians who don't have a taste in carbon-based food can say that just by looking at their dishes. Also their arts are interesting in their own way, the amount of colors is nicely overwhelming. Avians do have nice hospitality traditions that add to positive opinion of them.",
+	"Saying it short, avians are interesting as species. A look into their history would worth it as much as building strong relationships, though some of their traditions must go."
+	],
+	"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

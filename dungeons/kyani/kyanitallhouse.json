@@ -5634,8 +5634,8 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
-        }, 
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
+		}, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
@@ -5650,19 +5650,19 @@
         }, 
         {
          "firstgid":64,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
          "firstgid":286,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-category\/railpoint.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/railpoint.json"
         }, 
         {
          "firstgid":291,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":328,
-         "source":"..\/..\/..\/..\/assets\/Packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
+         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
         }],
  "tilewidth":8,
  "type":"map",

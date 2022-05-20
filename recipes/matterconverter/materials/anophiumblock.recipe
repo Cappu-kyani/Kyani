@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "copperore", "count" : 2 },
-	{ "item" : "kyanimold", "count" : 1 },
+
 	{ "item" : "liquidanophium", "count" : 5 },
     { "item" : "ironore", "count" : 2 }
   ],
