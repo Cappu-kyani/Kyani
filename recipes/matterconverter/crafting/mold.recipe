@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 20 }
-  ],
-  "duration" : 0.5,
-  "output" : { "item" : "kyanimold", "count" : 1 },
-  "groups" : [ "kyani", "kyanitab5" ]
-}
