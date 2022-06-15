@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "prisiliteore", "count" : 1 },
-	{ "item" : "liquidanophium", "count" : 3 }
-  ],
-"duration" : 0.1,  
-  "output" : { "item" : "prisiliteore", "count" : 4 },
-  "groups" : [ "kyani", "aftab1" ]
-}

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironore", "count" : 1 },
-	{ "item" : "liquidanophium", "count" : 3 }
-  ],
-  "duration" : 0.1, 
-  "output" : { "item" : "ironore", "count" : 4 },
-  "groups" : [ "kyani", "aftab1" ]
-}

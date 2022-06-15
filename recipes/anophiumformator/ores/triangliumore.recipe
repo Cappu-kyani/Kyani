@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "triangliumore", "count" : 1 },
-	{ "item" : "liquidanophium", "count" : 3 }
-  ],
-"duration" : 0.1,  
-  "output" : { "item" : "triangliumore", "count" : 4 },
-  "groups" : [ "kyani", "aftab1" ]
-}

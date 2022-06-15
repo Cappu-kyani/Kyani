@@ -1,11 +1,18 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":80,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2VsOwiAQQFHSuP+l+GPt+owPkgYLDIMpM3JJ7kc1WjxiasoSQliIiIiIiIjo1f1SbvT8LFezw1FmtxXCUWaY68hx9LwtJf39po6j5+2lI0cM+xwx7DPED0P8\/IYhfqPDED\/8fIchfvj5Db\/\/92u5x372PU7PfnHgp\/NbP83qV9qzqe3hrEm5tSkZM\/ilhiW\/1vf17HfdJTmu+W3J45Lj1EITfn12+PXZxbmtk\/r12u3f90w\/7TVE+rj0+qF5Xfpd4DePH7\/f9zlvDVnzs3D9sLL+fmE44v+LlfXX4xfPO8JPs\/ZKfs\/2YxMc93wGL37p913ySw1rw6tf6xxzhrnnz5ybR7848NP51cLPfvjhh5\/f8MMPO5\/hhx92PsMPO\/z8hV2\/HX56N+zqPrlG7bNZTuOG3bddy97V6Hlbytp+gMdwIyIiIiIiCuEBM74Xaw==",
+         "data":"eJzt2VsOwiAQQFHSuP+t+GPt9owPkgYLDIMpM3JJ7kc1WjxiasoSQliIiIiIiIjo1f1SbvT8LFezw1FmtxXCUWaY68hx9LwtJf39po6j5+2lI0cM+xwx7DPED0P8\/IYhfqPDED\/8fIchfvj5Db\/\/92u5x372PU7PfnHgp\/NbP83qV9qzqe3hrEm5tSkZM\/ilhiW\/1vf17HfdJTmu+W3J45Lj1EITfn12+PXZxbmtk\/r12u3f90w\/7TVE+rj0+qF5Xfpd4DePH7\/f9zlvDVnzs3D9sLL+fmE44v+LlfXX4xfPO8JPs\/ZKfs\/2YxMc93wGL37p913ySw1rw6tf6xxzhrnnz5ybR7848NP51cLPfvjhh5\/f8MMPO5\/hhx92PsMPO\/z8hV2\/HX56N+zqPrlG7bNZTuOG3bddy97V6Hlbytp+gMdwIyIiIiIiCuEBYisbeQ==",
          "encoding":"base64",
          "height":80,
          "id":1,
@@ -19,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt3NGKwjAQRmEv+v5P4k1R6+uJYDBKWpP8SSdTzwdzo9Clh9itcdfTCQAAAAAQ3Kb3nKMJj2Fd3C5umHocn+I2y8bQcV3O+kt1xNuv699aR+RJdaRhORrq6KejoYZ+Ohpq6KejoYZ+GvrpzjSU0E9j2S+1d7T3qMJejUW\/eK\/IYlqcr2W\/1mvGYh1a9tvaM99jWjT0dP3rdVyloWW\/y5Q\/vY7tud+y48\/aopz3jX5N7oPop7Wjn9Yu9LvSr6rd8mr3r\/3Ue8mrUb974cyVz62N536j8Pr6HYXX3x+j8Hr\/Mgqv98+jUM7bst885U+vY3+vo1Je9q9KGqa65E4p6\/2XkslpOBccT2335GX9xeuw5PXYa90FfH7U5hy8rL\/Wo7LsdwT8\/YGGfhr61bN873EE9NPQrx7tNPSrRzsN\/erRrl78vpl++b73HGj3KW7D\/++XSe1p8f0ReVKNeu3zH1XO+qPbtl\/XPwAAAAD4Bw9VaaHB",
+         "data":"eJzt3NGKwjAQRmEv+v5v4k1R6+OJYDBKWpP8SSdTzwdzo9Clh9itcdfTCQAAAAAQ3Kb3nKMJj2Fd3C5umHocn+I2y8bQcV3O+kt1xNuv699aR+RJdaRhORrq6KejoYZ+Ohpq6KejoYZ+GvrpzjSU0E9j2S+1d7T3qMJejUW\/eK\/IYlqcr2W\/1mvGYh1a9tvaM99jWjT0dP3rdVyloWW\/y5Q\/vY7tud+y48\/aopz3jX5N7oPop7Wjn9Yu9LvSr6rd8mr3r\/3Ue8mrUb974cyVz62N536j8Pr6HYXX3x+j8Hr\/Mgqv98+jUM7bst885U+vY3+vo1Je9q9KGqa65E4p6\/2XkslpOBccT2335GX9xeuw5PXYa90FfH7U5hy8rL\/Wo7LsdwT8\/YGGfhr61bN873EE9NPQrx7tNPSrRzsN\/erRrl78vpl++b73HGj3KW7D\/++XSe1p8f0ReVKNeu3zH1XO+qPbtl\/XPwAAAAD4Bw918qVq",
          "encoding":"base64",
          "height":80,
          "id":2,
@@ -138,14 +145,12 @@
                  "height":24,
                  "id":2027,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{ \"defaultLightState\" : false }"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{ \"defaultLightState\" : false }"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -158,14 +163,12 @@
                  "height":16,
                  "id":2028,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{ \"defaultSwitchState\" : true }"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{ \"defaultSwitchState\" : true }"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -178,14 +181,12 @@
                  "height":24,
                  "id":2031,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{ \"defaultSwitchState\" : true }"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{ \"defaultSwitchState\" : true }"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -198,14 +199,12 @@
                  "height":24,
                  "id":2033,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{ \"defaultSwitchState\" : true }"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{ \"defaultSwitchState\" : true }"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -254,14 +253,12 @@
                  "height":32,
                  "id":2104,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniFood\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -310,14 +307,12 @@
                  "height":24,
                  "id":2111,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -330,14 +325,12 @@
                  "height":24,
                  "id":2112,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -350,14 +343,12 @@
                  "height":24,
                  "id":2113,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -370,14 +361,12 @@
                  "height":16,
                  "id":2114,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -941,16 +930,17 @@
                  "height":8,
                  "id":2161,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"engineerkyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"engineerkyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -962,16 +952,17 @@
                  "height":8,
                  "id":2162,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"pilotkyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"pilotkyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -983,16 +974,17 @@
                  "height":8,
                  "id":2163,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"pilotkyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"pilotkyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1055,7 +1047,7 @@
  "nextobjectid":2164,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -1091,15 +1083,15 @@
          "source":"..\/..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
         }, 
         {
-         "firstgid":1195,
+         "firstgid":1196,
          "source":"..\/..\/..\/tilesets\/kyani\/anophium.json"
         }, 
         {
-         "firstgid":1207,
+         "firstgid":1208,
          "source":"..\/..\/..\/tilesets\/kyani\/kyani_supports.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.1,
+ "version":1.4,
  "width":80
 }

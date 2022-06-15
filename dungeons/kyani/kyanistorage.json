@@ -12,7 +12,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt21FugzAQRVHEX9cTRa2qLK5Lb6vKrUswGGzPDDP3Se8vOJFPcJwE5mn6mHU7Ba723OOLL7744otvxGrPPb744osvvvhGrPbc44svvvjia9x3IqaCaZzgGiPY+g+2\/oOv72DrP9K+7x1L9qPhe+tUjPcjvTYn39ZzF+P6XNEX4\/pc1RfjulzZF+P9XN0X4+148MW4HC++GK\/Hky\/Gz\/Hmi\/H\/ePTF+C9efTH+iWdfjP37RjeO4BvZOIpvVONIvhGNNf7f1\/SNZKx1\/Ya2bxTjyL4RjKWvobTm69lY4\/pni75ejTXuYbDq68245R6kt8beOowxqslY+3XUtJTW+wjzeaA6XfM96pr35ev41Hw9015TozWf89ykxXbN2Po667Vpzhe2qWdtf8dY832lIi35ZsbDfO9ZtedBsnehSvkmY3zN+bZ89nL+Gvbtsbfa2l\/hq+fby3ZpzP5KvqN9+X6kX2lfqvPblcT6TPU62ve7j5Uu9+10bHv75sajfOdCax535Dm0baz6pm75nhiv6FoyPHNM6diaMWue88R7eJiPsR7yclSR+f0ESkYdaQ==",
+         "data":"eJzt21FugzAQRVHEXzcURa2qbK1Lb6vKrUswGGzPDDP3Se8vOJFPcJwE5mn6mHU7Ba723OOLL7744otvxGrPPb744osvvvhGrPbc44svvvjia9x3IqaCaZzgGiPY+g+2\/oOv72DrP9K+7x1L9qPhe+tUjPcjvTYn39ZzF+P6XNEX4\/pc1RfjulzZF+P9XN0X4+148MW4HC++GK\/Hky\/Gz\/Hmi\/H\/ePTF+C9efTH+iWdfjP37RjeO4BvZOIpvVONIvhGNNf7f1\/SNZKx1\/Ya2bxTjyL4RjKWvobTm69lY4\/pni75ejTXuYbDq68245R6kt8beOowxqslY+3XUtJTW+wjzeaA6XfM96pr35ev41Hw9015TozWf89ykxXbN2Po667Vpzhe2qWdtf8dY832lIi35ZsbDfO9ZtedBsnehSvkmY3zN+bZ89nL+Gvbtsbfa2l\/hq+fby3ZpzP5KvqN9+X6kX2lfqvPblcT6TPU62ve7j5Uu9+10bHv75sajfOdCax535Dm0baz6pm75nhiv6FoyPHNM6diaMWue88R7eJiPsR7yclSR+f0EIr803A==",
          "encoding":"base64",
          "height":60,
          "id":1,
@@ -26,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt28Fqg0AUQNHZ9nvchGL\/\/7faQgZEno0tM+P0eQ48sjA4xBuNWVgKAAAAAAAAAADw3703HObTsovG82ndROO56JGbvrnpm5u+uembm7656Zubvrnpm5u+uembm7656Zubvrnpm5u+uembm74AANzB22b2zxF8BNPyOQUTz7ZJC9v9Pb5meb5GHqbL1GPeum0V9Y3O36PuWVzx+Y76tmx81Jf+RvQtJb4+a9zfVedvdbfG0e9Sz2PQ+\/f3zP3V3RqPFPVt7cz9s8Z99O57dP7W+2Uz\/v9RS1Hf5bltMcNm1PW5Tinjvr9mTN\/vWXfb1t1203966N331bo\/ve83a1zdZta+1RrMiHX\/ssar43Jmn2fWnKEL9\/MJQuSHHQ==",
+         "data":"eJzt28Fqg0AUQNHZ9ofchCL9\/59qCxkQeTa2zIzT5znwyMLgEG80ZmEpAAAAAAAAAADAf\/fecJhPyy4az6d1E43nokdu+uamb2765qZvbvrmpm9u+uamb2765qZvbvrmpm9u+uamb2765qZvbvoCAHAHb5vZP0fwEUzL5xRMPNsmLWz39\/ia5fkaeZguU49567ZV1Dc6f4+6Z3HF5zvq27LxUV\/6G9G3lPj6rHF\/V52\/1d0aR79LPY9B79\/fM\/dXd2s8UtS3tTP3zxr30bvv0flb75fN+P9HLUV9l+e2xQybUdfnOqWM+\/6aMX2\/Z91tW3fbTf\/poXffV+v+9L7frHF1m1n7VmswI9b9yxqvjsuZfZ5Zc4Yu3M8no22N\/A==",
          "encoding":"base64",
          "height":60,
          "id":2,
@@ -125,7 +125,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"food\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniFood\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -139,7 +139,7 @@
                  "height":40,
                  "id":1019,
                  "name":"",
-				 "properties":[
+                 "properties":[
                         {
                          "name":"parameters",
                          "type":"string",
@@ -1005,7 +1005,7 @@
                  "y":232
                 }, 
                 {
-                 "gid":299,
+                 "gid":303,
                  "height":4,
                  "id":1159,
                  "name":"",
@@ -1017,7 +1017,7 @@
                  "y":464
                 }, 
                 {
-                 "gid":299,
+                 "gid":303,
                  "height":4,
                  "id":1160,
                  "name":"",
@@ -1029,7 +1029,7 @@
                  "y":464
                 }, 
                 {
-                 "gid":299,
+                 "gid":303,
                  "height":4,
                  "id":1161,
                  "name":"",
@@ -1039,6 +1039,18 @@
                  "width":8,
                  "x":128,
                  "y":464
+                }, 
+                {
+                 "gid":34,
+                 "height":80,
+                 "id":1164,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":34,
+                 "x":368,
+                 "y":296
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1087,7 +1099,7 @@
                         {
                          "name":"typeName",
                          "type":"string",
-                         "value":"noblekyani"
+                         "value":"nobleguardkyani"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1510,12 +1522,12 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":1164,
+ "nextobjectid":1166,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
@@ -1523,27 +1535,27 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
-		}, 
+         "source":"..\/..\/..\/..\/assets\/Unpacked\/tilesets\/packed\/miscellaneous.json"
+        }, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
         }, 
         {
-         "firstgid":50,
+         "firstgid":53,
          "source":"..\/..\/tilesets\/kyani\/anophium.json"
         }, 
         {
-         "firstgid":61,
+         "firstgid":65,
          "source":"..\/..\/tilesets\/kyani\/kyani_supports.json"
         }, 
         {
-         "firstgid":62,
-         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-colonytag\/wired.json"
+         "firstgid":66,
+         "source":"..\/..\/..\/..\/assets\/Unpacked\/tilesets\/packed\/objects-by-colonytag\/wired.json"
         }, 
         {
-         "firstgid":243,
-         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
+         "firstgid":247,
+         "source":"..\/..\/..\/..\/assets\/Unpacked\/tilesets\/packed\/objects-by-category\/wire.json"
         }],
  "tilewidth":8,
  "type":"map",

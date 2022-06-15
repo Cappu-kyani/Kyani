@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":80,
  "infinite":false,
  "layers":[
@@ -19,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2TEKwkAUBNCspQfI\/Q9nIxLPoBaiFhKSyW9234PpwhTDr7LTBAAAAAAAAADA6OZnLu2Teec3o1habXr3fUcV6Z37y9xbbXrn\/jK3VpOR9qvotF\/Wab+s035Zp\/2yzpH2O5+OzWj7rXltsrXzHbbvxy\/7ZeyXsV\/Gfv9dW2165\/9Vxv\/TjPvLeD\/KuL9jeT8HAAAAAAAAAGCvB1\/WMFA=",
+         "data":"eJzt2TEKwkAUBNCsrX3ufzgbkXgGtRC1kJBMfrP7HkwXphh+lZ0mAAAAAAAAAABGNz9zaZ\/MO78ZxdJq07vvO6pI79xf5t5q0zv3l7m1moy0X0Wn\/bJO+2Wd9ss67Zd1jrTf+XRsRttvzWuTrZ3vsH0\/ftkvY7+M\/TL2++\/aatM7\/68y\/p9m3F\/G+1HG\/R3L+zkAAAAAAAAAAHs9AGp5MGo=",
          "encoding":"base64",
          "height":80,
          "id":2,
@@ -188,7 +195,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -208,7 +215,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -228,7 +235,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -248,7 +255,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -268,7 +275,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -288,7 +295,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -308,7 +315,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -322,27 +329,51 @@
                  "y":312
                 }, 
                 {
-                 "gid":152,
+                 "gid":70,
                  "height":8,
-                 "id":1735,
+                 "id":1744,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":16,
-                 "x":312,
-                 "y":288
+                 "width":8,
+                 "x":272,
+                 "y":280
                 }, 
                 {
-                 "gid":152,
+                 "gid":70,
                  "height":8,
-                 "id":1736,
+                 "id":1745,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":16,
-                 "x":312,
+                 "width":8,
+                 "x":368,
+                 "y":280
+                }, 
+                {
+                 "gid":70,
+                 "height":8,
+                 "id":1746,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":248,
+                 "y":328
+                }, 
+                {
+                 "gid":70,
+                 "height":8,
+                 "id":1747,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":384,
                  "y":328
                 }],
          "opacity":1,
@@ -487,10 +518,10 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":1744,
+ "nextobjectid":1748,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -510,7 +541,7 @@
          "source":"..\/..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
         }, 
         {
-         "firstgid":522,
+         "firstgid":523,
          "source":"..\/..\/..\/tilesets\/kyani\/kyani_supports.json"
         }],
  "tilewidth":8,

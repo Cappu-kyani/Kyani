@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "plantmatter", "count" : 1 },
-	{ "item" : "liquidanophium", "count" : 3 }
-  ],
-  "duration" : 0.1,
-  "output" : { "item" : "plantmatter", "count" : 4 },
-  "groups" : [ "kyani", "aftab2" ]
-}

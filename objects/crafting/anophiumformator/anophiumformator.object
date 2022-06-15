@@ -1,27 +1,15 @@
 {
   "objectName" : "anophiumformator",
-  "colonyTags" : [ "kyani" ],
+  "colonyTags" : ["kyani", "commerce"],
   "rarity" : "Rare",
-  "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/anophiumformator.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : "  Matter Converter",
-        "subtitle" : "  Duplicates items using anophium. Endless possibilities!",
-        "icon" : {
-          "file" : "/interface/crafting/anophiumformator.png"
-        }
-      }
-    },
-    "filter" : [ "kyani" ]
-  },
-  "printable" : false,
   "description" : "Duplicates items using anophium.",
   "shortdescription" : "^orange;Anophium Formator^white;",
   "race" : "kyani",
   "category" : "crafting",
-  "price" : 300,
+  "price" : 10250,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 1.5,
 
   "apexDescription" : "Hmm... I can duplicate things using it.",
   "avianDescription" : "This machine uses this weird slurry to duplicate items.",
@@ -65,8 +53,9 @@
 
   "statusEffects" : [ ],
 
-  "recipeGroup" : "anophiumformator",
   "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/windowconfig/anophiumformator.config",
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 

@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":80,
  "infinite":false,
  "layers":[
@@ -174,14 +181,12 @@
                  "height":24,
                  "id":1737,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"kyaniMedicine\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -194,14 +199,12 @@
                  "height":24,
                  "id":1738,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"kyaniMedicine\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -214,14 +217,12 @@
                  "height":24,
                  "id":1739,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"kyaniMedicine\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -234,14 +235,12 @@
                  "height":24,
                  "id":1740,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"kyaniMedicine\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -254,14 +253,12 @@
                  "height":24,
                  "id":1741,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"kyaniMedicine\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -274,6 +271,12 @@
                  "height":40,
                  "id":1742,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -309,16 +312,17 @@
                  "height":8,
                  "id":1747,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"noblekyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"noblekyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -330,16 +334,17 @@
                  "height":8,
                  "id":1748,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"noblekyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"noblekyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -426,7 +431,7 @@
  "nextobjectid":1749,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -455,6 +460,6 @@
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.1,
+ "version":1.4,
  "width":80
 }

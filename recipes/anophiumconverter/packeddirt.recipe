@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "packeddirt", "count" : 1 }
-  ],
-  "duration" : 0.01,
-  "output" : { "item" : "liquidanophium", "count" : 1 },
-  "groups" : [ "anophiumconverter" ]
-}

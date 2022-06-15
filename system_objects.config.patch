@@ -4,7 +4,6 @@
 	"value": {
 		
 			"warpAction": "InstanceWorld:kyanicivilship",
-			"threatLevel": 1,
 			"skyParameters": {
 				"seed": 0,
 				"horizonClouds": false,

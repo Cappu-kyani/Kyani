@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":80,
  "infinite":false,
  "layers":[
@@ -19,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2TsOwjAQBNCYkgPk\/oejQQjOAB0BKR9l7Grfk6azthhtpMieJgAAAAAAAAAAqps\/ubVv5pNnKnm2MaliuUs9U4X9y7zamFRh\/zKP1jcV++s5S3\/ZLP1ls\/SXzdJfNkt\/2ayK\/V0v6\/m3dXb5H8N6fxyjv2N6fb\/8sn8Z\/e27tzGpwv1Vxv1pxv5lvB9l7F8\/3s8BAAAAAAAAADjrDVMyGqQ=",
+         "data":"eJzt2TsOwjAQBNCYlj73PxwNQnAG6AhI+ShjV\/ueNJ21xWgjRfY0AQAAAAAAAABQ3fzJrX0znzxTybONSRXLXeqZKuxf5tXGpAr7l3m0vqnYX89Z+stm6S+bpb9slv6yWfrLZlXs73pZz7+ts8v\/GNb74xj9HdPr++WX\/cvob9+9jUkV7q8y7k8z9i\/j\/Shj\/\/rxfg4AAAAAAAAAwFlv8tQayA==",
          "encoding":"base64",
          "height":80,
          "id":2,
@@ -234,14 +241,12 @@
                  "height":16,
                  "id":1705,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"kyaniMedicine\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -254,14 +259,12 @@
                  "height":16,
                  "id":1706,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -297,16 +300,17 @@
                  "height":8,
                  "id":1707,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"noblekyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"noblekyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -318,16 +322,17 @@
                  "height":8,
                  "id":1708,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"noblekyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"noblekyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -414,7 +419,7 @@
  "nextobjectid":1709,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -434,11 +439,11 @@
          "source":"..\/..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
         }, 
         {
-         "firstgid":522,
+         "firstgid":523,
          "source":"..\/..\/..\/tilesets\/kyani\/kyani_supports.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.1,
+ "version":1.4,
  "width":80
 }

@@ -4,53 +4,63 @@
   "basicKyaniCrafting" : [
     [0, {
       "pool" : [
-        {"weight" : 10, "item" : "liquidanophium"},
-        {"weight" : 1, "item" : "kyanicarcassparts"},
-        {"weight" : 1, "item" : "kyanit1partkit"},
-        {"weight" : 1, "item" : "kyanit2partkit"}
-      ]
+        {"weight" : 1, "item" : "liquidanophium"},
+        {"weight" : 0.5, "item" : "kyanicarcassparts"},
+        {"weight" : 0.5, "item" : "kyanit1partkit"},
+        {"weight" : 0.5, "item" : "kyanit2partkit"}
+      ],
+      "poolRounds" : 7,
+      "allowDuplication" : true
     }],
     [2.9, {
       "pool" : [
-        {"weight" : 12, "item" : "liquidanophium"},
-        {"weight" : 1, "item" : "kyanit2partkit"},
-        {"weight" : 2, "item" : "kyanit1partkit"},
-        {"weight" : 1, "item" : "kyanit3partkit"},
-        {"weight" : 3, "item" : "kyanicarcassparts"}
-      ]
+        {"weight" : 1, "item" : "liquidanophium"},
+        {"weight" : 0.5, "item" : "kyanit2partkit"},
+        {"weight" : 0.75, "item" : "kyanit1partkit"},
+        {"weight" : 0.5, "item" : "kyanit3partkit"},
+        {"weight" : 0.8, "item" : "kyanicarcassparts"}
+      ],
+      "poolRounds" : 7,
+      "allowDuplication" : true
     }],
     [3.9, {
       "pool" : [
-        {"weight" : 2.5, "item" : "kyanit1partkit"},
-        {"weight" : 1.5, "item" : "kyanit2partkit"},
-        {"weight" : 15, "item" : "liquidanophium"},
-        {"weight" : 1, "item" : "kyanit3partkit"},
-		{"weight" : 1, "item" : "kyanit4partkit"},
-        {"weight" : 3, "item" : "kyanicarcassparts"}
-      ]
+        {"weight" : 0.75, "item" : "kyanit1partkit"},
+        {"weight" : 0.65, "item" : "kyanit2partkit"},
+        {"weight" : 1, "item" : "liquidanophium"},
+        {"weight" : 0.5, "item" : "kyanit3partkit"},
+		{"weight" : 0.25, "item" : "kyanit4partkit"},
+        {"weight" : 0.75, "item" : "kyanicarcassparts"}
+      ],
+      "poolRounds" : 7,
+      "allowDuplication" : true
     }],
     [4.9, {
       "pool" : [
-        {"weight" : 3.5, "item" : "kyanicarcassparts"},
-        {"weight" : 2.5, "item" : "kyanit2partkit"},
-        {"weight" : 3, "item" : "kyanit1partkit"},
-        {"weight" : 2, "item" : "kyanit3partkit"},
-		{"weight" : 1, "item" : "kyanit4partkit"},
-		{"weight" : 1, "item" : "kyanit5partkit"},
-        {"weight" : 18, "item" : "liquidanophium"}
-      ]
+        {"weight" : 0.85, "item" : "kyanicarcassparts"},
+        {"weight" : 0.75, "item" : "kyanit2partkit"},
+        {"weight" : 0.75, "item" : "kyanit1partkit"},
+        {"weight" : 0.5, "item" : "kyanit3partkit"},
+		{"weight" : 0.25, "item" : "kyanit4partkit"},
+		{"weight" : 0.25, "item" : "kyanit5partkit"},
+        {"weight" : 1, "item" : "liquidanophium"}
+      ],
+      "poolRounds" : 7,
+      "allowDuplication" : true
     }],
 	[5.9, {
       "pool" : [
-        {"weight" : 4, "item" : "kyanicarcassparts"},
-        {"weight" : 3, "item" : "kyanit2partkit"},
-        {"weight" : 3.5, "item" : "kyanit1partkit"},
-        {"weight" : 2.5, "item" : "kyanit3partkit"},
-		{"weight" : 2, "item" : "kyanit4partkit"},
-		{"weight" : 1, "item" : "kyanit5partkit"},
-		{"weight" : 1, "item" : "kyanit6partkit"},
-        {"weight" : 22, "item" : "liquidanophium"}
-      ]
+        {"weight" : 0.85, "item" : "kyanicarcassparts"},
+        {"weight" : 0.75, "item" : "kyanit2partkit"},
+        {"weight" : 0.8, "item" : "kyanit1partkit"},
+        {"weight" : 0.7, "item" : "kyanit3partkit"},
+		{"weight" : 0.5, "item" : "kyanit4partkit"},
+		{"weight" : 0.25, "item" : "kyanit5partkit"},
+		{"weight" : 0.25, "item" : "kyanit6partkit"},
+        {"weight" : 1, "item" : "liquidanophium"}
+      ],
+      "poolRounds" : 7,
+      "allowDuplication" : true
     }]
   ],
 
@@ -71,86 +81,118 @@
       "allowDuplication" : false
     }]
 	],
-
+	
+    "kyaniFood" : [ 
+	    [1, {
+      "pool" : [
+        {"weight" : 0.5625, "item" : "kyanimre1"},
+        {"weight" : 0.25, "item" : "kyanimre2"},
+        {"weight" : 0.125, "item" : "kyanimre3"},
+        {"weight" : 0.0625, "item" : "kyanimre4"}
+      ],
+      "poolRounds" : 3,
+      "allowDuplication" : false
+    }]
+	],
 
   "basicKyaniWeapon" : [
     [0, {
-      "pool" : [{"weight" : 1, "item" : "sandgrainrocket"}]
+      "pool" : [{"weight" : 1, "item" : "sandgrainrocket"}],
+      "poolRounds" : 3,
+      "allowDuplication" : true
     }],
     [2.9, {
       "pool" : [
-        {"weight" : 2, "item" : "sandgrainrocket"},
-        {"weight" : 1, "item" : "kyanit1pistol"},
-        {"weight" : 1, "item" : "kyanit1machinepistol"},
-        {"weight" : 1, "item" : "kyanit1shield"}
-      ]
+        {"weight" : 1, "item" : "sandgrainrocket"},
+        {"weight" : 0.5, "item" : "kyanit1pistol"},
+        {"weight" : 0.5, "item" : "kyanit1machinepistol"},
+        {"weight" : 0.5, "item" : "kyanit1shield"}
+      ],
+      "poolRounds" : 3,
+      "allowDuplication" : true
     }],
     [3.9, {
       "pool" : [
-        {"weight" : 2, "item" : "sandgrainrocket"},
-		{"weight" : 2, "item" : "kamikazerocket"},
-        {"weight" : 1, "item" : "kyanit1assaultrifle"},
-        {"weight" : 1, "item" : "kyanit1machinepistol"},
-        {"weight" : 1, "item" : "kyanit1shield"}
-      ]
+        {"weight" : 1, "item" : "sandgrainrocket"},
+		{"weight" : 1, "item" : "kamikazerocket"},
+        {"weight" : 0.5, "item" : "kyanit1assaultrifle"},
+        {"weight" : 0.5, "item" : "kyanit1machinepistol"},
+        {"weight" : 0.5, "item" : "kyanit1shield"}
+      ],
+      "poolRounds" : 3,
+      "allowDuplication" : true
     }],
     [4.9, {
       "pool" : [
-        {"weight" : 2, "item" : "sandgrainrocket"},
-		{"weight" : 2, "item" : "kamikazerocket"},
-		{"weight" : 2, "item" : "pocketinferno"},
-        {"weight" : 1, "item" : "kyanit1assaultrifle"},
-        {"weight" : 1, "item" : "kyanit1sniperrifle"},
-        {"weight" : 1, "item" : "kyanit1grenadelauncher"},
-	    {"weight" : 1, "item" : "kyanit2shield"}
-      ]
+        {"weight" : 1, "item" : "sandgrainrocket"},
+		{"weight" : 1, "item" : "kamikazerocket"},
+		{"weight" : 1, "item" : "pocketinferno"},
+        {"weight" : 0.5, "item" : "kyanit1assaultrifle"},
+        {"weight" : 0.5, "item" : "kyanit1sniperrifle"},
+        {"weight" : 0.5, "item" : "kyanit1grenadelauncher"},
+	    {"weight" : 0.5, "item" : "kyanit2shield"}
+      ],
+      "poolRounds" : 3,
+      "allowDuplication" : true
     }],
     [5.9, {
       "pool" : [
-        {"weight" : 2, "item" : "sandgrainrocket"},
-		{"weight" : 2, "item" : "kamikazerocket"},
-		{"weight" : 2, "item" : "pocketinferno"},
-	    {"weight" : 2, "item" : "armageddonpod"},
-        {"weight" : 1, "item" : "kyanit2assaultrifle"},
-        {"weight" : 1, "item" : "kyanit1sniperrifle"},
-        {"weight" : 1, "item" : "kyanit4pistol"},
-	    {"weight" : 1, "item" : "kyanit3shield"}
-      ]
+        {"weight" : 1, "item" : "sandgrainrocket"},
+		{"weight" : 1, "item" : "kamikazerocket"},
+		{"weight" : 1, "item" : "pocketinferno"},
+	    {"weight" : 1, "item" : "armageddonpod"},
+        {"weight" : 0.5, "item" : "kyanit2assaultrifle"},
+        {"weight" : 0.5, "item" : "kyanit1sniperrifle"},
+        {"weight" : 0.5, "item" : "kyanit4pistol"},
+	    {"weight" : 0.5, "item" : "kyanit3shield"}
+      ],
+      "poolRounds" : 3,
+      "allowDuplication" : true
     }]
   ],
   
    "kyaniMedicine" : [
     [0, {
-      "pool" : [{"weight" : 1, "item" : "kyanit1healthpack"}]
+      "pool" : [{"weight" : 1, "item" : "kyanit1healthpack"}],
+      "poolRounds" : 4,
+      "allowDuplication" : true
     }],
     [2.9, {
       "pool" : [
-        {"weight" : 2, "item" : "kyanit1healthpack"},
-        {"weight" : 1, "item" : "kyanit2healthpack"}
-      ]
+        {"weight" : 1, "item" : "kyanit1healthpack"},
+        {"weight" : 0.5, "item" : "kyanit2healthpack"}
+      ],
+      "poolRounds" : 4,
+      "allowDuplication" : true
     }],
     [3.9, {
       "pool" : [
-        {"weight" : 3, "item" : "kyanit1healthpack"},
-		{"weight" : 1, "item" : "kyanit3healthpack"},
-        {"weight" : 2, "item" : "kyanit2healthpack"}
-      ]
+        {"weight" : 1, "item" : "kyanit1healthpack"},
+		{"weight" : 0.25, "item" : "kyanit3healthpack"},
+        {"weight" : 0.5, "item" : "kyanit2healthpack"}
+      ],
+      "poolRounds" : 4,
+      "allowDuplication" : true
     }],
     [4.9, {
       "pool" : [
-        {"weight" : 4, "item" : "kyanit1healthpack"},
-		{"weight" : 2, "item" : "kyanit3healthpack"},
-	    {"weight" : 1, "item" : "kyanit4healthpack"},
-        {"weight" : 3, "item" : "kyanit2healthpack"}
-      ]
+        {"weight" : 1, "item" : "kyanit1healthpack"},
+		{"weight" : 0.25, "item" : "kyanit3healthpack"},
+	    {"weight" : 0.15, "item" : "kyanit4healthpack"},
+        {"weight" : 0.5, "item" : "kyanit2healthpack"}
+      ],
+      "poolRounds" : 4,
+      "allowDuplication" : true
     }],
     [5.9, {
       "pool" : [
-        {"weight" : 5, "item" : "kyanit1healthpack"},
-		{"weight" : 3, "item" : "kyanit3healthpack"},
-	    {"weight" : 2, "item" : "kyanit4healthpack"},
-        {"weight" : 4, "item" : "kyanit2healthpack"}
-      ]
+        {"weight" : 1, "item" : "kyanit1healthpack"},
+		{"weight" : 0.25, "item" : "kyanit3healthpack"},
+	    {"weight" : 0.15, "item" : "kyanit4healthpack"},
+        {"weight" : 0.5, "item" : "kyanit2healthpack"}
+      ],
+      "poolRounds" : 4,
+      "allowDuplication" : true
     }]
   ]
  }

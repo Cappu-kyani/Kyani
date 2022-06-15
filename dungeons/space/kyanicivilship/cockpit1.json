@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":80,
  "infinite":false,
  "layers":[
@@ -114,6 +121,12 @@
                  "height":40,
                  "id":1983,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniBooks\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -162,14 +175,12 @@
                  "height":32,
                  "id":1987,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -290,14 +301,12 @@
                  "height":24,
                  "id":1997,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -310,14 +319,12 @@
                  "height":16,
                  "id":1998,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -330,14 +337,12 @@
                  "height":16,
                  "id":1999,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -613,16 +618,17 @@
                  "height":8,
                  "id":2024,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"engineerkyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"engineerkyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -634,16 +640,17 @@
                  "height":8,
                  "id":2025,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"pilotkyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"pilotkyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -655,16 +662,17 @@
                  "height":8,
                  "id":2026,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"pilotkyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"pilotkyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -739,7 +747,7 @@
  "nextobjectid":2030,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -780,6 +788,6 @@
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.1,
+ "version":1.4,
  "width":80
 }

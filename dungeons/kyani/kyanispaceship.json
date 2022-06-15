@@ -63,7 +63,7 @@
                  "name":"",
                  "properties":
                     {
-                     "parameters":"{\"treasurePools\":[\"food\"]}"
+                     "parameters":"{\"treasurePools\":[\"kyaniFood\"]}"
                     },
                  "propertytypes":
                     {
@@ -753,10 +753,10 @@
  "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
-        {
-         "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
-		}, 
+    {
+        "firstgid": 1,
+        "source": "..\/..\/..\/..\/assets\/Unpacked\/tilesets\/packed\/miscellaneous.json"
+    }, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
@@ -768,11 +768,11 @@
         {
          "firstgid":53,
          "source":"..\/..\/tilesets\/kyani\/anophium.json"
-        }, 
-        {
-         "firstgid":64,
-         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
-        }],
+        },
+    {
+        "firstgid": 64,
+        "source": "..\/..\/..\/..\/assets\/Unpacked\/tilesets\/packed\/objects-by-category\/door.json"
+    }],
  "tilewidth":8,
  "type":"map",
  "version":1.1,

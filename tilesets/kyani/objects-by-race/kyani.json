@@ -16,7 +16,7 @@
  "margin":0,
  "name":"objects-by-race\/kyani",
  "spacing":0,
- "tilecount":27,
+ "tilecount":28,
  "tiledversion":"1.4.3",
  "tileheight":144,
  "tileproperties":
@@ -47,7 +47,7 @@
          "\/\/name":"kyanibannersmall",
          "\/\/shortdescription":"Small Kyani Banner",
          "imagePositionX":"0",
-         "imagePositionY":"-8",
+         "imagePositionY":"0",
          "object":"kyanibannersmall"
         },
      "11":
@@ -206,6 +206,13 @@
          "imagePositionY":"0",
          "object":"kyanishipdoor"
         },
+     "27":
+        {
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"anophiumconverter",
+         "tilesetDirection":"right"
+        },
      "3":
         {
          "\/\/description":"A nice door.",
@@ -268,8 +275,8 @@
          "\/\/description":"A large banner with the kyani insignia.",
          "\/\/name":"kyanibannerlarge",
          "\/\/shortdescription":"Large Kyani Banner",
-         "imagePositionX":"-8",
-         "imagePositionY":"-8",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
          "object":"kyanibannerlarge"
         }
     },
@@ -460,6 +467,13 @@
          "imagePositionY":"string",
          "object":"string"
         },
+     "27":
+        {
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        },
      "3":
         {
          "\/\/description":"string",
@@ -648,6 +662,12 @@
          "image":"..\/..\/..\/objects\/kyani\/tiled\/kyanishipdoor.png",
          "imageheight":40,
          "imagewidth":48
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/objects\/crafting\/anophiumconverter\/anophiumconverter_tiled.png",
+         "imageheight":30,
+         "imagewidth":34
         },
      "3":
         {

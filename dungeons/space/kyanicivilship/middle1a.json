@@ -1,11 +1,18 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":80,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2kEKwjAQQNE0i6oX8P43VQqCRVulSchQ8hYPN6Ewn+mmMaeUMgAAAAAAAAA0cN9QcmZU+ukX6TF9Kzkzkmt+W1ps\/R49s4ieq5e9+UusnxU9Vy+t2o26f7eGzdbPip6rF\/tn\/6L7\/TO\/HDkbPVfvfpcdn\/1+ndNPv9J+3t\/yfnMjo\/abGtFPP\/30OxP99NPvvHw\/qOP7lf2LZP\/quD9qt3\/uL+t30f15Of\/f0E8\/AAAAAAAAAEb2BIYiZsM=",
+         "data":"eJzt2kEKwyAQQFFxk6YH6P2P2k2hEkyLRpQwb\/EIhEGYj92E5pRSBgAAAAAAAIABXhU9M1Hpp99KtZc9M5Hs+SudPFtn9kBNz\/bvUZ61eq9ZRrWLev+eA5uVZ63eaxb3z\/1b3e+f7aNldvVes\/s9Thz7\/ZrTT7\/efn6\/\/f22QaL2y4Pop59++t2Jfvrpd1++H1zj+5X7t5L7d00a2Kw8a\/Ves9T2Pz5bZyL1K9Ve9sxE5f8b+ukHAAAAAAAAQGRv53VFCw==",
          "encoding":"base64",
          "height":80,
          "id":1,
@@ -19,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2UEKwjAQBdAaiqgH6P1vWt1ZBWvpT1bzHvxdmMVnCiWZJgAAAAAAAAAAqlteWS\/vLCfPVHJrY1LFdpd6pgr7l7m3ManC\/mWurW8q9tdzlv6yWfrLZukvm6W\/bJb+slkV+3vs5Nve2e1\/DL\/74xj9HdPr++WT\/cvo77+5jUkV7q8y7k8z9i\/j\/Shj\/\/rxfg4AAAAAAAAAwFlP7cRDnQ==",
+         "data":"eJzt2csKg0AQBEAZCCHJ3f\/\/1JBTHhAVe\/c0VdCeljk0I8i6LAAAAAAAAAAAdLe+HvXOevJMJ7eakzZqUpqwf5l7zUkX9i9zrbHp2N\/IWfrLZukvm6W\/bJb+sln6y2Z17O+xkV9bZz+\/Y\/jfH8fo75hR7y\/f7F9Gf\/suNSdduL\/KuD\/N2L9QTUoT9m8c\/88BAAAAAAAAADjrCdBfDSk=",
          "encoding":"base64",
          "height":80,
          "id":2,
@@ -222,14 +229,12 @@
                  "height":32,
                  "id":1700,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -289,16 +294,17 @@
                  "height":8,
                  "id":1707,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"noblekyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"noblekyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -310,16 +316,17 @@
                  "height":8,
                  "id":1708,
                  "name":"",
-                 "properties":
-                    {
-                     "npc":"kyani",
-                     "typeName":"noblekyani"
-                    },
-                 "propertytypes":
-                    {
-                     "npc":"string",
-                     "typeName":"string"
-                    },
+                 "properties":[
+                        {
+                         "name":"npc",
+                         "type":"string",
+                         "value":"kyani"
+                        }, 
+                        {
+                         "name":"typeName",
+                         "type":"string",
+                         "value":"noblekyani"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -406,7 +413,7 @@
  "nextobjectid":1709,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.7.2",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -422,15 +429,15 @@
          "source":"..\/..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
         }, 
         {
-         "firstgid":510,
+         "firstgid":511,
          "source":"..\/..\/..\/tilesets\/kyani\/anophium.json"
         }, 
         {
-         "firstgid":522,
+         "firstgid":523,
          "source":"..\/..\/..\/tilesets\/kyani\/kyani_supports.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.1,
+ "version":1.4,
  "width":80
 }

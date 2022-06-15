@@ -12,7 +12,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt1mFOwzAMBeCq\/7gOQ6LsdBwdhhTkWU5sr02a2s\/SE6iwNF+7121dlu8VQRAEQRAEQZBDs0w+GYy1yeLkk8laJpO1DLxxrWXgjT2ZrGVGeT+M6T0jvMVyUzLCPMpbTO+VUHPPGfV+blmpuffA22fgje+1PK96j+TdFv2z4yrZjN5PlptwzJNy7laOOAc\/ZvVKe9H2q1nuSo44h3Rc8y6VvZTf6b24O669xWtZi+5hq+yxhE\/reeX10ufPUV5pTatXGu35TNfimcHL07JavNQ8+\/3VrFYvN8\/aX83q8VLzrF7LeL9fzeq1zivfJ2frr2fghdfqPau\/8MLbw5utv\/DG9mbrL7yxvdn6C29sb7b+whvbm62\/8Mb2ZusvvLG92foLb2xvtv7CG9ubrb\/wxvZm6y+8sb3Z+gtvbG+2\/sIb25utv\/DG9mbrL7yxvdn6C29sb7b+whvbm62\/8M7r9Ziv2l9qhTe+12q+Yn8la0avxXw1b8tqMV+pvxar5uZeS6xe63qa1+ukkc7lzWNvX0os\/8P\/fxOuxR7rI2+\/a9BQw9nZ2N5Kenipu3ZPX3kveNcUrHu8f6+XruEb24PluCWWNRv39RBvzXyWt5NVNc\/iJfvca1W7PJG3Vw71ruynd83O1qf7XHtO9vLSc\/V4\/3re25qX938V4rlWI62aWbrvxPXfi5q39ZlzltV7DRqvefJq93Q2LzPsul61v0\/gQybND83gfIc=",
+         "data":"eJzt1mFOwzAMBeCq\/zgQQ6LsbhwdhhTkWU5sr02a2s\/SE6iwNF+7121dlu8VQRAEQRAEQZBDs0w+GYy1yeLkk8laJpO1DLxxrWXgjT2ZrGVGeT+M6T0jvMVyUzLCPMpbTO+VUHPPGfV+blmpuffA22fgje+1PK96j+TdFv2z4yrZjN5PlptwzJNy7laOOAc\/ZvVKe9H2q1nuSo44h3Rc8y6VvZTf6b24O669xWtZi+5hq+yxhE\/reeX10ufPUV5pTatXGu35TNfimcHL07JavNQ8+\/3VrFYvN8\/aX83q8VLzrF7LeL9fzeq1zivfJ2frr2fghdfqPau\/8MLbw5utv\/DG9mbrL7yxvdn6C29sb7b+whvbm62\/8Mb2ZusvvLG92foLb2xvtv7CG9ubrb\/wxvZm6y+8sb3Z+gtvbG+2\/sIb25utv\/DG9mbrL7yxvdn6C29sb7b+whvbm62\/8M7r9Ziv2l9qhTe+12q+Yn8la0avxXw1b8tqMV+pvxar5uZeS6xe63qa1+ukkc7lzWNvX0os\/8P\/fxOuxR7rI2+\/a9BQw9nZ2N5Kenipu3ZPX3kveNcUrHu8f6+XruEb24PluCWWNRv39RBvzXyWt5NVNc\/iJfvca1W7PJG3Vw71ruynd83O1qf7XHtO9vLSc\/V4\/3re25qX938V4rlWI62aWbrvxPXfi5q39ZlzltV7DRqvefJq93Q2LzPsul61v0\/gQybND33LoLo=",
          "encoding":"base64",
          "height":120,
          "id":15,
@@ -26,7 +26,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1UEKwjAQheFsex5dqND7X0u6CIRq6oyZqZPx\/yAIRZM8U15KAQAAAAAAAIC8rsKRgTRLlsyaDBnyAoCXm8OcD6PvaEmy\/GNej7F+GF7rjrI+\/3Xgtx7voucaI1k3M+UdzbqZJa9F1s0Mea2ybs7KG6mfZ2N53tGRNR76WYd+pp+zIms89LMO\/Uw\/Z0XWeOhnHfqZfs6KrPHQzzr0M\/2cFVnjoZ916Gf6OSuyxkM\/69DP9HNWZI2Hftahn+nnrMgaD\/2sQz\/Tz1mRNR76WYd+pp+zIms89LMO\/Ry7n63XGDnv2e6jWTrLAllzImss92bUe+NSvr8\/rEbdw7rb46ilGaVZK8Ko99FSXvdpkXcp\/f9Z+lxzdpLnlll7mdvsdQ+S55IhmbM3r6VIeb2z9jJHyevl3\/JWlnnL7lM75xnaPbzrD6+87Vpn076T+9\/05pT+V79wlHd\/7tL5ju7WX2btGdmj5t3PQvLOAz1PhIu1RA==",
+         "data":"eJzt1UEOwiAQhWG2vZAu1EXvfynTBQmpUmdkpg7j\/yXEpFHgSfMoBQAAAAAAAADyugpHBtIsWTJrMmTICwBebg5zPoy+oyXJ8o95Pcb6YXitO8r6\/NeB33q8i55rjGTdzJR3NOtmlrwWWTcz5LXKujkrb6R+no3leUdH1njoZx36mX7Oiqzx0M869DP9nBVZ46Gfdehn+jkrssZDP+vQz\/RzVmSNh37WoZ\/p56zIGg\/9rEM\/089ZkTUe+lmHfqafsyJrPPSzDv1MP2dF1njoZx36mX7Oiqzx0M869HPsfrZeY+S8Z7uPZuksC2TNiayx3JtR741L+f7+sBp1D+tuj6OWZpRmrQij3kdLed2nRd6l9P9n6XPN2UmeW2btZW6z1z1InkuGZM7evJYi5fXO2sscJa+Xf8tbWeYtu0\/tnGdo9\/CuP7zytmudTftO7n\/Tm1P6X\/3CUd79uUvnO7pbf5m1Z2SPmnc\/C8k7D\/Q8AUIWvxk=",
          "encoding":"base64",
          "height":120,
          "id":16,
@@ -673,7 +673,7 @@
                  "height":40,
                  "id":1453,
                  "name":"",
-				 "properties":[
+                 "properties":[
                         {
                          "name":"parameters",
                          "type":"string",
@@ -691,7 +691,7 @@
                  "height":40,
                  "id":1454,
                  "name":"",
-				 "properties":[
+                 "properties":[
                         {
                          "name":"parameters",
                          "type":"string",
@@ -713,7 +713,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"food\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniFood\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -731,7 +731,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"food\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniFood\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -769,7 +769,7 @@
                  "height":20,
                  "id":1470,
                  "name":"",
-				 "properties":[
+                 "properties":[
                         {
                          "name":"parameters",
                          "type":"string",
@@ -953,7 +953,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"food\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniFood\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -971,7 +971,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"food\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniFood\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1230,7 +1230,7 @@
                  "visible":true,
                  "width":34,
                  "x":392,
-                 "y":344
+                 "y":352
                 }, 
                 {
                  "gid":34,
@@ -1242,7 +1242,7 @@
                  "visible":true,
                  "width":34,
                  "x":56,
-                 "y":344
+                 "y":352
                 }, 
                 {
                  "gid":38,
@@ -1253,7 +1253,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1271,7 +1271,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1289,7 +1289,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1307,7 +1307,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1325,7 +1325,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1343,7 +1343,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1361,7 +1361,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1379,7 +1379,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1397,7 +1397,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1415,7 +1415,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1433,7 +1433,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1451,7 +1451,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1469,7 +1469,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1487,7 +1487,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1505,7 +1505,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1523,7 +1523,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1541,7 +1541,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1559,7 +1559,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1577,7 +1577,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1595,7 +1595,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
+                         "value":"{\"treasurePools\":[\"basicKyaniWeapon\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -1907,7 +1907,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{\"treasurePools\":[\"basicKyaniCrafting\"]}"
+                         "value":"{\"treasurePools\":[\"kyaniMedicine\"]}"
                         }],
                  "rotation":0,
                  "type":"",
@@ -2577,7 +2577,7 @@
                  "y":840
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1709,
                  "name":"",
@@ -2589,7 +2589,7 @@
                  "y":856
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1710,
                  "name":"",
@@ -2601,7 +2601,7 @@
                  "y":856
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1711,
                  "name":"",
@@ -2613,7 +2613,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1712,
                  "name":"",
@@ -2625,7 +2625,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1713,
                  "name":"",
@@ -2637,7 +2637,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1714,
                  "name":"",
@@ -2649,7 +2649,7 @@
                  "y":256
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1715,
                  "name":"",
@@ -2661,7 +2661,7 @@
                  "y":840
                 }, 
                 {
-                 "gid":118,
+                 "gid":122,
                  "height":4,
                  "id":1716,
                  "name":"",
@@ -2671,6 +2671,30 @@
                  "width":8,
                  "x":264,
                  "y":840
+                }, 
+                {
+                 "gid":34,
+                 "height":80,
+                 "id":1719,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":34,
+                 "x":56,
+                 "y":352
+                }, 
+                {
+                 "gid":34,
+                 "height":80,
+                 "id":1720,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":34,
+                 "x":392,
+                 "y":352
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3393,12 +3417,12 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
  "nextlayerid":25,
- "nextobjectid":1719,
+ "nextobjectid":1721,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
@@ -3406,23 +3430,23 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"        
-		}, 
+         "source":"..\/..\/..\/..\/assets\/Unpacked\/tilesets\/packed\/miscellaneous.json"
+        }, 
         {
          "firstgid":25,
          "source":"..\/..\/tilesets\/kyani\/objects-by-race\/kyani.json"
         }, 
         {
-         "firstgid":50,
+         "firstgid":53,
          "source":"..\/..\/tilesets\/kyani\/anophium.json"
         }, 
         {
-         "firstgid":61,
+         "firstgid":65,
          "source":"..\/..\/tilesets\/kyani\/kyani_supports.json"
         }, 
         {
-         "firstgid":62,
-         "source":"..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
+         "firstgid":66,
+         "source":"..\/..\/..\/..\/assets\/Unpacked\/tilesets\/packed\/objects-by-category\/wire.json"
         }],
  "tilewidth":8,
  "type":"map",

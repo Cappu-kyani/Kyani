@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "staticcell", "count" : 1 },
+	{ "item" : "liquidanophium", "count" : 15 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "fuelcell", "count" : 2 },
+  "groups" : [ "kyani", "kyanitab5" ]
+}

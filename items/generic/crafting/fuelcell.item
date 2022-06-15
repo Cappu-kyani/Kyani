@@ -1,0 +1,11 @@
+{
+  "itemName" : "fuelcell",
+  "price" : 1000,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fuelcell.png",
+  "description" : "A static cell modified with anophium. Excellent and safe fuel.",
+  "shortdescription" : "Anophium Cell",
+  "itemTags" : [ "reagent", "fuel" ],
+  "fuelAmount" : 50
+}
