@@ -8,7 +8,10 @@
 			"pools": [],
 			"enableParticipation": false
 		},
-		    "dialog" : {
+	"behaviorConfig" : {
+      "greetingChance" : 0
+    },
+	"dialog" : {
       "tenant" : {
         "grumbles" : {
           "tagCriteria" : "/dialog/kyani.config:tagCriteria",

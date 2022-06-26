@@ -4,12 +4,10 @@
 
   "scriptConfig" : {
     "questGenerator" : { "pools" : [], "enableParticipation" : false },
-    
     "behaviorConfig" : {
       "greetingChance" : 0
     },
-
-        "dialog" : {
+    "dialog" : {
       "tenant" : {
         "grumbles" : {
           "tagCriteria" : "/dialog/armedkyani.config:tagCriteria",

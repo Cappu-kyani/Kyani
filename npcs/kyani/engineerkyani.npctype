@@ -8,6 +8,9 @@
 			"pools": [],
 			"enableParticipation": false
 		},
+	"behaviorConfig" : {
+      "greetingChance" : 0
+    },
 		"dialog": {
 			"converse": {
 				"default": {
@@ -20,7 +23,7 @@
 						"We keep machines running.",
 						"Which songs of your people do you know?",
 						"Behind the frontlines we are, doing common work.",
-						"You look like a smart type."
+						"You look like a smart fellow."
 					],
 					"kyani": [
 						"Kivanin astapar, gheruniam?",

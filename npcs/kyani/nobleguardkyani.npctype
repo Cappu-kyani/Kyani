@@ -4,11 +4,9 @@
 
   "scriptConfig" : {
     "questGenerator" : { "pools" : [], "enableParticipation" : false },
-    
     "behaviorConfig" : {
       "greetingChance" : 0
     },
-
     "dialog" : {
       "tenant" : {
         "grumbles" : {
