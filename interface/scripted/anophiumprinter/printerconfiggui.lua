@@ -38,7 +38,11 @@ function buttonStatus(sample)
 		if rightCategory == "block" or rightCategory == "liquid" or rightCategory == "craftingMaterial" or rightCategory == "food" or rightCategory == "cookingIngredient" or rightCategory == "craftingOre" then
 			if fuel then
 				if self.matter.config.itemName == "liquidanophium" then
-					price = math.ceil((1 + ((self.item.config.price / 90) or 0)) * (sample.count * 1.15))
+					if self.item.config.price == nil then
+						price = math.ceil(sample.count * 1.15)
+					else
+						price = math.ceil((1 + self.item.config.price/ 90) * (sample.count * 1.15))
+					end
 					widget.setText("lblPrice", "Duplication cost: "..price.." anophium")
 --					sb.logInfo( "%s", price)
 					if fuel.count > price then
