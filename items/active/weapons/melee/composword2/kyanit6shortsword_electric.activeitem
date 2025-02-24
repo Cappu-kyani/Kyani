@@ -1,0 +1,31 @@
+{
+  "itemName" : "kyanit2composword",
+  "price" : 13000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The foes might get cheated by its harmless look. As proof of its effectivity you can cut their armor right through.",
+  "shortdescription" : "2-Tier Composword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "level" : 6,
+  "twoHanded" : false,
+  "itemTags" : ["kyani","weapon","melee","shortsword"],
+  "inventoryIcon" : "kyanit6shortsword_<elementalType>.png",
+  "animation" : "/items/active/weapons/melee/abilities/kyanicomboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit6shortsword_<elementalType>.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "electric",
+  "primaryAbilityType" : "kyanishortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.4,
+    "baseDps" : 28,
+		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
+      "damageSourceKind" : "<elementalType>bow" }
+  },
+  "altAbilityType" : "",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
