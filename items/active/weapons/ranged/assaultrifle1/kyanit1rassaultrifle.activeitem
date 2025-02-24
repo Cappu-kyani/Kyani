@@ -4,7 +4,7 @@
 	"maxStack": 1,
 	"rarity": "Common",
 	"description": "Simple, but effective military grade rifle designed by Keutel Industries",
-	"shortdescription": "Kistati Assault Rifle",
+	"shortdescription": "Iron Tier Assault Rifle",
 	"tooltipKind": "gun",
 	"category": "assaultRifle",
 	"twoHanded": true,

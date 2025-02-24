@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Cast the bolts carrying fatal physical blow.",
-  "shortdescription" : "Shinan Assault Rifle",
+  "shortdescription" : "Durasteel Tier Assault Rifle",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
   "twoHanded" : true,

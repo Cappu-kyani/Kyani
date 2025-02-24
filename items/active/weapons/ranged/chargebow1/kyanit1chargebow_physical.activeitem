@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Something like an extremely powerful hunting rifle",
-  "shortdescription" : "Tartava Chargebow",
+  "shortdescription" : "Iron Tier Chargebow",
   "tooltipKind" : "bow",
   "category" : "bow",
   "twoHanded" : true,

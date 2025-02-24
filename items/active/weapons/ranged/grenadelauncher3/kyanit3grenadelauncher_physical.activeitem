@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Its ammo is great for making icicles out of your enemies",
-  "shortdescription" : "Inhun Grenade Launcher",
+  "shortdescription" : "Titanium Tier Grenade Launcher",
   "tooltipKind" : "gun",
   "category" : "grenadeLauncher",
   "twoHanded" : false,
