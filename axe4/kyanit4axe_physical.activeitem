@@ -1,0 +1,31 @@
+{
+  "itemName" : "kyanit4axe",
+  "price" : 6400,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "This crystal is big, the blade is hot and how it functions is beyond everyone except kyani",
+  "shortdescription" : "Durasteel Tier Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "level" : 4,
+  "twoHanded" : false,
+  "itemTags" : ["kyani","weapon","melee","axe"],
+  "inventoryIcon" : "kyanit4axe_<elementalType>.png",
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit4axe_<elementalType>.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.6,
+    "baseDps" : 48,
+	"damageConfig": { "statusEffects": [ "anoph_melting" ],
+"damageSourceKind" : "<elementalType>axe" }
+  },
+  "altAbilityType" : "",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

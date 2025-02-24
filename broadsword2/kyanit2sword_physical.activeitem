@@ -1,0 +1,31 @@
+{
+  "itemName" : "kyanit2sword",
+  "price" : 2400,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A sword for graduates, should be enough for military",
+  "shortdescription" : "Tungsten Tier Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "level" : 2,
+  "itemTags" : ["kyani","weapon","melee","broadsword"],
+  "inventoryIcon" : "kyanit2sword_<elementalType>.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit2sword_<elementalType>.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.79,
+    "baseDps" : 19,
+		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
+      "damageSourceKind" : "<elementalType>broadsword" }
+  },
+  "altAbilityType" : "wheeldash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
