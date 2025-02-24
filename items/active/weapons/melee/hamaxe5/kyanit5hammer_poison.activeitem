@@ -1,31 +1,32 @@
 {
-  "itemName" : "kyanit1hammer",
-  "prphysical" : 2000,
+  "itemName" : "kyanit1hamaxe",
+  "price" : 22400,
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "Be careful, this one can't be stopped easily",
-  "shortdescription" : "Iron Tier Hammer",
+  "rarity" : "Rare",
+  "description" : "A hammer with hovering axe blades on its sides. Crazy? Yes. Effective? Hell yes!",
+  "shortdescription" : "1-Tier Hamaxe",
   "tooltipKind" : "sword",
   "category" : "hammer",
-  "level" : 1,
   "twoHanded" : true,
+  "level" : 5,
   "itemTags" : ["kyani","weapon","melee","hammer"],
-  "inventoryIcon" : "kyanit1hammer_<elementalType>.png",
+  "inventoryIcon" : "kyanit5hammer_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit1hammer_<elementalType>.png"
+    "blade" : "kyanit5hammer_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "physical",
+  "elementalType" : "poison",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
-    "fireTime" : 1.0,
-    "baseDps" : 20,
+    "fireTime" : 0.9,
+    "baseDps" : 61,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "hammer" }
+      "damageSourceKind" : "<elementalType>hammer" }
   },
-  "altAbilityType" : "physicalshockwave",
+
+  "altAbilityType" : "kyanishockwave",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

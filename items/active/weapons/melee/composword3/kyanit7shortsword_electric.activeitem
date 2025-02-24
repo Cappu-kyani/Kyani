@@ -1,0 +1,31 @@
+{
+  "itemName" : "kyanit3composword",
+  "price" : 15900,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "It's perfect for hunts. Just perfect.",
+  "shortdescription" : "3-Tier Composword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "level" : 7,
+  "twoHanded" : false,
+  "itemTags" : ["kyani","weapon","melee","shortsword"],
+  "inventoryIcon" : "kyanit7shortsword_<elementalType>.png",
+  "animation" : "/items/active/weapons/melee/abilities/kyanicomboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "kyanit7shortsword_<elementalType>.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "electric",
+  "primaryAbilityType" : "kyanishortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.4,
+    "baseDps" : 32,
+		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
+      "damageSourceKind" : "<elementalType>bow" }
+  },
+  "altAbilityType" : "",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

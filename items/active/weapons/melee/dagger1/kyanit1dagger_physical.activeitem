@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Dagger for trainees, just when your sword is too long.",
-  "shortdescription" : "Henirikki Dagger",
+  "shortdescription" : "Iron Tier Dagger",
   "tooltipKind" : "sword",
   "category" : "dagger",
   "twoHanded" : false,

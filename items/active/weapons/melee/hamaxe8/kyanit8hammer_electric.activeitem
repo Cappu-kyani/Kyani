@@ -1,32 +1,37 @@
 {
-  "itemName" : "kyanit2hammer",
-  "price" : 4000,
+  "itemName" : "kyanit4hamaxe",
+  "price" : 34800,
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "When you need to drive a large nail or your enemy into the ground",
-  "shortdescription" : "Tungsten Tier Hammer",
+  "rarity" : "Legendary",
+  "description" : "At this point you won't need anything more destructve than that.",
+  "shortdescription" : "4-Tier Hamaxe",
   "tooltipKind" : "sword",
   "category" : "hammer",
   "twoHanded" : true,
-  "level" : 2,
+  "level" : 8,
   "itemTags" : ["kyani","weapon","melee","hammer"],
-  "inventoryIcon" : "kyanit2hammer_<elementalType>.png",
+  "inventoryIcon" : "kyanit8hammer_<elementalType>.png",
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "kyanit2hammer_<elementalType>.png"
+    "blade" : "kyanit8hammer_<elementalType>.png"
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "poison",
+  "elementalType" : "electric",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
-    "fireTime" : 1.0,
-    "baseDps" : 30,
+    "fireTime" : 0.8,
+    "baseDps" : 94,
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
       "damageSourceKind" : "<elementalType>hammer" }
   },
- 
-  "altAbilityType" : "shockwave",
+  "altAbilityType" : "kyanishockwave",
+  "altAbility": {
+    "projectileParameters" : {
+      "power" : 80
+    },
+    "maxDistance" : 65
+  },
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
