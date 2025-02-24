@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Something between the dagger and the sword, just when the first is too big and the last is too small",
-  "shortdescription" : "Helimikki Shortsword",
+  "shortdescription" : "Iron Tier Shortsword",
   "tooltipKind" : "sword",
   "category" : "shortsword",
   "twoHanded" : false,

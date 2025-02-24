@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A good weapon for combat, comes with a tiny shiny!",
-  "shortdescription" : "Nevis Shortsword",
+  "shortdescription" : "Tungsten Tier Shortsword",
   "tooltipKind" : "sword",
   "category" : "shortsword",
   "twoHanded" : false,
