@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Pow! Target down, not big surprise.",
-  "shortdescription" : "Shais Machine Pistol",
+  "shortdescription" : "Durasteel Tier Machine Pistol",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,

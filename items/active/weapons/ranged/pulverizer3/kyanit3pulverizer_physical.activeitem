@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "Not your ordinary autocannon. Use with caution",
-  "shortdescription" : "Attakanni Autocannon",
+  "shortdescription" : "Tercio Autocannon",
   "tooltipKind" : "gun",
   "category" : "Autocannon",
   "twoHanded" : true,

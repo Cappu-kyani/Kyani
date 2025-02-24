@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A pistol that fires a bit faster",
-  "shortdescription" : "Iffiraki Machine Pistol",
+  "shortdescription" : "Iron Tier Machine Pistol",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,

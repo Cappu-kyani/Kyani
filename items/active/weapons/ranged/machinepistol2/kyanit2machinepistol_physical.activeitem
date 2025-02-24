@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Bigger magazine, better mechanism. Always a room for improvements!",
-  "shortdescription" : "Olythis Machine Pistol",
+  "shortdescription" : "Tungsten Tier Machine Pistol",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,

@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "Deliver fatal punches at greater distances.",
-  "shortdescription" : "Unos Machine Pistol",
+  "shortdescription" : "Titanium Tier Machine Pistol",
   "tooltipKind" : "gun",
   "category" : "machinePistol",
   "twoHanded" : false,

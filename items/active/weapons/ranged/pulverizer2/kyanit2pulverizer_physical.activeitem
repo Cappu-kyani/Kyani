@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Useful both in the mines and on the battlefield.",
-  "shortdescription" : "Emauri Autocannon",
+  "shortdescription" : "Dual Autocannon",
   "tooltipKind" : "gun",
   "category" : "Autocannon",
   "twoHanded" : true,

@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Its grenades carry deep physical impact.",
-  "shortdescription" : "Oinus Grenade Launcher",
+  "shortdescription" : "Durasteel Tier Grenade Launcher",
   "tooltipKind" : "gun",
   "category" : "grenadeLauncher",
   "twoHanded" : false,
