@@ -2,7 +2,7 @@
   "itemName" : "kyanit1composword",
   "price" : 11600,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "This shortsword cuts extremely easy and precise despite being very lightweight.",
   "shortdescription" : "1-tier Composword",
   "tooltipKind" : "sword",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "poison",
+  "elementalType" : "physical",
   "primaryAbilityType" : "kyanishortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.49,

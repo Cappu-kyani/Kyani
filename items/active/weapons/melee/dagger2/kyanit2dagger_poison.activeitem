@@ -2,7 +2,7 @@
   "itemName" : "kyanit2dagger",
   "price" : 1500,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Dagger for graduates, perfect for sudden attacks and hiding in shadows with.",
   "shortdescription" : "Tungsten Tier Dagger",
   "tooltipKind" : "sword",
@@ -19,7 +19,7 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "poison",
+  "elementalType" : "physical",
 
   "aimOffset" : 0.0,
   "primaryAbility" : {

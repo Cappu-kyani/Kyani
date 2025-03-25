@@ -2,7 +2,7 @@
   "itemName" : "kyanit2pistol",
   "price" : 1200,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Does pack a good hunk'o bullets. Bottle? Bullseye? Enemy? Bang-bang-bang.",
   "shortdescription" : "Tungsten Tier Pistol",
   "tooltipKind" : "gun",

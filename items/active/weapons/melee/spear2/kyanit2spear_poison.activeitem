@@ -2,7 +2,7 @@
   "itemName" : "kyanit2spear",
   "price" : 2000,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "This looks like a trident, but is a spear. Creative",
   "shortdescription" : "Tungsten Tier Spear",
   "tooltipKind" : "sword",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "poison",
+  "elementalType" : "physical",
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : 1,

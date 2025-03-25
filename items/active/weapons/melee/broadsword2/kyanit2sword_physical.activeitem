@@ -2,7 +2,7 @@
   "itemName" : "kyanit2sword",
   "price" : 2400,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "A sword for graduates, should be enough for military",
   "shortdescription" : "Tungsten Tier Sword",
   "tooltipKind" : "sword",

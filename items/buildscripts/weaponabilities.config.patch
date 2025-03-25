@@ -7,5 +7,6 @@
 	{"op": "add","path": "/minirailgun","value": "/items/active/weapons/ranged/abilities/minirailgun/minirailgun.weaponability"},
 	{"op": "add","path": "/kyanishortswordcombo","value": "/items/active/weapons/melee/abilities/kyanishortswordcombo.weaponability"},
     {"op": "add","path": "/kyanibroadswordcombo","value": "/items/active/weapons/melee/abilities/kyanibroadswordcombo.weaponability"},
-  {"op": "add","path": "/railgunflamethrower","value": "/items/active/weapons/ranged/abilities/railgun/railgunflamethrower.weaponability"}
+  {"op": "add","path": "/railgunflamethrower","value": "/items/active/weapons/ranged/abilities/railgun/railgunflamethrower.weaponability"},
+	{"op": "add","path": "/ripperwind","value": "/items/active/weapons/melee/abilities/ripperwind/ripperwind.weaponability"}
 ]

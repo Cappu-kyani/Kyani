@@ -2,7 +2,7 @@
   "itemName" : "kyanit2axe",
   "price" : 1600,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Surely a level up. Just look at this shiny!",
   "shortdescription" : "Tungsten Tier Axe",
   "tooltipKind" : "sword",

@@ -1,5 +1,5 @@
 {
-  "itemName" : "kyanit6hamaxe",
+  "itemName" : "kyanit2hamaxe",
   "price" : 24800,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "electric",
+  "elementalType" : "physical",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : 0.9,

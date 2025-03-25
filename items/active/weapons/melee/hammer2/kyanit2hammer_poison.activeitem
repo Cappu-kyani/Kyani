@@ -2,7 +2,7 @@
   "itemName" : "kyanit2hammer",
   "price" : 4000,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "When you need to drive a large nail or your enemy into the ground",
   "shortdescription" : "Tungsten Tier Hammer",
   "tooltipKind" : "sword",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "poison",
+  "elementalType" : "physical",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : 1.0,

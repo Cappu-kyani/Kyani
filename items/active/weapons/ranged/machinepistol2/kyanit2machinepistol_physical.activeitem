@@ -2,7 +2,7 @@
   "itemName" : "kyanit2machinepistol",
   "price" : 1200,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Bigger magazine, better mechanism. Always a room for improvements!",
   "shortdescription" : "Tungsten Tier Machine Pistol",
   "tooltipKind" : "gun",

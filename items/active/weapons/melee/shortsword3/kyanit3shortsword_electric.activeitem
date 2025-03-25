@@ -2,7 +2,7 @@
   "itemName" : "kyanit3shortsword",
   "price" : 2800,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Good for both duels and combat",
   "shortdescription" : "Titanium Tier Shortsword",
   "tooltipKind" : "sword",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "electric",
+  "elementalType" : "physical",
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.57,

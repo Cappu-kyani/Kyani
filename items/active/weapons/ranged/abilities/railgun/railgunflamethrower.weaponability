@@ -6,7 +6,7 @@
     "class" : "FlamethrowerAttack",
 
     "baseDps" : 333,
-    "energyUsage" : 90,
+    "energyUsage" : 270,
     "fireTime" : 0.01,
     "inaccuracy" : 0.05,
 

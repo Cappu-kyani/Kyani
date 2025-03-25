@@ -25,48 +25,47 @@ local displayNames = {
 }
 
 local weaponCategories = {
-  weapon = true,
-  broadsword = true,
-  shortsword = true,
-  dagger = true,
-  hammer = true,
-  axe = true,
-  spear = true,
-  shortspear = true,
-  longsword = true,
-  quarterstaff = true,
-  mace = true,
-  whip = true,
-  flail = true,
-  greataxe = true,
-  greatsword = true,
-  rapier = true,
-  katana = true,
-  pistol = true,
-  assaultrifle = true,
-  sniperrifle = true,
-  shotgun = true,
-  machinepistol = true,
-  rocketlauncher = true,
-  grenadelauncher = true,
-  energygun = true,
-  energyrifle = true,
-  energyshotgun = true,
-  energyassaultrifle = true,
-  energysniperrifle = true,
-  energyrocketlauncher = true,
-  energygrenadelauncher = true,
-  bow = true,
-  crossbow = true,
-  thrown = true,
-  boomerang = true,
-  chakram = true,
-  shuriken = true,
-  wand = true,
-  staff = true,
-  Autocannon = true,
-  Railgun = true,
-  Autodrill = true
+  ["weapon"] = true,
+  ["broadsword"] = true,
+  ["shortsword"] = true,
+  ["dagger"] = true,
+  ["hammer"] = true,
+  ["axe"] = true,
+  ["spear"] = true,
+  ["shortspear"] = true,
+  ["longsword"] = true,
+  ["quarterstaff"] = true,
+  ["mace"] = true,
+  ["whip"] = true,
+  ["flail"] = true,
+  ["greataxe"] = true,
+  ["greatsword"] = true,
+  ["rapier"] = true,
+  ["katana"] = true,
+  ["pistol"] = true,
+  ["assaultrifle"] = true,
+  ["sniperrifle"] = true,
+  ["shotgun"] = true,
+  ["machinepistol"] = true,
+  ["rocketlauncher"] = true,
+  ["grenadelauncher"] = true,
+  ["energygun"] = true,
+  ["energyrifle"] = true,
+  ["energyshotgun"] = true,
+  ["energyassaultrifle"] = true,
+  ["energysniperrifle"] = true,
+  ["energyrocketlauncher"] = true,
+  ["energygrenadelauncher"] = true,
+  ["bow"] = true,
+  ["crossbow"] = true,
+  ["boomerang"] = true,
+  ["chakram"] = true,
+  ["shuriken"] = true,
+  ["wand"] = true,
+  ["staff"] = true,
+  ["autocannon"] = true,
+  ["railgun"] = true,
+  ["autodrill"] = true
 }
 
 function init()
@@ -194,7 +193,8 @@ function buttonStatus(weapon, upgradeMaterial)
   upgradeCost = nil  
 
   if weapon then
-    local category = self.weaponConfig.config.category
+    local category = string.lower(self.weaponConfig.config.category)
+    --sb.logInfo(category)
     local weaponLevel = self.weaponConfig.config.level or 1
     local requiredMaterial = upgradeMaterials[weaponLevel]
     local displayMaterial = displayNames[requiredMaterial]
@@ -269,7 +269,7 @@ function buttonStatus(weapon, upgradeMaterial)
         errorMessage = "^red;- No upgrade material inserted -^white;"
       end
     else
-      errorMessage = "^red;- Only weapons can be upgraded -^white;"
+      errorMessage = "^red;- Unsupported item or weapon -^white;"
     end
   else
     errorMessage = "^red;- No weapon inserted -^white;"

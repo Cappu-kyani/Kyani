@@ -2,7 +2,7 @@
   "itemName" : "kyanit4finspear",
   "price" : 21500,
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Essential",
   "description" : "Unbreakable, sharpest and easiest to handle. Truly fits a great warrior like yourself.",
   "shortdescription" : "Megalodon Fin Spear",
   "tooltipKind" : "sword",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "electric",
+  "elementalType" : "physical",
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : 1,

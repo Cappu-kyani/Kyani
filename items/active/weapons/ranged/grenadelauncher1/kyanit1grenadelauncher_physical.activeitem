@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Five times the shot, five times the boom",
-  "shortdescription" : "Unassia Grenade Launcher",
+  "shortdescription" : "Iron Tier Grenade Launcher",
   "tooltipKind" : "gun",
   "category" : "grenadeLauncher",
   "twoHanded" : false,

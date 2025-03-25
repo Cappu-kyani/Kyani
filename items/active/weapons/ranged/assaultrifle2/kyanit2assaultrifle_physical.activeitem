@@ -2,7 +2,7 @@
   "itemName" : "kyanit2assaultrifle",
   "price" : 1800,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "It has almost no recoil... how?",
   "shortdescription" : "Tungsten Tier Assault Rifle",
   "tooltipKind" : "gun",

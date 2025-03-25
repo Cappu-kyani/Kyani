@@ -2,7 +2,7 @@
   "itemName" : "kyanit4composword",
   "price" : 18000,
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Essential",
   "description" : "If you hold it, you're honored. Truly.",
   "shortdescription" : "4-Tier Composword",
   "tooltipKind" : "sword",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "electric",
+  "elementalType" : "physical",
   "primaryAbilityType" : "kyanishortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.4,

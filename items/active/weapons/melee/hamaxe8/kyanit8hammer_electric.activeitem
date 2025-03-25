@@ -2,7 +2,7 @@
   "itemName" : "kyanit4hamaxe",
   "price" : 34800,
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Essential",
   "description" : "At this point you won't need anything more destructve than that.",
   "shortdescription" : "4-Tier Hamaxe",
   "tooltipKind" : "sword",
@@ -18,7 +18,7 @@
   },
   "animationCustom" : { },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "electric",
+  "elementalType" : "physical",
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : 0.8,

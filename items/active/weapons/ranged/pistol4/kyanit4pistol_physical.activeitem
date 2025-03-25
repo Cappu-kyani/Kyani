@@ -2,7 +2,7 @@
   "itemName" : "kyanit4pistol",
   "price" : 4800,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "description" : "Zappity zappity zap.",
   "shortdescription" : "Durasteel Tier Pistol",
   "tooltipKind" : "gun",

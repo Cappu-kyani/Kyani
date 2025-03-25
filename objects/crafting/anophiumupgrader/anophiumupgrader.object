@@ -1,0 +1,62 @@
+{
+  "objectName" : "anophiumupgrader",
+  "colonyTags" : ["kyani", "commerce"],
+  "rarity" : "Rare",
+  "description" : "Upgrades your weapons! ^red;Keutel Ind gives no guarantees for working with unstandardised weapons.^white;",
+  "shortdescription" : "^orange;Anophium Upgrader^white;",
+  "race" : "kyani",
+  "category" : "crafting",
+  "price" : 4500,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 1.5,
+
+  "apexDescription" : "Hmm... Seems it can improve my weapons.",
+  "avianDescription" : "Machine takes special parts and this strange slurry to bolster the efficiency of my armaments.",
+  "floranDescription" : "Machine sssharpenss bladesss and makesss gunss better for goo and partsss.",
+  "glitchDescription" : "Excited. All it costs to imrove my weapon with this is part kits and anophium!",
+  "humanDescription" : "Kyani machine uses kyani part kits and anophium to modify weapons. Huh, neat.",
+  "hylotlDescription" : "This device utilises part bundles of kyani production and their strange 'anophium' to increase my weapons' prowess.",
+  "novakidDescription" : "Hol' up, this be riggin' me sharpies 'n guns pro level! Yee-haw!",
+
+  "lightColor" : [200, 200, 200],
+
+  "inventoryIcon" : "anophiumupgradericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "anophiumupgrader.png:<color>.<frame>", "fullbright" : true }, { "image" : "anophiumupgraderlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "anophiumupgrader.png:<color>.<frame>", "fullbright" : true }, { "image" : "anophiumupgraderlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/windowconfig/anophiumupgrader.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

@@ -2,7 +2,7 @@
   "itemName" : "kyanit4autodrill",
   "price" : 232200,
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Essential",
   "description" : "Superior mining tool. Breaks through walls and foes both.",
   "shortdescription" : "Tier 4 Autodrill",
   "tooltipKind" : "gun",

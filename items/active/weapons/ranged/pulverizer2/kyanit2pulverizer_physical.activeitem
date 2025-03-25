@@ -2,9 +2,9 @@
   "itemName" : "kyanit2pulverizer",
   "price" : 58800,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "description" : "Useful both in the mines and on the battlefield.",
-  "shortdescription" : "Dual Autocannon",
+  "shortdescription" : "Dos Autocannon",
   "tooltipKind" : "gun",
   "category" : "Autocannon",
   "twoHanded" : true,
@@ -79,12 +79,73 @@
     }
   },
 
-"altAbilityType": "piercingshot",
-	"altAbility": {
-		"sounds": {
-			"altFire": ["/sfx/gun/arfire.ogg"]
+"altAbility": {
+		"name": "Secondary Railgun",
+		"type": "minirailgun",
+		"scripts": ["/items/active/weapons/ranged/abilities/minirailgun/minirailgun.lua"],
+		"class": "MiniRailgun",
+
+
+		"chargeLevels": [
+		{       "time": 0,
+				"energyCost": 9999,
+				"cooldown": 0.1,
+				"projectileType": "",
+				"projectileParameters": {},
+				"inaccuracy": 0,
+				"baseDamage": 0,
+				"fireSound": "misFire"
 		},
-		"projectileType": [ "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet", "<elementalType>breachbullet",  "<elementalType>breachbullet", "<elementalType>breachbullet", "breach_missed_start", "breach_missed_start", "<elementalType>_breach_crit_start" ]
+			{
+				"time": 2.5,
+				"energyCost": 9999,
+				"cooldown": 0.1,
+				"projectileType": "<elementalType>railtorpedo",
+				"projectileParameters": {},
+				"inaccuracy": 0,
+				"baseDamage": 2500,
+				"fireSound": "altFire"
+			}
+		],
+		"firePositionPart": "minirailgun",
+		"hidePrimaryMuzzleFlash": true,
+
+		"stances": {
+			"idle": {
+				"armRotation": 0,
+				"weaponRotation": 0,
+				"twoHanded": true,
+
+				"allowRotate": true,
+				"allowFlip": true
+			},
+			"charge": {
+				"armRotation": 0,
+				"weaponRotation": 0,
+				"twoHanded": true,
+
+				"allowRotate": true,
+				"allowFlip": true
+			},
+			"fire": {
+				"duration": 0,
+				"armRotation": 5,
+				"weaponRotation": 5,
+				"twoHanded": true,
+
+				"allowRotate": false,
+				"allowFlip": false
+			},
+			"cooldown": {
+				"duration": 0.25,
+				"armRotation": 5,
+				"weaponRotation": 5,
+				"twoHanded": true,
+
+				"allowRotate": false,
+				"allowFlip": false
+			}
+		}
 	},
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
