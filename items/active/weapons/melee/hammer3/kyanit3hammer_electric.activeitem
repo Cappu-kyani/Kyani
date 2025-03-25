@@ -26,6 +26,6 @@
 		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
       "damageSourceKind" : "<elementalType>hammer" }
   },
-  "altAbilityType" : "shockwave",
+  "altAbilityType" : "physicalshockwave",
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

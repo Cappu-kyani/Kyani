@@ -1,32 +1,37 @@
 {
-  "itemName" : "kyanit2hammer",
-  "price" : 4000,
-  "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "description" : "When you need to drive a large nail or your enemy into the ground",
-  "shortdescription" : "Tungsten Tier Hammer",
-  "tooltipKind" : "sword",
-  "category" : "hammer",
-  "twoHanded" : true,
-  "level" : 2,
-  "itemTags" : ["kyani","weapon","melee","hammer"],
-  "inventoryIcon" : "kyanit2hammer_<elementalType>.png",
-  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
-  "animationParts" : {
-    "handle" : "",
-    "blade" : "kyanit2hammer_<elementalType>.png"
+  "itemName": "kyanit2hammer",
+  "price": 4000,
+  "maxStack": 1,
+  "rarity": "Uncommon",
+  "description": "When you need to drive a large nail or your enemy into the ground",
+  "shortdescription": "Tungsten Tier Hammer",
+  "tooltipKind": "sword",
+  "category": "hammer",
+  "twoHanded": true,
+  "level": 2,
+  "itemTags": ["kyani", "weapon", "melee", "hammer"],
+  "inventoryIcon": "kyanit2hammer_<elementalType>.png",
+  "animation": "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts": {
+    "handle": "",
+    "blade": "kyanit2hammer_<elementalType>.png"
   },
-  "animationCustom" : { },
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "physical",
-  "primaryAbilityType" : "hammersmash",
-  "primaryAbility" : {
-    "fireTime" : 1.0,
-    "baseDps" : 30,
-		"damageConfig" : { "statusEffects": [ "anoph_melting" ],
-      "damageSourceKind" : "<elementalType>hammer" }
+  "animationCustom": {
+    "sounds": {
+      "fire": ["/sfx/melee/swing_hammer1.ogg", "/sfx/melee/swing_hammer2.ogg", "/sfx/melee/swing_hammer3.ogg"]
+    }
   },
- 
-  "altAbilityType" : "shockwave",
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "scripts": ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType": "physical",
+  "primaryAbilityType": "hammersmash",
+  "primaryAbility": {
+    "fireTime": 1.0,
+    "baseDps": 30,
+    "damageConfig": {
+      "statusEffects": ["anoph_melting"],
+      "damageSourceKind": "<elementalType>hammer"
+    }
+  },
+  "altAbilityType": "physicalshockwave",
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
 }
