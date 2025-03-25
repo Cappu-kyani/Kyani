@@ -20,11 +20,76 @@
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/glmuzzleflash.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/gun/autocf1.ogg"]
-    }
-  },
+"animationCustom": {
+		"animatedParts": {
+			"stateTypes": {
+				"firing": {
+					"default": "off",
+					"states": {
+						"off": {},
+						"charge": {
+							"frames": 4,
+							"cycle": 10.0,
+							"mode": "transition",
+							"transition": "fullcharge"
+						},
+						"fullcharge": {
+							"frames": 3,
+							"cycle": 0.2,
+							"mode": "loop"
+						},
+						"fire": {
+							"frames": 1,
+							"cycle": 0.07,
+							"mode": "transition",
+							"transition": "off"
+						}
+					}
+				}
+			},
+			"parts": {
+				"minirailgun": {
+					"properties": {
+						"zLevel": -1,
+						"centered": true,
+						"offset": [2.375, -0.25],
+						"transformationGroups": ["weapon"],
+						"image": ""
+					},
+					"partStates": {
+						"firing": {
+							"off": {
+								"properties": {
+									"image": ""
+								}
+							},
+							"charge": {
+								"properties": {
+									"image": ""
+								}
+							},
+							"fullcharge": {
+								"properties": {
+									"image": ""
+								}
+							},
+							"fire": {
+								"properties": {
+									"image": ""
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+
+		"sounds": {
+			"fire": ["/sfx/gun/autocf1.ogg"],
+			"altFire": ["/sfx/gun/mrfire.ogg"],
+			"misFire": ["/sfx/gun/mrmisfire.ogg"]
+		}
+	},
 
 	"baseOffset": [0.6, 0.15],
 	"muzzleOffset": [2.2, 0.125],
@@ -102,7 +167,7 @@
 				"cooldown": 0.1,
 				"projectileType": "<elementalType>railtorpedo",
 				"projectileParameters": {},
-				"projectileCount": 1,
+				"projectileCount": 4,
 				"inaccuracy": 0,
 				"baseDamage": 3150,
 				"fireSound": "altFire"
