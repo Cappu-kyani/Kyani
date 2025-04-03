@@ -2,7 +2,7 @@
  "itemName" : "kyanit3dagger",
   "price" : 3000,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "description" : "Dagger for officers, both good for ceremonies and infiltrations",
   "shortdescription" : "Titanium Tier Dagger",
   "tooltipKind" : "sword",

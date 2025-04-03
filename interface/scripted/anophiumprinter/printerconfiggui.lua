@@ -43,7 +43,7 @@ function buttonStatus(sample)
 					else
 						price = math.ceil((1 + self.item.config.price/ 90) * (sample.count * 1.15))
 					end
-					widget.setText("lblPrice", "Duplication cost: "..price.." anophium")
+					widget.setText("lblPrice", "Duplication cost:\n"..price.." anophium")
 --					sb.logInfo( "%s", price)
 					if fuel.count > price then
 						if not outPut then
@@ -82,6 +82,7 @@ function crafting(sample)
 end
 
 function processBeginning()
+	widget.setVisible("lblPrice", false)
 	widget.setVisible("itemGrid", false)
 	widget.setVisible("outputItemGrid", false)
 	widget.setVisible("itemGrid2", false)
@@ -93,6 +94,7 @@ function processBeginning()
 end	
 
 function processEnd()
+	widget.setVisible("lblPrice", true)
 	widget.setVisible("itemGrid", true)
 	widget.setVisible("outputItemGrid", true)
 	widget.setVisible("itemGrid2", true)

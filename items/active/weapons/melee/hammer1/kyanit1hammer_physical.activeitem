@@ -1,6 +1,6 @@
 {
   "itemName" : "kyanit1hammer",
-  "prphysical" : 2000,
+  "price" : 2000,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "Be careful, this one can't be stopped easily",
