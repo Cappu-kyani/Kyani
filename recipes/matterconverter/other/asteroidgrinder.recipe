@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "kyanit7partkit", "count" : 1 },
-    { "item" : "liquidanophium", "count" : 12 }
-  ],
-  "duration" : 1,
-  "output" : { "item" : "asteroidgrinder", "count" : 3 },
-  "groups" : [ "kyani", "kyanitab3" ]
-}

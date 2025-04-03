@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "kyanit1partkit", "count" : 1 },
-    { "item" : "liquidanophium", "count" : 12 }
-  ],
-  "duration" : 0.5,
-  "output" : { "item" : "sandgrainrocket", "count" : 3 },
-  "groups" : [ "kyani", "kyanitab3" ]
-}

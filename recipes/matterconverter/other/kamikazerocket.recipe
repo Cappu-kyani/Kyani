@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "kyanit3partkit", "count" : 1 },
-    { "item" : "liquidanophium", "count" : 12 }
-  ],
-  "duration" : 1,
-  "output" : { "item" : "kamikazerocket", "count" : 3 },
-  "groups" : [ "kyani", "kyanitab3" ]
-}
